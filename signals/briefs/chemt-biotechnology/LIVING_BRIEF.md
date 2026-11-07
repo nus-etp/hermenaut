@@ -15,12 +15,13 @@ _Last material event: 2026-10-07 — Selected for TechCrunch Disrupt 2026's Star
 _No disclosed funding._
 
 ## Recent signals
+_none_
+
+## Older signals
 - **2026-10-07** — Selected as one of 200 startups in TechCrunch Disrupt 2026's Startup Battlefield 200, pitching to investors and TechCrunch editors in San Francisco on 13–15 October — [chemtbio.com](https://www.chemtbio.com/news19-1)
   - Summary: ChemT announced it was chosen to exhibit at TechCrunch Disrupt 2026 as part of Startup Battlefield 200, which it describes as the world's preeminent startup competition; the 200 companies were picked from a review of thousands of applicants and went through training, masterclasses and investor introductions around the event at Moscone West on 13–15 October 2026. ChemT framed the selection around its virtual-cell pitch — tuning cells with intent rather than by trial and error to improve biomanufacturing outcomes. No commercial terms, customers or partners were announced with the selection.
   - Numbers: 200 startups selected from thousands of applicants; Disrupt ran 13–15 October 2026
   - Quote: "Our goal is simple: Move beyond trial-and-error to tuning the cells with intent, using virtual-cell intelligence to turn cellular insight into practical solutions to improve biomanufacturing outcomes." — ChemT Biotechnology
-
-## Older signals
 - **2026-08-25** — ChemT named to Forbes Asia 100 to Watch 2026 in the Biotechnology & Healthcare category, its second major public recognition after the June Prestige 40 Under 40 nod — [chemtbio.com](https://www.chemtbio.com/news18-1)
   - Summary: ChemT announced on 25 August 2026 that it was named to the Forbes Asia 100 to Watch 2026 list, the sixth edition of the annual list spotlighting 100 emerging companies across Asia-Pacific. The company attributes the recognition to its work applying AI to make biologics development and manufacturing more predictable, efficient and scalable, anchored on the CelMo™ AI-powered Virtual Cell platform. ChemT says the nod arrives as it expands CelMo™ development across different cellular systems and biomanufacturing workflows, and points to the underlying Forbes Asia article of 24 August 2026.
   - Counterparties: Forbes Asia (list publisher)

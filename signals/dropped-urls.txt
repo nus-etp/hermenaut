@@ -3,7 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-08	https://vulcanpost.com/913366/flow-coffee-vending-machine/
 2026-10-09	https://www.prnewswire.com/apac/news-releases/tacniqai-raises-us1-5-million-from-in-group-holdings-to-scale-tactile-ai-302885436.html
 2026-10-09	https://technode.global/prnasia/tacniq-ai-raises-us1-5-million-from-in-group-holdings-to-scale-tactile-ai
 2026-10-09	https://www.dconstruct.ai/news/dconstruct-robotics-partners-with-sbs-transit-to-advance-rail-maintenance-with-robotics

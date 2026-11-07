@@ -19,13 +19,14 @@ _Last material event: 2025-11-30 — Won the raiSE Social Impact Grant Prize at 
 _No disclosed funding._
 
 ## Recent signals
+_none_
+
+## Older signals
 - **2026-10-07** — KoreaTechDesk profile of Seamless XR's pivot from surgical haptics to Artemis: demand was real but every new hospital customer needed significant device modification, so the company rebuilt the commercial system around one clinician's question — [koreatechdesk.com](https://koreatechdesk.com/seamless-xr-surgical-haptics-deep-tech-scalability)
   - Summary: KoreaTechDesk's profile describes how Seamless XR's surgical-simulation business failed a scalability test rather than a demand test. Companies were hiring for similar capabilities and hospital departments had concrete requirements, but each specialty's anatomy, tissue behaviour, procedure-specific content and haptic requirements forced significant device modification, leaving the company a choice between over-engineering the product until pricing narrowed the buyer pool, or building customisations that pulled it toward a project-based model. The pivot came from a clinician discovery session where an occupational therapist, asked what she would fix with a "magic wand", said she could not reliably tell whether a patient's sensation was recovering; the first Artemis prototype was built within five months, preserving the pneumatic micro-haptic actuator work while shifting the goal from dense, high-fidelity tactile experiences to controlled, localized stimulation for sensory assessment. Bhat told KoreaTechDesk the company had to rebuild almost everything commercial and clinical, including the intended use, protocol, patient interface, scoring logic, automated workflow, reporting, quality system, regulatory strategy, manufacturing plan and evidence programme.
   - People: Dr Ajinkya Bhat (Co-Founder & CEO), Jonathan Ambrose (Co-Founder)
   - Numbers: 6 patents (wearables, haptics, soft actuation); Artemis prototype in 5 months
   - Quote: "The pivot was therefore not from a failed technology to a new technology. It was from a commercially infeasible use case to a scalable one." — Dr Ajinkya Bhat, Co-Founder and CEO, Seamless XR
-
-## Older signals
 - **2026-03-12** — Published clinical blog on vibration perception testing for diabetic neuropathy screening, positioning the Achilles platform as an automated alternative to manual biothesiometry — [seamless.sg](https://www.seamless.sg/blog/vibration-perception-testing-in-diabetic-neuropathy-screening)
   - Summary: The blog posts comprehensively cover sensory assessment techniques. An article on diabetic foot screening highlights that every 3 minutes 30 seconds someone with diabetes loses a limb in the US, and positions Seamless XR's Achilles platform as delivering automated, standardized screening in under 5 minutes per patient.
   - Numbers: 1 in 9 Singapore adults has diabetes (~450,000), projected 1M by 2050; 80% of lower limb amputations preceded by foot ulcers
