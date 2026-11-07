@@ -1,8 +1,8 @@
 name: evals
 
-# Static + script suites run on every PR that touches the pipeline. The LLM
-# suite is opt-in: nightly cron at 12:30 UTC (before hermes-sync's 13:00 cron)
-# and manual dispatch. The LLM suite never blocks PR CI.
+# Static + script suites run on every PR that touches the pipeline, nightly
+# (the daily sync commits briefs straight to main, so this is what catches
+# brief drift), and on manual dispatch.
 
 on:
   pull_request:
@@ -16,11 +16,11 @@ on:
       - 'pyproject.toml'
       - '.github/workflows/evals.yml'
   schedule:
-    - cron: '30 12 * * *'        # 12:30 UTC daily, ahead of hermes-sync at 13:00
+    - cron: '30 12 * * *'
   workflow_dispatch:
     inputs:
       suite:
-        description: 'Which suite to run: all | static | scripts | llm'
+        description: 'Which suite to run: all | static | scripts'
         required: false
         default: 'all'
 
@@ -32,7 +32,6 @@ jobs:
   # Deterministic suites: static schema + script unit tests. Always run on PR.
   # ---------------------------------------------------------------------------
   fast:
-    if: github.event_name != 'schedule' || github.event.inputs.suite == 'static' || github.event.inputs.suite == 'scripts' || github.event.inputs.suite == 'all' || github.event.inputs.suite == ''
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
@@ -54,52 +53,3 @@ jobs:
 
       - name: Check scenario cards
         run: python3 scripts/harness/check_scenarios.py
-
-  # ---------------------------------------------------------------------------
-  # LLM suite: nightly cron + opt-in workflow_dispatch. Never runs on PR.
-  # ---------------------------------------------------------------------------
-  llm:
-    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.suite == 'llm' || github.event.inputs.suite == 'all'))
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      issues: write   # to open a tracking issue on eval regression
-    steps:
-      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
-
-      - uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39 # v8.2.0
-
-      - name: Set up Python and install dev deps
-        # langfuse: optional eval observability (tests/evals/_obs.py). Installed
-        # only in this LLM job; the suite fail-opens when it's absent, so the
-        # fast (PR) job above stays langfuse-free. Comes from the same
-        # `hermes-extras` uv.lock group as hermes-sync; ddgs rides along —
-        # unused here, harmless.
-        run: |
-          uv venv
-          uv sync --locked --extra dev --group hermes-extras
-
-      - name: Run LLM eval suite
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Reuse the existing hermes Langfuse secrets so each eval's LLM calls
-          # and pass/fail + precision/recall scores stream to Langfuse. Absent
-          # secrets (e.g. forks) → _obs.py no-ops; the suite runs unchanged.
-          HERMES_LANGFUSE_PUBLIC_KEY: ${{ secrets.HERMES_LANGFUSE_PUBLIC_KEY }}
-          HERMES_LANGFUSE_SECRET_KEY: ${{ secrets.HERMES_LANGFUSE_SECRET_KEY }}
-          HERMES_LANGFUSE_BASE_URL: ${{ secrets.HERMES_LANGFUSE_BASE_URL }}
-          HERMES_LANGFUSE_ENV: eval
-        # Skip the batch_runner integration eval in CI (HERMES_BATCH_EVAL unset);
-        # it requires the local hermes install on the runner.
-        run: .venv/bin/pytest tests/evals -q -m llm --tb=short
-
-      - name: Open tracking issue on failure
-        if: failure() && github.event_name == 'schedule'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh issue create \
-            --title "Nightly LLM eval failed ($(date -u +%F))" \
-            --body "The scheduled \`evals.yml\` LLM suite failed. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            --label "eval-regression" || true
