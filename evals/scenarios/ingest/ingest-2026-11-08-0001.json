@@ -1,0 +1,40 @@
+{
+  "cluster": "ingest/false_keep/patsnap/sg.jobstreet.com",
+  "created_by": "harness-propose",
+  "expected": {
+    "company": null,
+    "reason": "single routine job requisition, no company news",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Senior Data Engineer — Information & Communication Technology' for Patsnap",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-08-0001",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Patsnap"
+      ],
+      "source": "Patsnap",
+      "title": "Senior Data Engineer — Information & Communication Technology",
+      "url": "https://sg.jobstreet.com/job/95671882"
+    },
+    "companies": {
+      "Patsnap": {
+        "description": "Singapore-headquartered IP intelligence and innovation analytics SaaS company."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-08",
+    "kind": "judge_disagreement",
+    "source": "harness-propose"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

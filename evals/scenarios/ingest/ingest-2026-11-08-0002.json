@@ -1,0 +1,40 @@
+{
+  "cluster": "ingest/false_drop/beex/techinasia.com",
+  "created_by": "harness-propose",
+  "expected": {
+    "company": "BEEX",
+    "reason": "A named executive appointment at the company is hiring news beyond the posting itself, not a job ad.",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'BeeX names former Kongsberg Maritime executive as chief technology officer' for BEEX",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-08-0002",
+  "input": {
+    "candidate": {
+      "description": "The underwater-robotics startup said the appointment follows its Series A and supports its push into defence-grade autonomy.",
+      "matched": [
+        "BEEX"
+      ],
+      "source": "Tech in Asia",
+      "title": "BeeX names former Kongsberg Maritime executive as chief technology officer",
+      "url": "https://www.techinasia.com/news/beex-names-cto-former-kongsberg-maritime-executive"
+    },
+    "companies": {
+      "BEEX": {
+        "description": "NUS GRIP-incubated Singapore autonomous-systems startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-08",
+    "kind": "judge_disagreement",
+    "source": "harness-propose"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

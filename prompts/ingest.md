@@ -72,6 +72,7 @@ If `data/candidates.json` is missing — checked with `terminal`: `test -f "${GI
    - Headline "Emerge raises $12M Series A for warehouse robotics", watchlisted Emerge is per its description a Singapore healthtech → **drop**: same name, different entity.
    - Headline "Zacks: 3 reasons XYZ stock is a strong buy", watchlisted XYZ is a private startup → **drop**: ticker-aggregator content about a same-name public ticker is never about a private watchlist company.
    - Headline "15 startups exhibiting at SWITCH 2026" where the company appears once in a list → **drop**: passing mention; teaches the reader nothing about the company.
+   - Headline "<Job title> — <Team or department>" with nothing else, from the company's own careers page or a job board → **drop**: a single routine job requisition is a job ad, not a material event; keep a hiring item only when it reports something beyond the posting itself (an executive appointment, a hiring plan, a new team or site).
    - Headline "<Company> partners with NTU on pilot deployment" and the sector matches the description → **keep**, even from small trade press: primarily about the company, and it's new information.
 
 3. **Write outputs.** Let `K[]` be the kept candidates.

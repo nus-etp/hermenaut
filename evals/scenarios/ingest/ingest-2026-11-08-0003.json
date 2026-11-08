@@ -1,0 +1,40 @@
+{
+  "cluster": "ingest/false_drop/carousell/businesstimes.com.sg",
+  "created_by": "harness-propose",
+  "expected": {
+    "company": "Carousell",
+    "reason": "A new site plus a headcount plan is company news, not a routine job requisition.",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'Carousell to open regional R&D hub in Singapore, doubling engineering headcount' for Carousell",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-08-0003",
+  "input": {
+    "candidate": {
+      "description": "The marketplace said it will hire about 120 engineers over two years for the new hub.",
+      "matched": [
+        "Carousell"
+      ],
+      "source": "The Business Times",
+      "title": "Carousell to open regional R&D hub in Singapore, doubling engineering headcount",
+      "url": "https://www.businesstimes.com.sg/startups-tech/carousell-regional-rd-hub-singapore"
+    },
+    "companies": {
+      "Carousell": {
+        "description": "Singapore-headquartered online classifieds and consumer marketplace platform; the group also operates OneShift, Mudah, and Cho Tot."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-08",
+    "kind": "judge_disagreement",
+    "source": "harness-propose"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
