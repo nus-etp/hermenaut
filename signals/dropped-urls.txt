@@ -3,22 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-09	https://www.prnewswire.com/apac/news-releases/tacniqai-raises-us1-5-million-from-in-group-holdings-to-scale-tactile-ai-302885436.html
-2026-10-09	https://technode.global/prnasia/tacniq-ai-raises-us1-5-million-from-in-group-holdings-to-scale-tactile-ai
-2026-10-09	https://www.dconstruct.ai/news/dconstruct-robotics-partners-with-sbs-transit-to-advance-rail-maintenance-with-robotics
-2026-10-09	https://www.dconstruct.ai/news
-2026-10-09	https://www.donesafe.com/au/blog/company/ai-workplace-safety-invigilo-donesafe-partnership/
-2026-10-09	https://services2.imda.gov.sg/web/solution/20250027
-2026-10-09	https://finance.yahoo.com/markets/stocks/articles/horizon-quantum-clarifies-certain-information-131500289.html
-2026-10-09	https://remarkably.ink/
-2026-10-09	https://www.tipranks.com/news/private-companies/finan-expands-finanone-platform-with-ai-powered-corporate-virtual-card-partnership
-2026-10-09	https://fintechnews.sg/131334/vietnam/sobanhang-funding-pre-series-a
-2026-10-09	https://www.finsmes.com/2026/06/vibefam-raises-us1m-in-seed-funding.html
-2026-10-09	https://vibefam.com/members-are-booking-classes-4x-earlier-with-vibe-ai
-2026-10-09	https://linkedin.com/company/otrafy
-2026-10-09	https://www.shellstartupengine.live/startups/synectify
-2026-10-09	https://www.aci-asiapac.aero/media-centre/news/aci-apac-and-mid-welcomes-flyoro-as-the-world-business-partner
-2026-10-09	https://news.aqua247.com/news/responsible-seafood-innovation-award-finalist-learning-from-farm-failures-to-develop-an-on-site-rapid-test-to-detect-shr
 2026-10-11	https://agritechdigest.com/polybees-ai-powered-drones-revolutionise-specialty-crops-with-immediate-bankable-roi/
 2026-10-11	https://www.bloom-agritech.com/en/article/33428
 2026-10-11	https://singaporeglobalnetwork.gov.sg/stories/tech/why-i-quit-college-at-22-to-launch-a-biotech-startup-in-singapore/
@@ -795,3 +779,16 @@
 2026-11-06	https://www.sadeaf.org.sg/
 2026-11-06	https://madcash.my
 2026-11-06	https://otrafy.com
+2026-11-08	https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/dip-buyers-emerge-tech-stocks-traders-look-past-midterms-focus-fundamentals
+2026-11-08	https://sales-mind.ai/_next/image?url=https%3A%2F%2Fsales-mind.ai%2Fapi%2Fog%3Ftitle%3DAI%2520Cold%2520Email%2520Generator%253A%2520Build%2520a%2520System%252C%2520Not%2520a%2520Spray%2520Tool%26description%3DThe%2520anatomy%2520of%2520a%2520cold%2520email%2520worth%2520sending%2520%25E2%2580%2594%2520and%2520how%2520to%2520generate%2520it%2520at%2520scale%26template%3Dutility%26size%3Dlandscape%26channel%3Dog%26locale%3Den&w=1920&q=75
+2026-11-08	https://sales-mind.ai/_next/image?url=https%3A%2F%2Fsales-mind.ai%2Fapi%2Fog%3Ftitle%3DIntent%2520Data%2520for%2520Sales%26description%3DRead%2520buying%2520signals%2520and%2520book%2520more%2520meetings%26template%3Dutility%26size%3Dlandscape%26channel%3Dog%26locale%3Den&w=1920&q=75
+2026-11-08	https://sales-mind.ai/_next/image?url=https%3A%2F%2Fsales-mind.ai%2Fapi%2Fog%3Ftitle%3DAI%2520B2B%2520Lead%2520Finder%253A%2520How%2520Modern%2520Sales%2520Teams%2520Fill%2520the%2520Pipeline%2520in%25202026%26description%3DWhat%2520an%2520AI%2520B2B%2520lead%2520finder%2520really%2520does%252C%2520what%2520to%2520look%2520for%252C%2520and%2520a%252030-day%2520plan%2520to%2520start.%26template%3Dutility%26size%3Dlandscape%26channel%3Dog%26locale%3Den&w=1920&q=75
+2026-11-08	https://sales-mind.ai/_next/image?url=https%3A%2F%2Fsales-mind.ai%2Fapi%2Fog%3Ftitle%3DAI%2520Funnel%2520Builder%253A%2520Build%2520a%2520Sales%2520Funnel%2520That%2520Fills%2520Itself%26description%3DA%2520stage-by-stage%2520build%2520guide%26template%3Dutility%26size%3Dlandscape%26channel%3Dog%26locale%3Den&w=1920&q=75
+2026-11-08	https://sales-mind.ai/_next/image?url=https%3A%2F%2Fsales-mind.ai%2Fapi%2Fog%3Ftitle%3DCold%2520Email%2520Personalization%2520at%2520Scale%26description%3DHow%2520AI%2520makes%2520every%2520message%2520feel%2520one-to-one%26template%3Dutility%26size%3Dlandscape%26channel%3Dog%26locale%3Den&w=1920&q=75
+2026-11-08	https://www.qapita.com/equity-management/83b-election
+2026-11-08	https://www.qapita.com/equity-management/form-3921
+2026-11-08	https://www.qapita.com/equity-management/compliance
+2026-11-08	https://www.qapita.com/equity-management/capital-raising
+2026-11-08	https://www.qapita.com/equity-management/waterfall-analysis
+2026-11-08	https://www.staffany.com/payroll-software-singapore/
+2026-11-08	https://www.staffany.com/payroll-software-restaurant-chains-singapore/

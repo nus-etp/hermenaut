@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/patsnap/careers.patsnap.com",
+  "created_by": "write_scenarios@run 42522839214",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.44",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Solution Consultant - Life Sciences — Solution Consulting' for Patsnap",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-08-0004",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Patsnap"
+      ],
+      "source": "Patsnap",
+      "title": "Solution Consultant - Life Sciences — Solution Consulting",
+      "url": "https://careers.patsnap.com/o/solution-consultant-life-sciences"
+    },
+    "companies": {
+      "Patsnap": {
+        "description": "Singapore-headquartered IP intelligence and innovation analytics SaaS company."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-08",
+    "judge": "jev",
+    "judge_confidence": 0.92,
+    "kind": "judge_disagreement",
+    "run_id": "42522839214",
+    "source": "2026-11-08.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

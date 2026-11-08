@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/uhoo/apps.apple.com",
+  "created_by": "write_scenarios@run 42522839214",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.84",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'uHoo 11.11.5 released on the App Store' for uHoo",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-08-0008",
+  "input": {
+    "candidate": {
+      "description": "Improved app stability and error handling Bug fixes on uHoo Premium and the Alerts view",
+      "matched": [
+        "uHoo"
+      ],
+      "source": "uHoo",
+      "title": "uHoo 11.11.5 released on the App Store",
+      "url": "https://apps.apple.com/us/app/uhoo/id1084953997"
+    },
+    "companies": {
+      "uHoo": {
+        "description": "BLOCK71 Japan portfolio startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-08",
+    "judge": "jev",
+    "judge_confidence": 0.82,
+    "kind": "judge_disagreement",
+    "run_id": "42522839214",
+    "source": "2026-11-08.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

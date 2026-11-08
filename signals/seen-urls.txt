@@ -6369,3 +6369,11 @@ appstore://1466483111/2.168.0
 appstore://1466481698/2.154.0
 https://www.peris.ai/blog/perisai-juara-1-korea-asean-ai-youth-festa-2026
 https://constructor.com/blog/introducing-agentic-checkout-from-constructor-and-stripe
+recruitee://patsnap/2818871
+recruitee://patsnap/2818823
+recruitee://patsnap/2818808
+recruitee://patsnap/2817546
+jobstreet://63644137/95726906
+jobstreet://63644137/95726897
+jobstreet://60509686/95755069
+appstore://1084953997/11.11.5
