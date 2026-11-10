@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/riffai/techinasia.com",
+  "created_by": "write_scenarios@run 42729472534",
+  "expected": {
+    "company": "Riffai",
+    "reason": "jev material=0.65",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'The AI system turns satellite images into defense insights' for Riffai",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0001",
+  "input": {
+    "candidate": {
+      "description": "Riffai uses AI and radar imagery to help defense agencies track vessel movements, border changes, and critical infrastructure threats.",
+      "matched": [
+        "Riffai"
+      ],
+      "source": "Tech in Asia",
+      "title": "The AI system turns satellite images into defense insights",
+      "url": "https://www.techinasia.com/ai-system-turns-satellite-images-defense-insights"
+    },
+    "companies": {
+      "Riffai": {
+        "description": "BLOCK71 Singapore-resident AI startup ('riff' + 'ai'). Limited public-English information beyond the directory listing — drop unrelated 'Riff AI' (Spotify-era music AI, others share the name) mentions unless the article explicitly references this BLOCK71 SG entity."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.84,
+    "kind": "judge_disagreement",
+    "run_id": "42729472534",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

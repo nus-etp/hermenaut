@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/horizon-quantum-computing/quantumcomputingreport.com",
+  "created_by": "write_scenarios@run 42729472534",
+  "expected": {
+    "company": "Horizon Quantum Computing",
+    "reason": "jev material=0.94",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'Horizon Quantum Integrates Triple Alpha IDE with OQC’s Toshiko Processor for Pulse-Level Control' for Horizon Quantum Computing",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0002",
+  "input": {
+    "candidate": {
+      "description": "Horizon Quantum Computing and Oxford Quantum Circuits have integrated Horizon's Triple Alpha IDE with OQC's 32-qubit Toshiko processor. This integration allows for pulse-level control, enabling users to execute pulse scheduling, qubit characterization, and automated gate calibration directly within the IDE. This development provides researchers with programmatic access to optimize gate fidelities and deploy custom sequences on OQC's Coaxmon architecture. \n The post  Horizon Quantum Integrates Tr",
+      "matched": [
+        "Horizon Quantum Computing"
+      ],
+      "source": "Quantum Computing Report",
+      "title": "Horizon Quantum Integrates Triple Alpha IDE with OQC’s Toshiko Processor for Pulse-Level Control",
+      "url": "https://quantumcomputingreport.com/horizon-quantum-integrates-triple-alpha-ide-with-oqcs-toshiko-processor-for-pulse-level-control"
+    },
+    "companies": {
+      "Horizon Quantum Computing": {
+        "description": "Singapore-based privately-held quantum computing software startup. Distinct from any publicly-traded company sharing a similar name (NASDAQ:HQ ticker, Horizon Quantum Holdings, earnings releases, ticker-aggregator coverage from Zacks/TipRanks/MarketBeat/etc. must be excluded)."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.94,
+    "kind": "judge_disagreement",
+    "run_id": "42729472534",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

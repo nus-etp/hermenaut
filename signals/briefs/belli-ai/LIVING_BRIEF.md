@@ -19,12 +19,13 @@ _Last material event: 2026-10-09 — Launched the Charter module, running a char
 _Total disclosed: $2.4M._
 
 ## Recent signals
+_none_
+
+## Older signals
 - **2026-10-09** — Launched a charter module that takes a charter request from a shared inbox through quotation, approval, contract and billing in one flow, connecting to the airline's existing cargo management system rather than replacing it — [belli.ai](https://belli.ai/company/news/charter-quotation)
   - Summary: Belli's charter module replaces the email-and-spreadsheet charter desk. The request is picked up from the inbox, priced and approved in one place, and the accepted quote becomes a charter contract — ad hoc or programme — holding everything the price depends on: a lump sum split across air waybills by weight, all-in or surcharge pricing, rotation legs, fuel-index pricing, and cancellation and payment terms. Booking and invoice then follow from the contract without retyping, and every request is tracked from the first email so airlines can see how many enquiries became flights. Belli says the module connects to existing cargo management systems including iCargo, with setup typically taking one to two months on a flat monthly fee and no per-user licences.
   - Counterparties: iCargo / airline cargo management systems (integration)
   - Numbers: setup 1–2 months; flat monthly fee; no per-user licences
-
-## Older signals
 - **2026-09-23** — Reported a 47% like-for-like cut in median booking-creation time after completing rollout of its enhanced booking platform, from a 4.5-minute August baseline to 1.6 minutes — [belli.ai](https://belli.ai/company/news/belli-data-analytics-cut-airline-booking-times-by-47)
   - Summary: Following complete rollout of its enhanced booking platform, Belli's own performance analysis found median booking-creation time down 47% like-for-like, from an August baseline of 4.5 minutes to 1.6 minutes; a charted early baseline was 4.90 minutes on 19 August. The gains came from instrumenting the workflow: wallet configuration moved into the duplicate wizard, currency-mismatch validation surfaces at step 2, local autosave recovers an agent's place after a refresh, submission requests were made idempotent so retries cannot duplicate bookings, multi-leg interline leg handling was corrected, and wizard states that trapped agents mid-flow were removed. Belli says the optimisations save agents up to 20 minutes daily and that route- and session-level tracking now supports true like-for-like comparison between releases.
   - Numbers: 4.5 min → 1.6 min median booking time (47%); 4.90 min baseline on 19 Aug 2026; up to 20 min saved per agent per day

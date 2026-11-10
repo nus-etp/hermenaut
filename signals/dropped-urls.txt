@@ -3,14 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-11	https://agritechdigest.com/polybees-ai-powered-drones-revolutionise-specialty-crops-with-immediate-bankable-roi/
-2026-10-11	https://www.bloom-agritech.com/en/article/33428
-2026-10-11	https://singaporeglobalnetwork.gov.sg/stories/tech/why-i-quit-college-at-22-to-launch-a-biotech-startup-in-singapore/
-2026-10-11	https://asiafoodjournal.com/aak-buhler-givaudan-and-ingredion-announce-top-5-companies-selected-for-the-healthy-snacks-challenge-2027/
-2026-10-11	https://nuffoodsspectrum.asia/news/16/6707/five-asia-pacific-startups-selected-for-healthy-snacks-challenge-2027.html
-2026-10-11	https://cocooncap.com/singapore-deep-tech-startup-bioactivx-raises-us3-million/
-2026-10-11	https://www.linkedin.com/pulse/my-2-years-journey-rongbient-part-3-how-we-fund-biotech-ck--qyj2c/
-2026-10-11	https://insight.tmcnet.com/insight/concreteai-raises-1-17-million-to-move-strength-testing-on-site-mv0zte09
 2026-10-12	https://www.techinasia.com/news/xpeng-adapt-driverassist-ai-data
 2026-10-12	https://www.channelnewsasia.com/sport/carrick-backs-man-united-emerge-rough-spell-ahead-atletico-test-6454181
 2026-10-12	https://www.vietnam.vn/en/vpbank-ra-mat-the-ghi-no-ai-cho-doanh-nghiep
