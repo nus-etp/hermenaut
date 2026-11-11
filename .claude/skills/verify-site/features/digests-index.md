@@ -21,9 +21,9 @@ chrome-devtools evaluate_script '() => ({url: location.href, cards: [...document
 chrome-devtools take_screenshot --filePath "$RUN_DIR/evidence/digests-index-01.png" 2>/dev/null
 ```
 
-Oracle: `ls signals/updates | grep -cE '^[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$'` equals `total` and `meta.totalDigests`; the first card is the newest file date; a card's badge is `grep -E '^#{2,3} ' <file> | sed 's/^#* *//' | grep -vi '^run at' | sort -u | wc -l` (some files repeat a heading, so a raw `grep -c` over-counts).
+Oracle: `ls signals/updates | grep -cE '^[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$'` equals `total` and `meta.totalDigests`; the first card is the newest file date; a card's badge is `grep -E '^#{2,3} ' <file> | sed 's/^#* *//; s/[[:space:]]*$//' | grep -vi '^run at ' | sort -u | wc -l` (some files repeat a heading, so a raw `grep -c` over-counts).
 
-Proof: URL `/hermenaut/digests/`, card count equals the oracle, first card date = newest update file, and a sampled card's update count equals the distinct `##`/`###` headings in that file. Proved 2026-11-03: 66 cards, first `2026-11-02 28 updates AiRTS · AiSee · …`, `2026-10-31 1 update RoamAssist`.
+Proof: URL `/hermenaut/digests/`, card count equals the oracle, first card date = newest update file, and a sampled card's update count equals the distinct `##`/`###` headings in that file. Proved 2026-11-03: 66 cards, first `2026-11-02 28 updates AiRTS · AiSee · …`, `2026-10-31 1 update RoamAssist`. Proved 2026-11-11: 69 cards, first `2026-11-10 8 updates Horizon Quantum Computing · Carousell · …`, `2026-11-08 4 updates` (= oracle).
 
 ## Gotchas
 
