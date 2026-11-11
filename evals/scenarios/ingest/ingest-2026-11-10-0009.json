@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/beex/mycareersfuture.gov.sg",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.65",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Robotics Autonomy Software Engineer — Engineering' for BEEX",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0009",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "BEEX"
+      ],
+      "source": "BEEX",
+      "title": "Robotics Autonomy Software Engineer — Engineering",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/robotics-autonomy-software-engineer-beex-aca58e632d741bf32ab2bf0e7aaf01e9"
+    },
+    "companies": {
+      "BEEX": {
+        "description": "NUS GRIP-incubated Singapore autonomous-systems startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.84,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

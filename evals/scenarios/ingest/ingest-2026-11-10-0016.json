@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/beex/mycareersfuture.gov.sg",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.64",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Mechatronics Engineer (New Product Development) — Engineering' for BEEX",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0016",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "BEEX"
+      ],
+      "source": "BEEX",
+      "title": "Mechatronics Engineer (New Product Development) — Engineering",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/mechatronics-engineer-beex-8c0663bf16f274a0568ff5f78375e754"
+    },
+    "companies": {
+      "BEEX": {
+        "description": "NUS GRIP-incubated Singapore autonomous-systems startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.8,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

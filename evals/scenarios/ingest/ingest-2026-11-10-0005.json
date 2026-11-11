@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/carousell/sg.jobstreet.com",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.53",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Home Renovation Content Marketer (12-month contract) — Marketing & Communications' for Carousell",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0005",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Carousell"
+      ],
+      "source": "Carousell",
+      "title": "Home Renovation Content Marketer (12-month contract) — Marketing & Communications",
+      "url": "https://sg.jobstreet.com/job/95809915"
+    },
+    "companies": {
+      "Carousell": {
+        "description": "Singapore-headquartered online classifieds and consumer marketplace platform; the group also operates OneShift, Mudah, and Cho Tot."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.7,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

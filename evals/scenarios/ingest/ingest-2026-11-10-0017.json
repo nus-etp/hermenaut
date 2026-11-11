@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/finan/apps.apple.com",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.71",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Học Viện Sổ Bán Hàng 1.1.14 released on the App Store' for Finan",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0017",
+  "input": {
+    "candidate": {
+      "description": "Nâng cấp trải nghiệm",
+      "matched": [
+        "Finan"
+      ],
+      "source": "Finan",
+      "title": "Học Viện Sổ Bán Hàng 1.1.14 released on the App Store",
+      "url": "https://apps.apple.com/us/app/h%E1%BB%8Dc-vi%E1%BB%87n-s%E1%BB%95-b%C3%A1n-h%C3%A0ng/id6755933937"
+    },
+    "companies": {
+      "Finan": {
+        "description": "BLOCK71 Saigon-listed Singapore-headquartered (founders Hai Long Bui and Hai Nam Bui, mid-2021) SME-operating-system startup whose Vietnamese app SoBanHang gives micro-businesses sales/order/inventory/invoicing/cash-flow tools plus embedded financial services; >800K active business users, >US$5B transaction volume processed; Shinhan Store partnership with Shinhan Bank Vietnam. Drop generic 'finan' / 'finance' branding unless it names Finan / SoBanHang."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.84,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

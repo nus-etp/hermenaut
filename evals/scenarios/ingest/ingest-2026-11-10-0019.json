@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/vibefam/apps.apple.com",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.63",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'vibefam 4.0.44 released on the App Store' for Vibefam",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0019",
+  "input": {
+    "candidate": {
+      "description": "We polished the sign up experience and gave it some additional love to improve your experience",
+      "matched": [
+        "Vibefam"
+      ],
+      "source": "Vibefam",
+      "title": "vibefam 4.0.44 released on the App Store",
+      "url": "https://apps.apple.com/us/app/vibefam/id1530134249"
+    },
+    "companies": {
+      "Vibefam": {
+        "description": "BLOCK71 Singapore-resident community / wellness / events startup ('vibe' + 'fam'). Drop unrelated namesakes unless the article explicitly references this BLOCK71 SG entity."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.92,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

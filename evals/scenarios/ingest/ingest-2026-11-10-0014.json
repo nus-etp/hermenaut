@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/beex/mycareersfuture.gov.sg",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.53",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Test Engineer — Engineering' for BEEX",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0014",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "BEEX"
+      ],
+      "source": "BEEX",
+      "title": "Test Engineer — Engineering",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/test-engineer-beex-205020b04914e6a4ac4b22d9eb72ea13"
+    },
+    "companies": {
+      "BEEX": {
+        "description": "NUS GRIP-incubated Singapore autonomous-systems startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.86,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

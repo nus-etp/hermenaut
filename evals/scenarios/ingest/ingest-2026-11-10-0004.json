@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/carousell/apps.apple.com",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.4",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Carousell: Snap-Sell, Chat-Buy 2.486.0 released on the App Store' for Carousell",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0004",
+  "input": {
+    "candidate": {
+      "description": "Every week, we polish the app to help you buy, sell (or give for free!) better. This update includes bug fixes and performance improvements. Update your Carousell app to enjoy the latest improvements our engineers have been working hard on. Love Carousell? Rate and share us with your family and friends, so we can keep growing our community. Happy Carouselling!",
+      "matched": [
+        "Carousell"
+      ],
+      "source": "Carousell",
+      "title": "Carousell: Snap-Sell, Chat-Buy 2.486.0 released on the App Store",
+      "url": "https://apps.apple.com/us/app/carousell-snap-sell-chat-buy/id548607187"
+    },
+    "companies": {
+      "Carousell": {
+        "description": "Singapore-headquartered online classifieds and consumer marketplace platform; the group also operates OneShift, Mudah, and Cho Tot."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.96,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

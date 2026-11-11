@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/nano-vietnam/apps.apple.com",
+  "created_by": "write_scenarios@run 42912355519",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.26",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Vui - Chạm là có lương 4.39.101 released on the App Store' for Nano Vietnam",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-10-0018",
+  "input": {
+    "candidate": {
+      "description": "Vui App cập nhật phiên bản mới sửa lỗi và cải thiện hiệu năng",
+      "matched": [
+        "Nano Vietnam"
+      ],
+      "source": "Nano Vietnam",
+      "title": "Vui - Chạm là có lương 4.39.101 released on the App Store",
+      "url": "https://apps.apple.com/us/app/vui-ch%E1%BA%A1m-l%C3%A0-c%C3%B3-l%C6%B0%C6%A1ng/id1556022970"
+    },
+    "companies": {
+      "Nano Vietnam": {
+        "description": "BLOCK71 Saigon-resident Vietnamese nano-technology services startup. Limited public-English information beyond the directory listing — name is generic ('Nano' collides with countless unrelated tech / fintech / hardware brands worldwide); drop unless the article explicitly references this BLOCK71 Saigon entity."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-10",
+    "judge": "jev",
+    "judge_confidence": 0.88,
+    "kind": "judge_disagreement",
+    "run_id": "42912355519",
+    "source": "2026-11-10.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
