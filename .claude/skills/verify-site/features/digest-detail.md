@@ -25,7 +25,7 @@ chrome-devtools evaluate_script '() => location.href' 2>/dev/null >> "$RUN_DIR/e
 chrome-devtools take_screenshot --fullPage true --filePath "$RUN_DIR/evidence/digest-01.png" 2>/dev/null
 ```
 
-Proof: headings equal `grep -E '^#{2,3} ' signals/updates/<date>.md`; the newest digest shows only `← <prev>`; clicking it lands on `/hermenaut/digests/<prev>/` where `<prev>` is the next-older file in `signals/updates/`. Proved 2026-11-03: 2026-11-01 shows `Ailytics`, `Patsnap`, nav `← 2026-10-31` / `2026-11-02 →`; 2026-11-02 shows only `← 2026-11-01`; `All digests` → `/hermenaut/digests/`.
+Proof: headings equal `grep -E '^#{2,3} ' signals/updates/<date>.md` (raw, duplicates and `Run at` included — every heading renders, unlike the index badge's distinct count); the newest digest shows only `← <prev>`; clicking it lands on `/hermenaut/digests/<prev>/` where `<prev>` is the next-older file in `signals/updates/`. Proved 2026-11-03: 2026-11-01 shows `Ailytics`, `Patsnap`, nav `← 2026-10-31` / `2026-11-02 →`; 2026-11-02 shows only `← 2026-11-01`; `All digests` → `/hermenaut/digests/`. Proved 2026-11-11: 2026-11-10 shows 8 headings (= raw grep) and only `← 2026-11-08`; 2026-11-08 shows `← 2026-11-03` / `2026-11-10 →`; `All digests` → `/hermenaut/digests/`.
 
 ## Gotchas
 

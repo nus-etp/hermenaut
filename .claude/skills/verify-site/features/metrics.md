@@ -7,7 +7,7 @@ A sortable, filterable table of hard public numbers per company, ranked by defau
 - Six summary tiles over the visible rows: Disclosed funding, Open roles, GitHub stars, Median age, Investor-listed, Signals (90d).
 - Columns: `#` (rank), then sortable header buttons `Company`, `Composite`, `Disclosed funding`, `Rounds`, `Latest round`, `Open roles`, `GitHub ★`, `HN 30d`, `Signals 90d`, `Age`, `Headcount`, `Investor lists`.
 - Default sort: `Composite` descending. Composite = mean percentile (among companies with a value > 0) of funding, open roles, stars, HN 30d, headcount floor and investor listings, ×100, 1 decimal; a missing metric counts as 0. Percentiles are over all companies, inactive included, so filters never change a score.
-- Clicking the active header flips direction (`?dir=asc|desc`); a new header switches to it (`?sort=<key>`, `dir` dropped; default direction asc for `Company`, desc otherwise). Active `<th>` carries `aria-sort`.
+- Clicking the active header flips direction; a new header switches to it (`?sort=<key>`, `dir` dropped; default direction asc for `Company`, desc otherwise). Params equal to their default are dropped from the URL: `dir` only appears when it differs from the column default (`HN 30d` click 1 `?sort=hn`, click 2 `?sort=hn&dir=asc`, click 3 back to `?sort=hn`), and switching to `Composite` removes `sort` entirely. Active `<th>` carries `aria-sort`.
 - Blank cells mean no data and sort last in both directions; `#` is blank on those rows.
 - HN counts for generic names (`ambiguousName`) are struck through (`td.line-through`), excluded from the HN sort and from the composite.
 - Search box `Search companies` (name only, ≥2 chars) → `?q=`; `Country` select → `?country=`; `Include struck-off` checkbox → `?inactive=1` (inactive companies are hidden by default).
@@ -52,7 +52,7 @@ print(len(V),'of',len(C),'| top5',[(s[2]['name'],s[0]) for s in top[:5]],'| stru
 print('hn top3',[c['name'] for c in sorted([c for c in C if not c['inactive'] and not c.get('ambiguousName') and c.get('hn30d') is not None],key=lambda c:(-c['hn30d'],c['name']))[:3]])"
 ```
 
-Proof: default load shows `Composite:descending`, count `<visible> of <total>`, top-5 names and scores equal the oracle, struck count equals the oracle; after `HN 30d` the URL is `?sort=hn` and the top rows equal the oracle's HN order; after `Include struck-off` the URL gains `inactive=1` and the count is `<total> of <total>`. Proved 2026-11-03: `474 of 515 · data as of 2026-11-03`, Patsnap 55.7 / BEEX 36.5 / Carousell 31.7 / pQCee 30.8 / Constructor.io 29.1, 50 struck; HN top remarkably / Snowball / Librarian; second click `?sort=hn&dir=asc`; struck-off on → `515 of 515`, 56 struck; `quantum` + `Singapore` → `?q=quantum&country=Singapore`, `1 of 515`, Horizon Quantum Computing.
+Proof: default load shows `Composite:descending`, count `<visible> of <total>`, top-5 names and scores equal the oracle, struck count equals the oracle; after `HN 30d` the URL is `?sort=hn` and the top rows equal the oracle's HN order; after `Include struck-off` the URL gains `inactive=1` and the count is `<total> of <total>`. Proved 2026-11-03: `474 of 515 · data as of 2026-11-03`, Patsnap 55.7 / BEEX 36.5 / Carousell 31.7 / pQCee 30.8 / Constructor.io 29.1, 50 struck; HN top remarkably / Snowball / Librarian; second click `?sort=hn&dir=asc`; struck-off on → `515 of 515`, 56 struck; `quantum` + `Singapore` → `?q=quantum&country=Singapore`, `1 of 515`, Horizon Quantum Computing. Proved 2026-11-11: `472 of 513 · data as of 2026-11-11`, Patsnap 56.2 / BEEX 35.6 / Carousell 31.7 / pQCee 29.4 / Constructor.io 29.1 (= oracle), 50 struck; HN top remarkably / Snowball / Librarian; HN third click → `?sort=hn`; `Composite` → `/hermenaut/metrics/`; struck-off on → `513 of 513`, 56 struck; `quantum` + `Singapore` → `1 of 513`, Horizon Quantum Computing.
 
 ## Gotchas
 
@@ -60,4 +60,5 @@ Proof: default load shows `Composite:descending`, count `<visible> of <total>`, 
 - Search matches the company name only (unlike the directory, which also searches aliases and descriptions).
 - An HN value of `0` displays as `–` but is still a value: it ranks (and sorts first ascending) rather than sinking with the blanks.
 - Name ties: JS uses `localeCompare`, Python sorts by code point; compare as sets when values tie.
+- The oracle uses Python `round()` (half to even) where the page uses `Math.round` (half up); a score landing exactly on a `.x5` boundary can differ by 0.1.
 - The header's `<n> companies tracked` comes from `meta.totalCompanies`, not the metrics count.

@@ -7,7 +7,7 @@ The home page: hero stats (Companies / Living briefs / Daily digests) and a clie
 - Free-text search over name + aliases + description (active at ≥2 chars, case-insensitive substring); the first match in the card's name and description is wrapped in `<mark>` (aliases are not highlighted, so an alias-only hit shows no `<mark>`); `Clear search` (×) button.
 - `Living brief available` switch → `?brief=1`.
 - Multi-select chip filters: Sector, Region, Funding stage, Source type → `?sector=`, `?region=`, `?stage=`, `?source=` (comma-joined). Within a group = OR, across groups = AND.
-- Sort select: Relevance (brief first, then latest signal date desc, then latest funding date desc, then name), A–Z, Latest funding, Latest signal, Last updated → `?sort=` (the default `relevance` is never written to the URL).
+- Sort select: Relevance (brief first, then latest signal date desc, then name; the funding-date tie-break in `byRelevance` is unreachable because `bySignal` already falls back to name), A–Z, Latest funding, Latest signal, Last updated → `?sort=` (the default `relevance` is never written to the URL).
 - Count line `<n> of <total> companies · <k> filter(s) applied`; `Clear all filters`; empty state `No matches` with `Reset filters` (both also reset the sort).
 - URL-state restore: loading `/?q=…&sector=…` reproduces the filtered view.
 - Card click → `/c/<slug>/`.
@@ -36,7 +36,7 @@ Oracle (expected search hits):
 python3 -c "import json,sys; q=sys.argv[1].lower(); c=json.load(open('site/apps/web/src/data/companies.generated.json')); print(len(c), sorted(x['name'] for x in c if q in (x['name']+' '+' '.join(x['aliases'])+' '+x['description']).lower()))" quantum
 ```
 
-Proof: URL gained `?q=quantum`, the count line reads `<oracle count> of <total> companies · 1 filter applied`, card names equal the oracle set (order follows the sort), and `mark` elements exist. Proved 2026-10-28: 4 of 488 — pQCee, Horizon Quantum Computing, Qarbotech, Qubit Dynamics. Proved 2026-11-03 (search `quantum` + `Singapore` chip + sort `A–Z`): URL `/hermenaut/?q=quantum&region=Singapore&sort=name`, `3 of 515 companies · 2 filters applied`, Horizon Quantum Computing, pQCee, Qubit Dynamics.
+Proof: URL gained `?q=quantum`, the count line reads `<oracle count> of <total> companies · 1 filter applied`, card names equal the oracle set (order follows the sort), and `mark` elements exist. Proved 2026-10-28: 4 of 488 — pQCee, Horizon Quantum Computing, Qarbotech, Qubit Dynamics. Proved 2026-11-03 (search `quantum` + `Singapore` chip + sort `A–Z`): URL `/hermenaut/?q=quantum&region=Singapore&sort=name`, `3 of 515 companies · 2 filters applied`, Horizon Quantum Computing, pQCee, Qubit Dynamics. Proved 2026-11-11: same search/chip/sort → `3 of 513 companies · 2 filters applied`, same 3 cards; `Living brief available` → `?brief=1`, `59 of 513`, Relevance puts Patsnap (funding 2021-03-16) before Qarbotech (2024-12-01) on the same latest signal date 2026-10-28, i.e. name order, not funding; `zzzqqq` → `No matches`, `Reset filters` → `/hermenaut/`, `513 of 513 companies`; deep link `?q=carousell&stage=Series%20A` restores `1 of 513` with the `Series A` chip pressed.
 
 ## Gotchas
 
