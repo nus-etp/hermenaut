@@ -3,36 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-12	https://www.techinasia.com/news/xpeng-adapt-driverassist-ai-data
-2026-10-12	https://www.channelnewsasia.com/sport/carrick-backs-man-united-emerge-rough-spell-ahead-atletico-test-6454181
-2026-10-12	https://www.vietnam.vn/en/vpbank-ra-mat-the-ghi-no-ai-cho-doanh-nghiep
-2026-10-12	https://www.stomp.sg/trending-now/local-ai-generated-sci-fi-movie-slammed-after-just-one-screening-spore-film-society-denies
-2026-10-12	https://www.fizzdragon.com/news/136
-2026-10-12	https://fizzdragon.com/en-US/news/132
-2026-10-12	https://meti.gov.sg/newsroom/speech-by-sms-low-yen-ling-at-the-launch-of-sbs-transit-mobility-innovation-centre--minnova-
-2026-10-12	https://gasworld.com/story/aether-fuels-demonstrates-integrated-saf-platform/2260839.article
-2026-10-12	https://travelradar.aero/the-new-plans-to-help-sustainable-aviation-fuel-take-off
-2026-10-12	https://sg.headtopics.com/news/14-presented-with-singapore-s-ecofriend-award-86754737
-2026-10-12	https://x-phy.com/products/endpoint-security/x-phy-ai-mcp
-2026-10-12	https://review.iffw.sg/aster-enters-aviation-fuel-distribution-with-changi-airport-fuel-hydrant-installation-stake
-2026-10-12	https://technode.global/2026/09/04/singapores-hivebotics-raises-6m-led-by-vertex-to-scale-restroom-cleaning-robots
-2026-10-12	https://businesstimes.com.sg/companies-markets/robotics-startup-hivebotics-raises-us6-million-series-round-led-vertex-ventures
-2026-10-12	https://vertexholdings.com/news/hivebotics-raises-us-6-million-to-make-robots-an-essential-service-in-facilities-management
-2026-10-12	https://news.aqua247.com/news/responsible-seafood-innovation-award-finalist-learning-from-farm-failures-to-develop-an-on-site-rapid-test-to-detect-shrim
-2026-10-12	https://safinvestor.com/opinion/150007/going-fast-alone-but-far-together
-2026-10-12	https://prismnews.com/topics/biofuels/menzies-and-flyoro-to-expand-saf-blending-at-european
-2026-10-12	https://tipranks.com/news/private-companies/finan-expands-sme-finance-readiness-program-with-hands-on-workshops-in-vietnam
-2026-10-12	https://digg.com/tech/x7fxuiy9
-2026-10-12	https://aviationpros.com/airport-business/news/55409055/aether-fuels-produces-astm-compliant-synthetic-aviation-fuel-in-integrated-demonstration
-2026-10-12	https://eli-grant.sg/funded_projects/ai-powered-sign-language-assistant-bot
-2026-10-12	https://seedinclusivity.com/press/cohort-3-2026
-2026-10-12	https://forbes.com/councils/forbestechcouncil/2026/08/19/being-afraid-of-your-boss-might-be-exactly-why-ceo-deepfake-scams-succeed
-2026-10-12	https://stage.bbc.co.uk/news/articles/c6eq8egl3wd2o
-2026-10-12	https://professionalsecurity.co.uk/products/cyber/women-count
-2026-10-12	https://newgenprotect.com/mining-cybersecurity-solution
-2026-10-12	https://acrawatch.sg/company/lenor-ai-pte-ltd
-2026-10-12	https://otrafy.com/
-2026-10-12	https://www.littlelives.com/
 2026-10-13	https://dealroom.co/news/161840-neu-battery-materials-raises-7-6m-to-scale-lfp-battery-recycling
 2026-10-13	https://www.businesstimes.com.sg/esg/lithium-battery-recycling-startup-neu-battery-materials-raises-us7-6-million-latest-funding-round
 2026-10-13	https://natlawreview.com/press-releases/addlly-ai-joins-hp-garage-20-expand-generative-engine-optimization-suite

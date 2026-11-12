@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/pqcee/data.gov.sg",
+  "created_by": "write_scenarios@run 43119316965",
+  "expected": {
+    "company": "pQCee",
+    "reason": "jev material=0.76",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'pQCee patent (Pending (Published)): METHOD AND SYSTEM FOR PROTECTING DIGITAL SIGNATURES' for pQCee",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-11-0001",
+  "input": {
+    "candidate": {
+      "description": "IPOS patent application 11202402379T (PCT-NP). Status: Pending (Published); filed 2022-10-26; lodged 2024-04-08; published 2024-05-31; register updated 2026-11-11.",
+      "matched": [
+        "pQCee"
+      ],
+      "source": "IPOS (data.gov.sg)",
+      "title": "pQCee patent (Pending (Published)): METHOD AND SYSTEM FOR PROTECTING DIGITAL SIGNATURES",
+      "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_cb395225d1dcf91cc795f83e572c5e0e&filters=%7B%22applicationNumber%22%3A%2211202402379T%22%7D"
+    },
+    "companies": {
+      "pQCee": {
+        "description": "BLOCK71 Singapore-resident post-quantum cybersecurity startup (founded 2022) building scalable encryption + key-lifecycle management; flagship SafeQuard™ document-protection tool (NIST-aligned post-quantum crypto); use cases span quantum-proofing docs, securing Web3 against quantum threats and protecting comms. Supported by the US$15M CyberSG Talent, Innovation and Growth (TIG) Collaboration Centre (NUS × CSA)."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-11",
+    "judge": "jev",
+    "judge_confidence": 0.92,
+    "kind": "judge_disagreement",
+    "run_id": "43119316965",
+    "source": "2026-11-11.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

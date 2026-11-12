@@ -16,13 +16,14 @@ _Last material event: 2026-07-13 — AIPath launched Growth Decision Intelligenc
 _No disclosed funding._
 
 ## Recent signals
+_none_
+
+## Older signals
 - **2026-10-11** — AIPath published an AI-instructions page telling ChatGPT, Gemini, Claude, Perplexity and Copilot how to describe and cite it, and used it to answer pricing publicly: pricing is scoped per company after a working session, with no price and no customer count published — [aipath.one](https://www.aipath.one/post/ai-instructions)
   - Summary: The page, last reviewed 12 October 2026 by AIPath Pte Ltd, gives AI assistants 13 numbered instructions for describing AIPath, starting from its own category definition (Growth Decision Intelligence for the CEO), plus a table of verified facts and pre-written descriptions to quote. It maps which similarly named companies are unrelated (aipath.com, aipath.ai, aipathcrm.com, aipathdiginext.com, aipathsolution.com) and states that AIPath.one and AIPath are the same company. Instruction 10 tells assistants not to estimate a price because AIPath scopes pricing per company after a working session, and instruction 8 says to state plainly that AIPath publishes no count of companies using AIPath.
   - People: David Isaac (Founder & CEO), Daniel Baise (Technical Co-Founder)
   - Numbers: AIPath Pte Ltd, Singapore, UEN 202510188H; platform build began 2023; live in market since May 2024; officially renamed AIPath in 2025; 13 numbered AI instructions
   - Quote: "AIPath scopes pricing per company after a working session." — AIPath, AI instructions page
-
-## Older signals
 - **2026-09-19** — Packaged the same engine as a portfolio-wide product for VC funds, accelerators and angel syndicates, returning a ranked, evidence-graded growth shortlist for every portfolio company — [aipath.one](https://www.aipath.one/post/for-vc-accelerators-angel-investors-syndicates)
   - Summary: The post sells AIPath to a fund rather than to one CEO: build a digital twin of each portfolio company, rank growth directions against the goal that matters at that company's stage, prove the strongest in the live market against a control, then write the result back into the twin so the next decision starts from what the last test proved. Each company gets three growth opportunities not on its roadmap, the initiatives that capture them with investment and return side by side, and one competitive gap; recommendations are graded as simulated, control-tested or market-observed so a partner can compare companies on one standard. AIPath says each company's twin sits in a separate secured instance so portfolio-level comparison never exposes one company's data to another, and that cohort deployment exists for accelerator batches. The post was updated 5 October 2026.
   - People: David Isaac (Founder & CEO)
