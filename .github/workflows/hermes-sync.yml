@@ -617,6 +617,14 @@ jobs:
         if: steps.layers.outputs.run_l3 == 'true'
         run: python3 scripts/normalize_briefs.py --today "$RUN_DATE"
 
+      - name: Detect 404 links
+        # Report-only check of the URLs Layers 2-3 cited this run (today's
+        # agent file + lines added to briefs). Only 404/410 count as dead;
+        # bot-wall statuses from the runner's datacentre IP are `unknown`.
+        if: steps.layers.outputs.run_l3 == 'true'
+        continue-on-error: true
+        run: python3 scripts/detect_404_links.py --date "$RUN_DATE"
+
       - name: Select infographic queue
         # Deterministic pre-step for Layer 4: decides which briefs get a fresh
         # infographic. A raw working-tree-vs-HEAD diff over-fires — normalize
