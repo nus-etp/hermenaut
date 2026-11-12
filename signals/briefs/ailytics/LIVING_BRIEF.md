@@ -14,7 +14,7 @@ _Last material event: 2026-10-27 — Raised US$7.4M (S$9.4M) Series A led by Tin
 - Key people: Tan Wei Zhuang, Lenard (Co-Founder & CEO); Prateek Manocha (Co-Founder & CTO); Huang Shao-Ning (lead seed investor, early backer)
 
 ## Funding history
-- **2022-04-01** — Seed, undisclosed — Huang Shao-Ning; National University of Singapore, AngelCentral — [ailytics.ai](https://ailytics.ai/ailytics-announces-seed-investment/)
+- **2022-04-01** — Seed, undisclosed — Huang Shao-Ning; National University of Singapore, AngelCentral
 - **2024** — Pre-Seed, $2.7M — Tin Men Capital; Aurum Investments, AngelCentral — [prnewswire.com](https://www.prnewswire.com/apac/news-releases/ailytics-raises-us2-7m-to-power-next-generation-scenario-based-ai-monitoring-for-heavy-industries-302105965.html)
 
 _Total disclosed: $2.7M._

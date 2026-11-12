@@ -11,8 +11,8 @@ Vietnamese on-demand logistics startup operating a tech-enabled marketplace conn
 - Stage / funding: Seed
 
 ## Funding history
-- **2022-01-01** — Pre-Seed, US$785K — Genesia Ventures; Antler — [istishub.com](https://istishub.com/library/case-studies/wareflex/)
-- **2023-06-01** — Seed (Shark Tank Vietnam S6), US$500K — Shark Hùng Lâm, Shark Tuệ Lâm — [istishub.com](https://istishub.com/library/case-studies/wareflex/)
+- **2022-01-01** — Pre-Seed, US$785K — Genesia Ventures; Antler
+- **2023-06-01** — Seed (Shark Tank Vietnam S6), US$500K — Shark Hùng Lâm, Shark Tuệ Lâm
 
 _Total disclosed: $1.3M._
 

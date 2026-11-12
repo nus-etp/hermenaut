@@ -65,9 +65,6 @@ _Total disclosed: $9.8M._
   - Summary: BeeX partnered with Mooreast, a Singapore-based marine construction company, to provide autonomous underwater inspection for a coastal protection project involving geotextile fabric placement verification. BeeX scaled from 1 to 4 A.IKANBILIS vehicles, delivering higher efficiency than diver-based inspection.
   - Counterparties: Mooreast (Customer)
   - Numbers: 1 to 4 vehicles scaled
-- **2026-06-22** — BeeX Provides Integrated Inspection Approach for Offshore Industry Giant. — [beex.sg](https://www.beex.sg/case-studies/beex-provides-integrated-inspection-approach-for-offshore-industry-giant)
-  - Summary: BeeX deployed its autonomous underwater inspection system for an offshore wind farm in the German North Sea (Lower Saxony), inspecting 18 monopiles in 16 days with a 95% reduction in carbon emissions versus conventional ROV operations. The system operated in currents up to 1.8 knots and delivered AI-enhanced visuals with real-time data access via the Sambal portal.
-  - Numbers: 18 monopiles in 16 days, 95% reduction in carbon emissions, 1.8 knots current handling
 - **2026-06-01** — SIT announces Autonomous Marine Foundry (AMF) at Punggol Digital District in partnership with BeeX, covering applied research, test-bedding, and talent development in maritime autonomy. — [singaporetech.edu.sg](https://www.singaporetech.edu.sg/news/sit-and-beex-launch-autonomous-marine-foundry-punggol-digital-district-pdd-advance-maritime-robotics)
   - Summary: Corroborates the 2026-06-22 Autonomous Marine Foundry launch announcement; no new facts.
 - **2026-05-20** — Preparing to unveil BETTA, its most advanced autonomous underwater drone, at a Singapore launch event. — [news.google.com](https://news.google.com/rss/articles/CBMiogJBVV95cUxPYXRYRnFKRW9PTU9rek1La1hITjQxc2g2STZ5VkF2clhlZFl4WWcxTUNsd1lQSmlNTFJ)

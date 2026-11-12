@@ -37,7 +37,6 @@ _Total disclosed: $50.0M._
   - Counterparties: PT Bank Tabungan Negara / BBTN (mortgage partner)
   - Numbers: growth target +50% to +75% by end-2026; high single-digit monthly growth; BTN KPR rates from 2.65%
   - Quote: "Meskipun dengan segala tantangan ekonomi ini, kami masih berharap bisa tumbuh high single digit setiap bulan. Mudah-mudahan sampai akhir tahun bisa tumbuh 50 persen sampai 75 persen" — Dayu Dara Permata, Co-Founder and CEO, Pinhome
-- **2026-06-26** — Indonesian startup founder bootstrapped a company out of her garage (CNBC) — [cnbc.com](https://www.cnbc.com/indonesia-startup-founder-bootstrapped-garage)
 - **2026-06-26** — Pinhome — Genesis Alternative Ventures portfolio — [genesisventures.co](https://www.genesisventures.co/portfolio/pinhome)
   - Summary: Pinhome is Indonesia's largest property transaction platform. Founded 2019 by Dayu Dara and Ahmed Aljunied. Online-to-offline property brokerage. Key operations: Indonesia. Industry: Proptech.
 - **2026-06-26** — Pinhome — LinkedIn — [linkedin.com](https://www.linkedin.com/company/pinhome)
