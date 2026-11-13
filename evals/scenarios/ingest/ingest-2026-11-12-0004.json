@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/patsnap/careers.patsnap.com",
+  "created_by": "write_scenarios@run 43321776233",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.52",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Project Manager – Life Sciences (Onboarding/Implementation) — Client Services' for Patsnap",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-12-0004",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Patsnap"
+      ],
+      "source": "Patsnap",
+      "title": "Project Manager – Life Sciences (Onboarding/Implementation) — Client Services",
+      "url": "https://careers.patsnap.com/o/project-manager-life-sciences-onboardingimplementation-4"
+    },
+    "companies": {
+      "Patsnap": {
+        "description": "Singapore-headquartered IP intelligence and innovation analytics SaaS company."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-12",
+    "judge": "jev",
+    "judge_confidence": 0.88,
+    "kind": "judge_disagreement",
+    "run_id": "43321776233",
+    "source": "2026-11-12.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/carousell/sg.jobstreet.com",
+  "created_by": "write_scenarios@run 43321776233",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.46",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Ecommerce Operations Intern_Jan 2027 — Administration & Office Support' for Carousell",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-12-0002",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Carousell"
+      ],
+      "source": "Carousell",
+      "title": "Ecommerce Operations Intern_Jan 2027 — Administration & Office Support",
+      "url": "https://sg.jobstreet.com/job/95836075"
+    },
+    "companies": {
+      "Carousell": {
+        "description": "Singapore-headquartered online classifieds and consumer marketplace platform; the group also operates OneShift, Mudah, and Cho Tot."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-12",
+    "judge": "jev",
+    "judge_confidence": 0.9,
+    "kind": "judge_disagreement",
+    "run_id": "43321776233",
+    "source": "2026-11-12.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

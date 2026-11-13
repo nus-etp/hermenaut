@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/neu-battery-materials/mycareersfuture.gov.sg",
+  "created_by": "write_scenarios@run 43321776233",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.65",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'VP, Engineering and Operations — Engineering' for NEU Battery Materials",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-12-0010",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "NEU Battery Materials"
+      ],
+      "source": "NEU Battery Materials",
+      "title": "VP, Engineering and Operations — Engineering",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/vp-engineering-operations-neu-battery-materials-6893fcb6903a336655dc2aa30f4ca89d"
+    },
+    "companies": {
+      "NEU Battery Materials": {
+        "description": "NUS GRIP-incubated Singapore battery-materials startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-12",
+    "judge": "jev",
+    "judge_confidence": 0.8,
+    "kind": "judge_disagreement",
+    "run_id": "43321776233",
+    "source": "2026-11-12.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

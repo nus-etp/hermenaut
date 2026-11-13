@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/fizzdragon/fizzdragon.com",
+  "created_by": "write_scenarios@run 43321776233",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.25",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Join the Resurrection' for FizzDragon",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-12-0009",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "FizzDragon"
+      ],
+      "source": "FizzDragon",
+      "title": "Join the Resurrection",
+      "url": "https://fizzdragon.com/en-US/news/join/distribution"
+    },
+    "companies": {
+      "FizzDragon": {
+        "description": "BLOCK71 Singapore-resident startup. Limited public-English information beyond the directory listing — drop unrelated 'FizzDragon' brand mentions unless the article explicitly references this BLOCK71 SG entity."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-12",
+    "judge": "jev",
+    "judge_confidence": 0.96,
+    "kind": "judge_disagreement",
+    "run_id": "43321776233",
+    "source": "2026-11-12.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

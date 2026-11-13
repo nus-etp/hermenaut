@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/taidii/apps.apple.com",
+  "created_by": "write_scenarios@run 43321776233",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.49",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'DiiBear 4.32 released on the App Store' for Taidii",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-12-0011",
+  "input": {
+    "candidate": {
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "matched": [
+        "Taidii"
+      ],
+      "source": "Taidii",
+      "title": "DiiBear 4.32 released on the App Store",
+      "url": "https://apps.apple.com/us/app/diibear/id1022752190"
+    },
+    "companies": {
+      "Taidii": {
+        "description": "BLOCK71 Suzhou-listed Singapore preschool / childcare-school-management SaaS (HQ Singapore, Suzhou ops listed twice in directory — folded here) covering attendance, billing, e-enrollment, e-forms, finance, parent-school communication; >50% private-school market share in Singapore; ECDA-approved vendor; VAMS 4S sub-second attendance / temperature device; presence in Singapore, China (Suzhou), UAE, Australia and the Philippines. Drop generic 'taid' / 'tide' branding news unless it names Taidii."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-12",
+    "judge": "jev",
+    "judge_confidence": 0.74,
+    "kind": "judge_disagreement",
+    "run_id": "43321776233",
+    "source": "2026-11-12.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
