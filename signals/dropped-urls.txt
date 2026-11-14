@@ -3,13 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-15	https://natlawreview.com/press-releases/fn-group-selects-addlly-ai-generative-engine-optimization-partner
-2026-10-15	https://www.ailytics.ai/news/ailytics-deploys-nvidia-cosmos-3-across-heavy-industry
-2026-10-15	https://acoerela.com/wp-content/uploads/2026/05/Acoerela-Aco-Dyes%E2%84%A2-Datasheet_V3.1.pdf
-2026-10-15	https://flyoro.co/insights/what-a-six-week-fuel-buffer-taught-us-about-building-a-resilient-saf-supply-chain/
-2026-10-15	https://news.nus.edu.sg/singapore-start-ups-show-ai-isnt-just-a-big-tech-playground
-2026-10-15	https://www.businesstimes.com.sg/pulse/article/9624728
-2026-10-15	https://x-phy.com/news/
 2026-10-16	https://straitstimes.com/business/economy/singapore-start-ups-show-that-ai-isnt-just-a-big-tech-playground?ai-allowed=1
 2026-10-16	https://www.jtc.gov.sg/about-jtc/news-and-stories/feature-stories/st-singapore-start-ups-show-that-ai-not-just-a-big-tech-playground
 2026-10-16	https://opengovasia.com/singapore-government-pilot-advances-autonomous-construction-technology

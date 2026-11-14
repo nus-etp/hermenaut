@@ -1,0 +1,114 @@
+{
+  "candidates": [
+    {
+      "company": "Forte Biotech",
+      "dedup_key": "appstore://6476100387/2.2",
+      "description": "What's new in 2.2: - Bring your farm records in from a file: Profile, Import and setup. The AI guides you, and nothing is saved until you check and confirm. - Dealer mode has its own icon in Profile. - Small fixes.",
+      "headline": "Aotomatic - Shrimp Farm Diary 2.2 released on the App Store",
+      "link": "https://apps.apple.com/us/app/aotomatic-shrimp-farm-diary/id6476100387",
+      "pubDate": "2026-11-14",
+      "source": "Forte Biotech \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://1358582392/2.8",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "Children's Cove Singapore 2.8 released on the App Store",
+      "link": "https://apps.apple.com/us/app/childrens-cove-singapore/id1358582392",
+      "pubDate": "2026-11-12",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://957294111/4.35",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "Mulberry Learning Centre 4.35 released on the App Store",
+      "link": "https://apps.apple.com/us/app/mulberry-learning-centre/id957294111",
+      "pubDate": "2026-11-12",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    }
+  ],
+  "companies": {
+    "Forte Biotech": "NUS GRIP-incubated Singapore biotech startup. Drop unrelated companies sharing the same name.",
+    "Taidii": "BLOCK71 Suzhou-listed Singapore preschool / childcare-school-management SaaS (HQ Singapore, Suzhou ops listed twice in directory \u2014 folded here) covering attendance, billing, e-enrollment, e-forms, finance, parent-school communication; >50% private-school market share in Singapore; ECDA-approved vendor; VAMS 4S sub-second attendance / temperature device; presence in Singapore, China (Suzhou), UAE, Australia and the Philippines. Drop generic 'taid' / 'tide' branding news unless it names Taidii."
+  },
+  "fetch_failed": [
+    {
+      "company": "Flexii",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://flexii.net/sg/feed/"
+    },
+    {
+      "company": "Flow Coffee",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://www.flowcoffee.sg/blog-feed.xml"
+    },
+    {
+      "company": "PharLyfe+",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://pharlyfeplus.com/news-update/f.rss"
+    }
+  ],
+  "generated_at": "2026-11-14T21:34:22+00:00",
+  "jina_recovered": [
+    "https://thelowdown.momentum.asia/feed/",
+    "https://www.theedgesingapore.com/rss.xml"
+  ],
+  "llm_fetch_required": [
+    {
+      "company": "Finsey",
+      "hint": "",
+      "label": "blog",
+      "url": "https://finsey.vn/blog"
+    },
+    {
+      "company": "SENSORI Healthcare",
+      "hint": "SENSORI Healthcare news listing. Each item is an anchor (<a>) wrapping the entry with the headline rendered as an <h4> (e.g. 'SENSORI Healthcare Wins Third Prize at Two Innovation and Entrepreneurship Competitions') and the date below in YYYY-MM-DD format (e.g. '2025-12-03'). Items are tagged 'News' and ordered newest-first. Resolve relative links against https://www.sensorihealthcare.com.",
+      "label": "news",
+      "url": "https://www.sensorihealthcare.com/h-col-157.html"
+    },
+    {
+      "company": "SilentConvo",
+      "hint": "",
+      "label": "blog",
+      "url": "https://silentconvo.io/blog"
+    },
+    {
+      "company": "Soynergy",
+      "hint": "Soynergy WordPress news category listing. Each post is a <div> block with a featured image, headline in <h2> link, and the publication date below in 'Month Day, Year' format (e.g. 'August 27, 2018'); a 'News' tag appears above the headline and a 'READ MORE' link follows. Note: archive is small and stale (last post 2018). Resolve relative links against https://www.soynergy.com.",
+      "label": "news",
+      "url": "https://www.soynergy.com/category/news/"
+    },
+    {
+      "company": "spacejot",
+      "hint": "Blog listing on Spacejot's web app. Each post is rendered with an h3 headline that links to /blog/<slug>, with the publication date (e.g. 'Jul 06, 2024') displayed adjacent to the title. Resolve relative links against https://www.spacejot.app/.",
+      "label": "blog",
+      "url": "https://www.spacejot.app/blog"
+    }
+  ],
+  "stats": {
+    "appstore_capped": 0,
+    "candidates": 3,
+    "companies_matched": 2,
+    "edgar_candidates": 0,
+    "excluded_by_terms": 0,
+    "fetch_failed": 3,
+    "gebiz_candidates": 0,
+    "ipos_candidates": 0,
+    "jina_candidates": 0,
+    "jina_recovered": 2,
+    "llm_fetch_required": 5,
+    "masfid_candidates": 0,
+    "portfolio_candidates": 0,
+    "pre_extracted_capped": 0,
+    "sitemap_candidates": 0,
+    "startupsg_candidates": 0,
+    "weak_term_suppressed": 3
+  }
+}
