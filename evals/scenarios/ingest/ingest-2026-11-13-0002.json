@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/flexxon/flexxon.com",
+  "created_by": "write_scenarios@run 43519055768",
+  "expected": {
+    "company": "Flexxon",
+    "reason": "jev material=0.83",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'Hardware Cybersecurity Pioneer Flexxon Takes Home Quartet Of Awards At 2023 Global Infosec Awards' for Flexxon",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-13-0002",
+  "input": {
+    "candidate": {
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-13). Title derived from the URL slug; the page itself was not fetched.",
+      "matched": [
+        "Flexxon"
+      ],
+      "source": "flexxon.com sitemap",
+      "title": "Hardware Cybersecurity Pioneer Flexxon Takes Home Quartet Of Awards At 2023 Global Infosec Awards",
+      "url": "https://www.flexxon.com/hardware-cybersecurity-pioneer-flexxon-takes-home-quartet-of-awards-at-2023-global-infosec-awards"
+    },
+    "companies": {
+      "Flexxon": {
+        "description": "BLOCK71 Silicon Valley-listed Singapore cybersecurity-hardware startup (founded 2007) building X-PHY, the world's first AI-embedded SSD with hardware-level threat detection and physical-tamper response. Co-founded by Camellia Chan and May Chng. Drop items that only mention generic flash-storage or unrelated 'X-PHY' physics content."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-13",
+    "judge": "jev",
+    "judge_confidence": 0.8,
+    "kind": "judge_disagreement",
+    "run_id": "43519055768",
+    "source": "2026-11-13.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

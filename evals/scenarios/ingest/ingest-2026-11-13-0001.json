@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/belli-ai/belli.ai",
+  "created_by": "write_scenarios@run 43519055768",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.21",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'We Crumpled a Lot of AWB Labels (for Science)' for Belli AI",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-13-0001",
+  "input": {
+    "candidate": {
+      "description": "New page listed in the sitemap of Belli AI's own website belli.ai (lastmod 2026-11-13). Title derived from the URL slug; the page itself was not fetched.",
+      "matched": [
+        "Belli AI"
+      ],
+      "source": "belli.ai sitemap",
+      "title": "We Crumpled a Lot of AWB Labels (for Science)",
+      "url": "https://www.belli.ai/company/news/we-crumpled-a-lot-of-awb-labels-for-science"
+    },
+    "companies": {
+      "Belli AI": {
+        "description": "BLOCK71 Singapore-resident air-cargo software startup (founders ex-McKinsey, SpaceX, Boeing, Booking.com, AirAsia) digitising end-to-end airline cargo operations. Drop unrelated namesakes (Italian food brand, maternal-health apps named Belly/Bella) unless the article explicitly references the Singapore air-cargo Belli AI."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-13",
+    "judge": "jev",
+    "judge_confidence": 0.9,
+    "kind": "judge_disagreement",
+    "run_id": "43519055768",
+    "source": "2026-11-13.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
