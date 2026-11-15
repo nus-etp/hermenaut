@@ -1,5 +1,5 @@
 # BEEX — LIVING BRIEF
-_Last updated: 2026-11-03 22:45 UTC_
+_Last updated: 2026-11-15 23:22 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -21,10 +21,21 @@ _Last material event: 2026-10-27 — ALPHA AUV demonstrated mine neutralisation 
 _Total disclosed: $9.8M._
 
 ## Recent signals
+- **2026-11-03** — CEO Grace Chia told AFP at Taiwan's Tainan sea-drone expo that UUV demand has jumped since Iran's Strait of Hormuz claims, pitching BeeX's underwater vehicles to Taiwanese officials days after Taipei's parliament passed a US$7.4bn drone defence bill — [bangkokpost.com](https://www.bangkokpost.com/world/3347814/sea-drone-makers-compete-in-taiwan-for-soaring-investment)
+  - Summary: AFP's report from the Taiwan Marine Tech and Unmanned Robotics Expo in Tainan (2 November 2026) covers Taiwanese and foreign makers competing for the island's uncrewed-vehicle procurement. Chia attributed a global rise in UUV interest to Iran's claim of control over the Strait of Hormuz, arguing underwater robots are the answer to a single cheap mine closing a sea lane. Taiwan's parliament recently passed a NT$240bn (US$7.4bn) drone defence bill with more spending expected, alongside stated requirements for 1,320 one-way attack USVs and more than 200,000 coastal attack drones.
+  - People: Grace Chia (chief executive, BeeX)
+  - Counterparties: Taiwanese government officials (prospective customer), Taiwan Marine Tech and Unmanned Robotics Expo (Tainan)
+  - Numbers: NT$240bn / US$7.4bn drone defence bill; 1,320 one-way attack USVs; 200,000+ coastal attack drones; 1,400+ surveillance and reconnaissance drones sought
+  - Quote: "We have seen a significant increase in demand as people start to realise that you can just have a very simple mine destroy a whole entire channel, and that's where underwater robots come in to neutralise these targets," — Grace Chia, chief executive, BeeX
 - **2026-10-27** — Ran a closed-door UK mine-countermeasures demonstration of its new ALPHA AUV hosted by Copper Turtle, integrating Alford Technologies' neutralisers, Blueprint Subsea's acoustic firing and ELWAVE's electric sensing against a moored mine and a floating steel plate — [beex.sg](https://www.beex.sg/news/beex-demonstrates-alpha-auv-mine-countermeasures-capabilities-in-uk-x)
   - Summary: BeeX published details of a 17 September 2026 UK demonstration hosted by defence-market partner Copper Turtle, in which its ALPHA AUV — operating semi-autonomously through a laptop interface — approached and hovered over two targets, affixed Alford Technologies' REDS neutralisers, confirmed charge readiness, retreated and fired, then used sonar and visual sensing for battle-damage assessment. Targets were a moored mine and a steel plate suspended from a buoy, chosen because the plate rotated unpredictably; partners on the day were Alford Technologies, Blueprint Subsea and ELWAVE. The company says the closed-door concept-of-operations event involved the UK Ministry of Defence, industry and academia, and that its Singapore engineering team reconfigured the mission capability remotely over Starlink — the groundwork, it argues, for issuing firing commands from anywhere.
   - Counterparties: Copper Turtle (host and UK partner), Alford Technologies, Blueprint Subsea, ELWAVE, UK Ministry of Defence / Royal Navy
   - Numbers: Demo 2026-09-17; 2 targets neutralised; REDS rated to 950 m operating depth
+- **date unknown** — A 2024 BeeX case study newly surfaced in the company's sitemap reports a full rock-dump sonar inspection of over 2,000 m² completed in under 90 minutes where commercial divers took two working days — [beex.sg](https://www.beex.sg/case-studies/beex-delivers-incredible-full-coverage-sonar-inspection-over-2000-m2-rock-dump-at-land-reclamation-site)
+  - Summary: The case study, dated 2024 and published on BeeX's site, covers an A.IKANBILIS deployment for a Singapore government agency's land-reclamation project. The vehicle ran an automated lawnmower-pattern survey with power sonar and forward-looking sonar and produced a real-time geo-referenced 2D sonar mosaic that site supervisors viewed remotely through BeeX's Sambal software, used to identify rock voids and estimate their size and position for backfilling. BeeX frames the result as a no-diver method cutting cost, time and manpower; no contract value or customer name is given.
+  - Counterparties: unnamed Singapore government agency (client)
+  - Numbers: over 2,000 m² surveyed; under 90 minutes vs 2 working days for divers; 14x schedule acceleration claimed; case study year 2024
+  - Quote: "Quality of data is limited to visuals, but [this is] insufficient in Singapore waters. It becomes highly subjective, resulting in multiple sets of manpower checking the work." — client principal engineer
 - **date unknown** — BeeX publishes a technical explainer on autonomy levels in unmanned underwater vehicles, positioning A.IKANBILIS's integrated autonomy for inspection missions — [beex.sg](https://beex.sg/blogs/levels-of-autonomy-in-unmanned-underwater-vehicles-use-cases-limitations-and-a-ikanbilis-integrated-autonomy)
 
 ### Hiring

@@ -1,9 +1,11 @@
 # LittleLives — LIVING BRIEF
-_Last updated: 2026-09-06 16:05 UTC_
+_Last updated: 2026-11-15 23:22 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
 LittleLives is a Singapore-based preschool SaaS provider (founded 2011 by Sun Ho, NUS Computing alumna) servicing ~1,000 schools across Singapore, Malaysia, China, Vietnam, and Cambodia with a holistic school-management platform for early-childhood centres.
+
+_Last material event: 2026-11-05 — Signed an MoU with SEGi College Subang Jaya and Little Lab at a Malaysia early-childhood education leadership event_
 
 ## Profile
 - Sector: SaaS / EdTech
@@ -14,7 +16,8 @@ LittleLives is a Singapore-based preschool SaaS provider (founded 2011 by Sun Ho
 _No disclosed funding._
 
 ## Recent signals
-_none_
+- **2026-11-05** — LittleLives signed an MoU with SEGi College Subang Jaya and Little Lab at a Malaysia early-childhood education leadership event; the announcement came from the college, and scope, exclusivity and whether a paid deployment is included are not public — [colleges.segi.edu.my](https://colleges.segi.edu.my/subangjaya/segi-college-subang-jaya-signs-mou-with-littlelives-and-little-lab-at-early-childhood-education-leadership-event/)
+- **date unknown** — Pushed version 1.2.32 of its LittleLives For Schools app to the App Store — routine maintenance on its core school-management client for preschools, with no feature disclosure — [apps.apple.com](https://apps.apple.com/us/app/littlelives-for-schools/id6755920958)
 
 ## Older signals
 - **2026-06-26** — LittleLives — Preschool SaaS company profile — [sg.linkedin.com](https://sg.linkedin.com/company/littlelives)
@@ -30,3 +33,4 @@ _none_
 ## Open questions
 - What commercial traction or pilot deployments does LittleLives have to date?
 - Is LittleLives generating revenue, and at what scale?
+- Does the SEGi College Subang Jaya MoU cover a paid LittleLives deployment inside SEGi's early-childhood programmes, or is it a training and curriculum collaboration?

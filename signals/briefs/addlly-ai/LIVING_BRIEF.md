@@ -17,14 +17,15 @@ _Last material event: 2026-10-15 — F&N Group selected Addlly AI as its Generat
 - **2024-01-01** — Seed, Undisclosed (SGD 5M valuation cap) — investors undisclosed — [wate.com](https://www.wate.com/business/press-releases/ein-presswire/683195059/addlly-ai-secures-first-round-of-funding-at-a-5-million-valuation-cap/)
 
 ## Recent signals
+_none_
+
+## Older signals
 - **2026-10-15** — F&N Group selected Addlly AI as its Generative Engine Optimization partner, an enterprise GEO win for the content-marketing startup — [einnews.com](https://einnews.com/pr_news/949818562/f-n-group-selects-addlly-ai-as-generative-engine-optimization-partner) (Also reported by: [martechseries.com](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fn-group-selects-addlly-ai-as-generative-engine-optimization-partner))
   - Summary: The engagement covers 100PLUS, Magnolia and other F&N Group brands across Singapore, Malaysia, Vietnam and the wider South East Asia region, assessing how those brands are represented in ChatGPT, Google Gemini, Claude, Perplexity and Google AI Overviews. Scope spans competitive benchmarking, citation and source analysis, content recommendations and ongoing visibility tracking across those brands and markets. MartechSeries places the win inside an enterprise roster it says also includes Kenvue, Tata Group, Raiffeisen Group, Himalaya and MetLife; contract value is not disclosed in either account.
   - People: Tina Chopra (Co-Founder and CEO)
   - Counterparties: F&N Group / Fraser and Neave, Limited (customer)
   - Numbers: 5 AI engines audited; 100PLUS and Magnolia named brands; contract value undisclosed
   - Quote: "F&N’s appointment reflects the trust we’re earning and our growth momentum." — Tina Chopra, Co-Founder and CEO, Addlly AI
-
-## Older signals
 - **2026-06-02** — Addlly AI selected for the SuperAI Genesis Top 50 Startup cohort, powered by OpenAI and Microsoft for Startups, strengthening its position as an enterprise GEO platform — [addlly.ai](https://addlly.ai/press/addlly-ai-named-superai-genesis-top-50-startup) (Also reported by: [smartsbusinesswire.com](https://www.smartsbusinesswire.com/article/916758240-addlly-ai-named-superai-genesis-top-50-startup-strengthening-its-position-as-a-trusted-enterprise-geo-platform), [natlawreview.com](https://natlawreview.com/press-releases/addlly-ai-named-superai-genesis-top-50-startup-strengthening-its-position))
   - Summary: Addlly AI was named to the Genesis Top 50 Startup Cohort at SuperAI 2026, one of Asia's leading AI conferences held in Singapore June 10-11. The recognition highlights the company's enterprise-grade AI Marketing Agents and GEO Audit Agent, which help brands manage visibility across AI-generated search results.
   - People: Tina Chopra (Co-founder & CEO)

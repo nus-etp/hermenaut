@@ -1,5 +1,3 @@
-INVIGILO
-StaffAny
 Stratificare
 Synectify
 Tacniq
@@ -11,8 +9,10 @@ Forte Biotech
 Green COP
 Hyperpod AI
 Lenor
-LittleLives
 MADCash
 MangaChat
 Marymount Labs
 MenSC Labs
+NuSPACE
+Otrafy
+Peris.ai

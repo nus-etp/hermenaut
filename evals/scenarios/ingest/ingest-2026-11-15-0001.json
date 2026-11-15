@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/littlelives/apps.apple.com",
+  "created_by": "write_scenarios@run 43764180608",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.57",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'LittleLives For Schools 1.2.32 released on the App Store' for LittleLives",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-15-0001",
+  "input": {
+    "candidate": {
+      "description": "Improved stability and fixed several issues.",
+      "matched": [
+        "LittleLives"
+      ],
+      "source": "LittleLives",
+      "title": "LittleLives For Schools 1.2.32 released on the App Store",
+      "url": "https://apps.apple.com/us/app/littlelives-for-schools/id6755920958"
+    },
+    "companies": {
+      "LittleLives": {
+        "description": "BLOCK71 Jakarta-listed Singapore preschool SaaS (founded 2011 by Sun Ho, NUS Computing alumna) running a holistic school-management system for early-childhood centres — attendance, time-in/out, temperature/height/weight, child portfolios, log books, fees, parent communication; ~1,000 schools across Singapore, Malaysia, China, Vietnam, Cambodia; MOE/ECDA-accredited, AECES Top Preschool Software. Made strategic acquisition of Illume Technology. Drop generic 'small / little lives' branding unless it names this entity."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-15",
+    "judge": "jev",
+    "judge_confidence": 0.9,
+    "kind": "judge_disagreement",
+    "run_id": "43764180608",
+    "source": "2026-11-15.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

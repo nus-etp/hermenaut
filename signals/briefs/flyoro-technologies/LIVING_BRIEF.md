@@ -1,5 +1,5 @@
 # Flyoro Technologies — LIVING BRIEF
-_Last updated: 2026-10-25 20:01 UTC_
+_Last updated: 2026-11-15 23:22 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -29,6 +29,10 @@ _none_
   - People: Genevieve Toh (Chief Marketing Officer, FlyORO), Jamie Ong (co-author)
   - Counterparties: IATA (Strategic Partnerships Program)
   - Quote: "What matters is not the scale of the blend point but its position within the supply chain" — Jamie Ong and Genevieve Toh, IATA SP partner update
+- **2026-09-16** — ACI Asia-Pacific & Middle East admitted FlyORO as a World Business Partner, folding it into the airport operators' association on the strength of its AlphaLite blending work and repeating the 500,000+ litres blended across its deployments — [aci-asiapac.aero](https://www.aci-asiapac.aero/media-centre/news/aci-apac-and-mid-welcomes-flyoro-as-the-world-business-partner)
+  - Summary: ACI Asia-Pacific & Middle East, the region's airport trade association, listed FlyORO Technologies Pte. Ltd. as its newest World Business Partner on 16 September 2026, filed under WBP Sustainability. The notice describes AlphaLite as a modular blending unit that works with existing fuel infrastructure and can be deployed across the supply chain including at airport fuel farms, and repeats FlyORO's claim that its 2025 Toowoomba Wellcamp installation was the first SAF blending terminal co-located at an airport globally. WBP is a supplier membership category, so this is an industry affiliation rather than a customer or offtake agreement.
+  - Counterparties: ACI Asia-Pacific & Middle East (industry association membership)
+  - Numbers: 500,000+ litres of SAF blended across AlphaLite deployments; Toowoomba Wellcamp deployment 2025
 - **2026-06-30** — FlyORO signed an MOU with Menzies Aviation to explore deploying its AlphaLite SAF blending system at European airports Menzies serves, leveraging Menzies' fuel farm and into-aircraft refueling operations — [aviationweek.com](https://aviationweek.com/aerospace/emerging-technologies/menzies-singapores-flyoro-explore-saf-distribution-europe) (Also reported by: [flyoro.co](https://flyoro.co/insights/flyoro-and-menzies-aviation-sign-mou-to-enhance-saf-across-fuel-networks/))
   - Summary: FlyORO's own release, issued 30 June 2026 from the IATA Aviation Energy Forum in Paris where the MoU was signed, frames the agreement as FlyORO selecting Menzies to explore deployment of the AlphaLite blending platform adjacent to airport fuel infrastructure, with Menzies providing fuel farm management and into-plane fuelling expertise. The scope is European fuel networks — no specific airports, timeline, or offtake commitments are named; the MoU is an exploratory assessment aimed at broadening SAF availability for airlines, airports and fuel suppliers, with emphasis on domestically produced and novel SAFs such as eSAF as ReFuelEU Aviation and the UK SAF Mandate accelerate demand.
   - People: Genevieve Toh (CMO, FlyORO), Marco di Mario (EVP Fuels, Menzies Aviation), Damian Mc Loughlin (CCO, FlyORO)
