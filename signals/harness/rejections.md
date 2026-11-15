@@ -70,3 +70,18 @@ Replay table:
 **Decision: REJECT**
 
 - deepseek: scenarios failed: ingest-2026-06-19-0001, ingest-2026-06-19-0003, ingest-2026-06-19-0004, ingest-2026-06-20-0001, ingest-2026-06-20-0002, ingest-2026-06-21-0001, ingest-2026-06-22-0003, ingest-2026-06-22-0004, ingest-2026-06-22-0005, ingest-2026-06-22-0007, ingest-2026-06-22-0008, ingest-2026-06-23-0001, ingest-2026-06-24-0001, ingest-2026-06-24-0004, ingest-2026-06-24-0005, ingest-2026-06-24-0007, ingest-2026-06-24-0009, ingest-2026-06-24-0011, ingest-2026-06-24-0012, ingest-2026-06-24-0013, ingest-2026-06-26-0001, ingest-2026-06-26-0003, ingest-2026-06-26-0004, ingest-2026-06-26-0008, ingest-2026-06-26-0010, ingest-2026-06-26-0011, ingest-2026-06-26-0012, ingest-2026-06-26-0016, ingest-2026-06-26-0018, ingest-2026-06-26-0019, ingest-2026-06-26-0021, ingest-2026-06-26-0022, ingest-2026-06-26-0023, ingest-2026-06-28-0002, ingest-2026-06-28-0003, ingest-2026-06-28-0004
+
+## 2026-11-15 — ingest/false_keep/patsnap/careers.patsnap.com (run 43756331602)
+
+- Run: https://github.com/nus-etp/hermenaut/actions/runs/43756331602
+- Rung: not available
+- Files: none
+- Verdict: not available
+
+Verdict reasons:
+
+- none recorded
+
+Unresolved blocking findings:
+
+- none
