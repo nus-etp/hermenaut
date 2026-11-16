@@ -40,4 +40,5 @@ markers = [
 ]
 filterwarnings = [
     "error",
+    "ignore:Implicitly cleaning up <HTTPError:ResourceWarning",
 ]
