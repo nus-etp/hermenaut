@@ -1,5 +1,6 @@
 import type { ComponentPropsWithoutRef } from 'react'
-import ReactMarkdown, { type Components } from 'react-markdown'
+import type { Components } from 'react-markdown'
+import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
 import { cx } from '~/lib/cn'
@@ -13,86 +14,96 @@ const components: Components = {
   h1: (props) => (
     <h1
       {...props}
-      className="text-base-content-default mt-2 mb-4 text-3xl font-semibold tracking-tight"
+      className="text-ink mt-2 mb-4 text-[2rem] leading-tight font-bold tracking-[-0.01em] text-balance"
     />
   ),
   h2: (props) => (
     <h2
       {...props}
-      className="text-base-content-default mt-10 mb-3 text-2xl font-semibold tracking-tight"
+      className="border-ink text-ink mt-10 mb-3 border-b-[1.5px] pb-1.5 text-[1.375rem] leading-snug font-bold text-balance"
     />
   ),
   h3: (props) => (
     <h3
       {...props}
-      className="border-base-divider-subtle text-base-content-default mt-8 mb-2 border-b pb-1 text-lg font-semibold tracking-tight"
+      className="text-ink mt-7 mb-2 text-lg leading-snug font-bold text-balance"
     />
   ),
-  p: (props) => (
-    <p {...props} className="text-base-content-medium my-3 leading-relaxed" />
+  h4: (props) => (
+    <h4
+      {...props}
+      className="text-ink mt-6 mb-1.5 text-[0.8125rem] font-bold tracking-[0.08em] uppercase"
+    />
   ),
+  p: (props) => <p {...props} className="text-ink my-3" />,
   ul: (props) => (
-    <ul {...props} className="my-3 list-disc space-y-1.5 pl-5" />
+    <ul
+      {...props}
+      className="marker:text-ink-3 my-3 list-disc space-y-1.5 pl-5"
+    />
   ),
   ol: (props) => (
-    <ol {...props} className="my-3 list-decimal space-y-1.5 pl-5" />
-  ),
-  li: (props) => (
-    <li
+    <ol
       {...props}
-      className="text-base-content-medium pl-1 leading-relaxed marker:text-slate-400"
+      className="marker:text-ink-2 my-3 list-decimal space-y-1.5 pl-6"
     />
   ),
+  li: (props) => <li {...props} className="text-ink pl-1" />,
   a: (props: ComponentPropsWithoutRef<'a'>) => (
     <a
       {...props}
       target={props.href?.startsWith('http') ? '_blank' : undefined}
       rel={props.href?.startsWith('http') ? 'noreferrer noopener' : undefined}
-      className="break-words text-indigo-400 underline-offset-2 hover:underline"
+      className="text-link decoration-link/45 hover:text-ink hover:decoration-ink break-words underline underline-offset-[0.2em]"
     />
   ),
-  strong: (props) => (
-    <strong {...props} className="font-semibold text-slate-900" />
-  ),
-  em: (props) => <em {...props} className="text-base-content-medium italic" />,
+  strong: (props) => <strong {...props} className="text-ink font-bold" />,
+  em: (props) => <em {...props} className="italic" />,
   code: (props) => (
     <code
       {...props}
-      className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[0.85em] text-slate-800"
+      className="bg-paper-deep text-ink rounded-sm px-1 py-0.5 font-mono text-[0.85em]"
     />
   ),
-  hr: () => <hr className="border-base-divider-subtle my-6" />,
+  hr: () => <hr className="border-rule my-8" />,
   blockquote: (props) => (
     <blockquote
       {...props}
-      className="border-base-divider-default text-base-content-medium my-4 border-l-4 pl-4 italic"
+      className="bg-field text-ink before:bg-tape-mustard/80 relative my-6 rotate-[-0.4deg] px-5 pt-5 pb-3 shadow-sm before:absolute before:-top-2 before:left-6 before:h-4 before:w-20 before:rotate-[-3deg] before:content-[''] [&>p]:my-2"
     />
   ),
   table: (props) => (
-    <div className="ring-base-divider-subtle my-4 overflow-x-auto rounded-lg ring-1">
-      <table {...props} className="min-w-full text-sm" />
+    <div className="my-5 overflow-x-auto">
+      <table
+        {...props}
+        className="min-w-full border-collapse text-[0.875rem]"
+      />
     </div>
   ),
-  thead: (props) => (
-    <thead
+  thead: (props) => <thead {...props} className="text-left" />,
+  th: (props) => (
+    <th
       {...props}
-      className="text-base-content-medium bg-slate-50 text-left text-xs uppercase"
+      className="border-ink text-ink-2 border-b-[1.5px] px-2.5 py-1.5 text-[11px] font-bold tracking-[0.07em] whitespace-nowrap uppercase"
     />
   ),
-  th: (props) => <th {...props} className="px-3 py-2 font-semibold" />,
-  td: (props) => <td {...props} className="border-base-divider-subtle border-t px-3 py-2" />,
+  td: (props) => (
+    <td {...props} className="border-rule border-b px-2.5 py-1.5 align-top" />
+  ),
   img: (props) => (
-    // eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text
-    <img
-      {...props}
-      className="border-base-divider-subtle my-6 w-full rounded-xl border shadow-sm"
-    />
+    // eslint-disable-next-line @next/next/no-img-element
+    <img {...props} className="border-rule my-6 w-full border" />
   ),
 }
 
 export function Markdown({ children, className }: Props) {
   return (
-    <div className={cx('text-sm', className)}>
+    <div
+      className={cx(
+        'text-ink max-w-[68ch] text-[1.0625rem] leading-[1.65]',
+        className,
+      )}
+    >
       <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
         {children}
       </ReactMarkdown>

@@ -1,469 +1,620 @@
 'use client'
 
-import { useMemo } from 'react'
-import Link from 'next/link'
+import type { ReactNode } from 'react'
+import { useMemo, useState } from 'react'
+import { parseAsString, parseAsStringEnum, useQueryState } from 'nuqs'
 import {
-  parseAsString,
-  parseAsStringEnum,
-  useQueryState,
-} from 'nuqs'
-import { BiDownArrowAlt, BiSearch, BiUpArrowAlt, BiX } from 'react-icons/bi'
+  BiChevronDown,
+  BiChevronUp,
+  BiDownArrowAlt,
+  BiSearch,
+  BiUpArrowAlt,
+  BiX,
+} from 'react-icons/bi'
 
+import type {
+  Direction,
+  MetricColumn,
+  MetricsRow,
+  RankedCompany,
+  SortKey,
+} from './metrics-columns'
 import { cx } from '~/lib/cn'
-import type { CompanyMetrics } from '~/lib/data'
-
-const SORT_KEYS = [
-  'score',
-  'name',
-  'funding',
-  'rounds',
-  'latestRound',
-  'jobs',
-  'stars',
-  'hn',
-  'signals',
-  'age',
-  'employees',
-  'backers',
-] as const
-type SortKey = (typeof SORT_KEYS)[number]
-type Direction = 'asc' | 'desc'
-
-interface RankedCompany extends CompanyMetrics {
-  score: number
-  scoreInputs: number
-  hnCounted?: number
-  rank?: number
-}
-
-const SCORE_METRICS: ((c: CompanyMetrics) => number | undefined)[] = [
-  (c) => c.fundingUsd,
-  (c) => c.jobsOpen,
-  (c) => c.githubStars,
-  (c) => (c.ambiguousName ? undefined : c.hn30d),
-  (c) => c.employeesFloor,
-  (c) => c.backers.length,
-]
-
-const SORT_VALUE: Record<SortKey, (c: RankedCompany) => number | string | undefined> = {
-  score: (c) => (c.scoreInputs ? c.score : undefined),
-  name: (c) => c.name.toLowerCase(),
-  funding: (c) => c.fundingUsd,
-  rounds: (c) => c.fundingRounds || undefined,
-  latestRound: (c) => c.latestRoundDate,
-  jobs: (c) => c.jobsOpen,
-  stars: (c) => c.githubStars,
-  hn: (c) => c.hnCounted,
-  signals: (c) => c.signals90d || undefined,
-  age: (c) => c.ageYears,
-  employees: (c) => c.employeesFloor,
-  backers: (c) => c.backers.length || undefined,
-}
-
-function percentileRanks(values: (number | undefined)[]) {
-  const present = values
-    .map((value, index) => ({ value, index }))
-    .filter((entry): entry is { value: number; index: number } =>
-      typeof entry.value === 'number' && entry.value > 0,
-    )
-    .sort((a, b) => a.value - b.value)
-  const ranks = new Array<number>(values.length).fill(0)
-  const firstPosition = new Map<number, number>()
-  const lastPosition = new Map<number, number>()
-  present.forEach((entry, position) => {
-    if (!firstPosition.has(entry.value)) firstPosition.set(entry.value, position)
-    lastPosition.set(entry.value, position)
-  })
-  for (const entry of present) {
-    const first = firstPosition.get(entry.value) ?? 0
-    const last = lastPosition.get(entry.value) ?? first
-    ranks[entry.index] = (first + last + 2) / 2 / present.length
-  }
-  return ranks
-}
-
-function withScores(companies: CompanyMetrics[]): RankedCompany[] {
-  const perMetric = SCORE_METRICS.map((metric) => percentileRanks(companies.map(metric)))
-  return companies.map((c, i) => {
-    const parts = perMetric.map((ranks) => ranks[i] ?? 0)
-    const total = parts.reduce((a, b) => a + b, 0)
-    return {
-      ...c,
-      score: Math.round((total / SCORE_METRICS.length) * 1000) / 10,
-      scoreInputs: parts.filter((p) => p > 0).length,
-      hnCounted: c.ambiguousName ? undefined : c.hn30d,
-    }
-  })
-}
-
-function formatUsd(value?: number) {
-  if (value === undefined) return undefined
-  if (value >= 1e9) return `$${(value / 1e9).toFixed(1)}B`
-  if (value >= 1e6) return `$${(value / 1e6).toFixed(value >= 1e8 ? 0 : 1)}M`
-  if (value >= 1e3) return `$${Math.round(value / 1e3)}K`
-  return `$${value}`
-}
-
-function formatCount(value?: number) {
-  return value === undefined ? undefined : value.toLocaleString('en-US')
-}
-
-function median(values: number[]) {
-  if (values.length === 0) return undefined
-  const sorted = [...values].sort((a, b) => a - b)
-  const mid = Math.floor(sorted.length / 2)
-  const upper = sorted[mid] ?? 0
-  return sorted.length % 2 ? upper : ((sorted[mid - 1] ?? upper) + upper) / 2
-}
+import { matchesSectorTags } from '~/lib/sectors'
+import {
+  buildColumns,
+  compareBy,
+  DEFAULT_SORT,
+  defaultDirection,
+  SORT_KEYS,
+  withScores,
+} from './metrics-columns'
+import { MetricsCsvButton } from './metrics-csv'
+import { columnHelpId, MetricsLegend } from './metrics-legend'
+import { MetricsRankList } from './metrics-rank-list'
+import { MetricsSummary } from './metrics-summary'
+import { Stamp, Tape } from './paper'
+import { sheetHeadClassName, struckOffGroupClassName } from './sheet-table'
 
 interface Props {
-  companies: CompanyMetrics[]
+  intro: ReactNode
+  companies: MetricsRow[]
   countries: string[]
+  sectors: string[]
+  stages: string[]
   asOf: string
+  asOfLabel?: string
   signalWindowDays: number
+  latestEditionLabel?: string
 }
 
-export function MetricsTable({ companies, countries, asOf, signalWindowDays }: Props) {
-  const [q, setQ] = useQueryState('q', parseAsString.withDefault(''))
-  const [country, setCountry] = useQueryState('country', parseAsString.withDefault(''))
-  const [showInactive, setShowInactive] = useQueryState('inactive', parseAsString.withDefault(''))
+const selectClassName =
+  'border-ink bg-field text-ink h-9 min-w-0 rounded-sm border px-2 text-sm focus-visible:outline-offset-1'
+
+export function MetricsTable({
+  intro,
+  companies,
+  countries,
+  sectors,
+  stages,
+  asOf,
+  asOfLabel,
+  signalWindowDays,
+  latestEditionLabel,
+}: Props) {
+  const [query, setQuery] = useQueryState('q', parseAsString.withDefault(''))
+  const [country, setCountry] = useQueryState(
+    'country',
+    parseAsString.withDefault(''),
+  )
+  const [sector, setSector] = useQueryState(
+    'sector',
+    parseAsString.withDefault(''),
+  )
+  const [stage, setStage] = useQueryState(
+    'stage',
+    parseAsString.withDefault(''),
+  )
+  const [showInactive, setShowInactive] = useQueryState(
+    'inactive',
+    parseAsString.withDefault(''),
+  )
   const [sort, setSort] = useQueryState(
     'sort',
-    parseAsStringEnum<SortKey>([...SORT_KEYS]).withDefault('score'),
+    parseAsStringEnum<SortKey>([...SORT_KEYS]).withDefault(DEFAULT_SORT),
   )
   const [direction, setDirection] = useQueryState(
     'dir',
-    parseAsStringEnum<Direction>(['asc', 'desc']).withDefault(sort === 'name' ? 'asc' : 'desc'),
+    parseAsStringEnum<Direction>(['asc', 'desc']).withDefault(
+      defaultDirection(sort),
+    ),
   )
+  const [showFullTable, setShowFullTable] = useState(false)
+  const [filtersOpen, setFiltersOpen] = useState(false)
 
+  const columns = useMemo(
+    () => buildColumns(signalWindowDays),
+    [signalWindowDays],
+  )
+  const activeColumn = columnFor(columns, sort)
   const scored = useMemo(() => withScores(companies), [companies])
+  const includeInactive = showInactive === '1'
 
-  const rows = useMemo(() => {
-    const query = q.trim().toLowerCase()
-    const visible = scored.filter((c) => {
-      if (showInactive !== '1' && c.inactive) return false
-      if (country && c.country !== country) return false
-      if (query.length >= 2 && !c.name.toLowerCase().includes(query)) return false
+  const { ranked, struckOff } = useMemo(() => {
+    const needle = query.trim().toLowerCase()
+    const visible = scored.filter((company) => {
+      if (!includeInactive && company.inactive) return false
+      if (country && company.country !== country) return false
+      if (sector && !matchesSectorTags(company, [sector])) return false
+      if (stage && company.stage !== stage) return false
+      if (needle.length >= 2 && !company.name.toLowerCase().includes(needle))
+        return false
       return true
     })
-    const value = SORT_VALUE[sort]
-    const sign = direction === 'asc' ? 1 : -1
-    const sorted = [...visible].sort((a, b) => {
-      const av = value(a)
-      const bv = value(b)
-      if (av === undefined && bv === undefined) return a.name.localeCompare(b.name)
-      if (av === undefined) return 1
-      if (bv === undefined) return -1
-      if (av === bv) return a.name.localeCompare(b.name)
-      return (av < bv ? -1 : 1) * sign
-    })
+    const compare = compareBy(activeColumn, direction)
     let rank = 0
-    return sorted.map((c) => ({ ...c, rank: value(c) === undefined ? undefined : ++rank }))
-  }, [scored, q, country, showInactive, sort, direction])
+    const rankedRows = visible
+      .filter((company) => !company.inactive)
+      .sort(compare)
+      .map((company) => ({
+        ...company,
+        rank:
+          activeColumn.sortValue(company) === undefined ? undefined : ++rank,
+      }))
+    const struckOffRows = visible
+      .filter((company) => company.inactive)
+      .sort(compare)
+    return { ranked: rankedRows, struckOff: struckOffRows }
+  }, [
+    scored,
+    query,
+    country,
+    sector,
+    stage,
+    includeInactive,
+    activeColumn,
+    direction,
+  ])
 
-  const summary = useMemo(() => {
-    const funded = rows.filter((c) => c.fundingUsd !== undefined)
-    const ages = rows.map((c) => c.ageYears).filter((v): v is number => v !== undefined)
-    return {
-      fundingTotal: funded.reduce((a, c) => a + (c.fundingUsd ?? 0), 0),
-      fundedCount: funded.length,
-      openRoles: rows.reduce((a, c) => a + (c.jobsOpen ?? 0), 0),
-      hiringCount: rows.filter((c) => (c.jobsOpen ?? 0) > 0).length,
-      stars: rows.reduce((a, c) => a + (c.githubStars ?? 0), 0),
-      githubCount: rows.filter((c) => c.githubStars !== undefined).length,
-      medianAge: median(ages),
-      agedCount: ages.length,
-      backedCount: rows.filter((c) => c.backers.length > 0).length,
-      signalCount: rows.reduce((a, c) => a + c.signals90d, 0),
-    }
-  }, [rows])
+  const allRows = useMemo(() => [...ranked, ...struckOff], [ranked, struckOff])
+  const filtersActive = Boolean(query || country || sector || stage)
+  const panelFilterCount = [country, sector, stage, includeInactive].filter(
+    Boolean,
+  ).length
 
-  const onSort = (key: SortKey) => {
+  const chooseSort = (key: SortKey) => {
+    void setSort(key === DEFAULT_SORT ? null : key)
+    void setDirection(null)
+  }
+
+  const onHeaderSort = (key: SortKey) => {
     if (key === sort) {
       void setDirection(direction === 'asc' ? 'desc' : 'asc')
       return
     }
-    void setSort(key === 'score' ? null : key)
-    void setDirection(null)
+    chooseSort(key)
+  }
+
+  const clearFilters = () => {
+    void setQuery(null)
+    void setCountry(null)
+    void setSector(null)
+    void setStage(null)
+  }
+
+  const clearPanelFilters = () => {
+    void setCountry(null)
+    void setSector(null)
+    void setStage(null)
+    void setShowInactive(null)
   }
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
-        <Tile
-          label="Disclosed funding"
-          value={formatUsd(summary.fundingTotal) ?? '$0'}
-          detail={`${summary.fundedCount} companies`}
-        />
-        <Tile
-          label="Open roles"
-          value={formatCount(summary.openRoles) ?? '0'}
-          detail={`${summary.hiringCount} hiring`}
-        />
-        <Tile
-          label="GitHub stars"
-          value={formatCount(summary.stars) ?? '0'}
-          detail={`${summary.githubCount} orgs tracked`}
-        />
-        <Tile
-          label="Median age"
-          value={summary.medianAge === undefined ? '—' : `${summary.medianAge.toFixed(1)} yrs`}
-          detail={`${summary.agedCount} ACRA-matched`}
-        />
-        <Tile
-          label="Investor-listed"
-          value={String(summary.backedCount)}
-          detail="in tracked portfolios"
-        />
-        <Tile
-          label={`Signals (${signalWindowDays}d)`}
-          value={formatCount(summary.signalCount) ?? '0'}
-          detail="dated brief bullets"
-        />
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-end">
+        {intro}
+        <div className="max-md:hidden">
+          <MetricsSummary rows={allRows} totalCompanies={companies.length} />
+        </div>
       </div>
 
-      <div className="flex flex-wrap items-center gap-3">
-        <div className="relative min-w-0 flex-1 basis-64">
-          <BiSearch className="text-base-content-medium pointer-events-none absolute top-3 left-3 h-4 w-4" />
-          <input
-            type="search"
-            value={q}
-            onChange={(e) => void setQ(e.target.value || null)}
-            aria-label="Search companies"
-            placeholder="Search companies…"
-            className="border-base-divider-default placeholder:text-base-content-subtle focus:border-interaction-main-default focus:ring-interaction-main-default w-full rounded-lg border bg-base-canvas-alt py-2.5 pr-9 pl-9 text-sm shadow-sm focus:ring-1 focus:outline-none"
-          />
-          {q && (
+      <MetricsLegend
+        columns={columns}
+        latestEditionLabel={latestEditionLabel}
+      />
+
+      <div className="flex flex-col gap-3">
+        <div className="flex flex-wrap gap-3 md:items-end">
+          <div className="relative min-w-0 flex-1 basis-40 md:basis-56">
+            <BiSearch
+              aria-hidden="true"
+              className="text-ink-2 pointer-events-none absolute top-1/2 left-2.5 h-4 w-4 -translate-y-1/2"
+            />
+            <input
+              type="search"
+              value={query}
+              onChange={(event) => void setQuery(event.target.value || null)}
+              aria-label="Search companies by name"
+              placeholder="Search companies"
+              className="border-ink bg-field text-ink h-11 w-full rounded-sm border-[1.5px] pr-9 pl-8 text-[15px] md:h-9"
+            />
+            {query && (
+              <button
+                type="button"
+                aria-label="Clear search"
+                onClick={() => void setQuery(null)}
+                className="text-ink-2 hover:text-ink absolute top-0 right-0 flex h-11 w-11 items-center justify-center md:h-9 md:w-9"
+              >
+                <BiX aria-hidden="true" className="h-5 w-5" />
+              </button>
+            )}
+          </div>
+
+          <div className="flex items-center gap-3 md:hidden">
             <button
               type="button"
-              aria-label="Clear search"
-              onClick={() => void setQ(null)}
-              className="text-base-content-medium hover:text-base-content-default absolute top-2.5 right-2.5"
+              aria-expanded={filtersOpen}
+              aria-controls="metrics-filter-panel"
+              onClick={() => setFiltersOpen((open) => !open)}
+              className="border-ink text-ink hover:bg-paper-deep inline-flex min-h-11 items-center gap-2 rounded-sm border-[1.5px] px-4 text-sm font-semibold"
             >
-              <BiX className="h-5 w-5" />
+              Filters{panelFilterCount > 0 ? ` (${panelFilterCount})` : ''}
+              <BiChevronDown
+                aria-hidden="true"
+                className={cx(
+                  'h-4 w-4 transition-transform',
+                  filtersOpen && 'rotate-180',
+                )}
+              />
             </button>
-          )}
-        </div>
-        <label className="text-base-content-medium flex items-center gap-2 text-sm">
-          Country
-          <select
-            value={country}
-            onChange={(e) => void setCountry(e.target.value || null)}
-            className="ring-base-divider-default focus:ring-interaction-main-default rounded-md bg-base-canvas-alt px-2 py-1.5 text-sm ring-1 focus:ring-2 focus:outline-none"
+            {panelFilterCount > 0 && (
+              <button
+                type="button"
+                onClick={clearPanelFilters}
+                className="text-link hover:text-link-hover min-h-11 px-1 text-sm font-semibold underline"
+              >
+                Clear all
+              </button>
+            )}
+          </div>
+
+          <div
+            id="metrics-filter-panel"
+            className={cx(
+              'grid grid-cols-2 gap-3 max-md:basis-full md:contents',
+              'max-md:border-ink max-md:bg-field max-md:rounded-sm max-md:border-[1.5px] max-md:p-4 max-md:shadow-md',
+              !filtersOpen && 'max-md:hidden',
+            )}
           >
-            <option value="">All</option>
-            {countries.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="text-base-content-medium flex cursor-pointer items-center gap-2 text-sm">
-          <input
-            type="checkbox"
-            checked={showInactive === '1'}
-            onChange={(e) => void setShowInactive(e.target.checked ? '1' : null)}
-            className="accent-indigo-600"
-          />
-          Include struck-off
-        </label>
-        <p className="text-base-content-medium ml-auto text-sm">
-          <span className="text-base-content-default font-semibold">{rows.length}</span>{' '}
-          of {companies.length} · data as of {asOf}
-        </p>
-      </div>
+            <FilterSelect
+              label="Sector"
+              value={sector}
+              onChange={setSector}
+              options={sectors}
+              allLabel="All sectors"
+            />
+            <FilterSelect
+              label="Stage"
+              value={stage}
+              onChange={setStage}
+              options={stages}
+              allLabel="All stages"
+            />
+            <FilterSelect
+              label="Country"
+              value={country}
+              onChange={setCountry}
+              options={countries}
+              allLabel="All countries"
+            />
+            <label className="text-ink flex min-h-11 cursor-pointer items-center gap-2 self-end text-sm md:min-h-9">
+              <input
+                type="checkbox"
+                checked={includeInactive}
+                onChange={(event) =>
+                  void setShowInactive(event.target.checked ? '1' : null)
+                }
+                className="h-4 w-4"
+              />
+              Include struck-off
+            </label>
+            <button
+              type="button"
+              onClick={() => setFiltersOpen(false)}
+              className="bg-ink text-field col-span-2 min-h-11 rounded-sm px-4 text-sm font-semibold md:hidden"
+            >
+              Show results
+            </button>
+          </div>
+        </div>
 
-      <div className="ring-base-divider-subtle overflow-x-auto rounded-xl ring-1">
-        <table className="w-full min-w-[1100px] border-collapse text-sm">
-          <thead className="bg-base-canvas-alt text-base-content-medium text-left text-xs">
-            <tr>
-              <th className="px-3 py-2.5 font-medium">#</th>
-              <SortHeader label="Company" sortKey="name" align="left" sort={sort} direction={direction} onSort={onSort} sticky />
-              <SortHeader label="Composite" sortKey="score" sort={sort} direction={direction} onSort={onSort} title="Mean percentile across disclosed funding, open roles, GitHub stars, HN mentions (unambiguous names only), Startup SG headcount and investor listings. A missing metric counts as 0, so breadth of public evidence raises the score." />
-              <SortHeader label="Disclosed funding" sortKey="funding" sort={sort} direction={direction} onSort={onSort} title="Sum of amount_usd over funding rounds in companies.json" />
-              <SortHeader label="Rounds" sortKey="rounds" sort={sort} direction={direction} onSort={onSort} />
-              <SortHeader label="Latest round" sortKey="latestRound" align="left" sort={sort} direction={direction} onSort={onSort} />
-              <SortHeader label="Open roles" sortKey="jobs" sort={sort} direction={direction} onSort={onSort} title="Latest open postings on the company's ATS board, with 30-day change" />
-              <SortHeader label="GitHub ★" sortKey="stars" sort={sort} direction={direction} onSort={onSort} />
-              <SortHeader label="HN 30d" sortKey="hn" sort={sort} direction={direction} onSort={onSort} title="Hacker News mentions in the last 30 days. Generic names are shown greyed and not ranked: their counts are mostly namesakes." />
-              <SortHeader label={`Signals ${signalWindowDays}d`} sortKey="signals" sort={sort} direction={direction} onSort={onSort} />
-              <SortHeader label="Age" sortKey="age" sort={sort} direction={direction} onSort={onSort} title="Years since ACRA registration" />
-              <SortHeader label="Headcount" sortKey="employees" sort={sort} direction={direction} onSort={onSort} title="Self-reported Startup SG employee range" />
-              <SortHeader label="Investor lists" sortKey="backers" align="left" sort={sort} direction={direction} onSort={onSort} />
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((c) => (
-              <tr key={c.slug} className="border-base-divider-subtle hover:bg-base-canvas-alt border-t">
-                <td className="text-base-content-subtle px-3 py-2 font-mono text-xs tabular-nums">{c.rank ?? ''}</td>
-                <td className="bg-base-canvas-default sticky left-0 px-3 py-2">
-                  <Link href={`/c/${c.slug}/`} className="font-medium hover:underline">
-                    {c.name}
-                  </Link>
-                  <div className="text-base-content-subtle flex flex-wrap gap-x-2 text-xs">
-                    {c.country && <span>{c.country}</span>}
-                    {c.inactive && <span className="text-red-600">{c.acraStatus ?? 'Inactive'}</span>}
-                    {c.masLicences.length > 0 && (
-                      <span title={c.masLicences.join(', ')}>MAS licensed</span>
-                    )}
-                  </div>
-                </td>
-                <td className="px-3 py-2 text-right">
-                  {c.scoreInputs > 0 ? <ScoreBar score={c.score} inputs={c.scoreInputs} /> : <Empty />}
-                </td>
-                <NumberCell value={formatUsd(c.fundingUsd)} />
-                <NumberCell value={c.fundingRounds ? String(c.fundingRounds) : undefined} />
-                <td className="px-3 py-2 whitespace-nowrap">
-                  {c.latestRoundStage || c.latestRoundDate ? (
-                    <>
-                      {c.latestRoundStage ?? 'Round'}
-                      {c.latestRoundDate && (
-                        <span className="text-base-content-subtle ml-1.5 font-mono text-xs">{c.latestRoundDate}</span>
-                      )}
-                    </>
-                  ) : c.startupSgStage ? (
-                    <span className="text-base-content-medium" title="Self-reported on Startup SG">
-                      {c.startupSgStage}*
-                    </span>
-                  ) : (
-                    <Empty />
-                  )}
-                </td>
-                <td className="px-3 py-2 text-right font-mono tabular-nums whitespace-nowrap">
-                  {c.jobsOpen === undefined ? (
-                    <Empty />
-                  ) : (
-                    <>
-                      {c.jobsOpen}
-                      {c.jobsDelta30 !== undefined && c.jobsDelta30 !== 0 && (
-                        <span className={cx('ml-1 text-xs', c.jobsDelta30 > 0 ? 'text-emerald-600' : 'text-red-600')}>
-                          {c.jobsDelta30 > 0 ? `+${c.jobsDelta30}` : c.jobsDelta30}
-                        </span>
-                      )}
-                    </>
-                  )}
-                </td>
-                <NumberCell value={formatCount(c.githubStars)} />
-                <td
-                  className={cx(
-                    'px-3 py-2 text-right font-mono tabular-nums',
-                    c.ambiguousName && 'text-base-content-subtle line-through decoration-dotted',
-                  )}
-                  title={c.ambiguousName ? 'Generic name: count is mostly namesakes, not ranked' : undefined}
+        <div className="border-rule flex flex-wrap items-center gap-x-4 gap-y-2 border-t pt-3">
+          <Tape>Ranking</Tape>
+          <p className="text-ink-2 text-sm" aria-live="polite">
+            <span className="text-ink font-semibold">{ranked.length}</span>{' '}
+            companies
+            {struckOff.length > 0 && <> + {struckOff.length} struck off</>}
+            {asOfLabel && <> · metrics as of {asOfLabel}</>}
+            {filtersActive && (
+              <>
+                {' · '}
+                <button
+                  type="button"
+                  onClick={clearFilters}
+                  className="text-link hover:text-link-hover underline"
                 >
-                  {c.hn30d ? formatCount(c.hn30d) : <Empty />}
-                </td>
-                <NumberCell value={c.signals90d ? String(c.signals90d) : undefined} />
-                <td className="px-3 py-2 text-right font-mono tabular-nums" title={c.registrationDate}>
-                  {c.ageYears === undefined ? <Empty /> : c.ageYears.toFixed(1)}
-                </td>
-                <NumberCell value={c.employees} />
-                <td className="px-3 py-2">
-                  {c.backers.length ? (
-                    <div className="flex flex-wrap gap-1">
-                      {c.backers.map((b) => (
-                        <span key={b} className="rounded-full bg-slate-100 px-2 py-0.5 text-xs whitespace-nowrap text-slate-700">
-                          {b}
-                        </span>
-                      ))}
-                    </div>
-                  ) : (
-                    <Empty />
-                  )}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+                  Clear filters
+                </button>
+              </>
+            )}
+          </p>
+          <div className="flex flex-wrap items-center gap-2 sm:ml-auto">
+            <label className="text-ink-2 flex items-center gap-2 text-sm">
+              Rank by
+              <select
+                value={sort}
+                onChange={(event) => chooseSort(event.target.value as SortKey)}
+                className={selectClassName}
+              >
+                {columns.map((column) => (
+                  <option key={column.key} value={column.key}>
+                    {column.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <button
+              type="button"
+              onClick={() =>
+                void setDirection(direction === 'asc' ? 'desc' : 'asc')
+              }
+              className="border-ink text-ink hover:bg-paper-deep flex h-9 items-center gap-1 rounded-sm border px-2.5 text-sm"
+            >
+              {direction === 'asc' ? (
+                <BiUpArrowAlt aria-hidden="true" />
+              ) : (
+                <BiDownArrowAlt aria-hidden="true" />
+              )}
+              {directionLabel(sort, direction)}
+            </button>
+            <MetricsCsvButton rows={allRows} asOf={asOf} />
+          </div>
+        </div>
+
+        {sort === 'score' && (
+          <p className="text-terra-ink text-sm">
+            Ranked by Composite: it rewards breadth of public evidence, not
+            climate relevance, so a large consumer company can sit near the top.
+            Compare a single column for a sharper read.
+          </p>
+        )}
       </div>
 
-      <p className="text-base-content-subtle max-w-3xl text-xs/relaxed">
-        Every figure comes from a public, keyless source collected by the pipeline: funding rounds curated in
-        the watchlist, ATS job boards, GitHub, Hacker News (Algolia), ACRA registrations, Startup SG profiles,
-        MAS licences and investor portfolio pages. Blank cells mean no data, not zero; they always sort last.
-        Ranks count only companies with a value in the sorted column. * marks a self-reported Startup SG stage.
-      </p>
+      {allRows.length === 0 ? (
+        <p className="border-rule text-ink-2 border-y py-8 text-center text-sm">
+          No companies match these filters.{' '}
+          <button
+            type="button"
+            onClick={clearFilters}
+            className="text-link hover:text-link-hover underline"
+          >
+            Clear filters
+          </button>
+        </p>
+      ) : (
+        <>
+          <div className="md:hidden">
+            <MetricsRankList rows={allRows} column={activeColumn} />
+            <button
+              type="button"
+              aria-expanded={showFullTable}
+              aria-controls="metrics-full-table"
+              onClick={() => setShowFullTable((open) => !open)}
+              className="text-link hover:text-link-hover mt-4 text-sm font-semibold underline"
+            >
+              {showFullTable
+                ? 'Hide the full table'
+                : 'Show the full table (scrolls sideways)'}
+            </button>
+          </div>
+          <div
+            id="metrics-full-table"
+            className={cx(
+              'relative overflow-x-auto md:block',
+              showFullTable ? 'block' : 'hidden',
+            )}
+          >
+            <FullTable
+              columns={columns}
+              ranked={ranked}
+              struckOff={struckOff}
+              sort={sort}
+              direction={direction}
+              onSort={onHeaderSort}
+            />
+          </div>
+        </>
+      )}
+
+      <div className="md:hidden">
+        <MetricsSummary rows={allRows} totalCompanies={companies.length} />
+      </div>
     </div>
   )
 }
 
-function Tile({ label, value, detail }: { label: string; value: string; detail: string }) {
-  return (
-    <div className="ring-base-divider-subtle bg-base-canvas-alt flex flex-col gap-1 rounded-xl px-4 py-3 ring-1">
-      <span className="text-base-content-medium text-xs">{label}</span>
-      <span className="text-base-content-strong font-mono text-2xl font-semibold tracking-tight tabular-nums">{value}</span>
-      <span className="text-base-content-subtle text-xs">{detail}</span>
-    </div>
-  )
+function columnFor(columns: MetricColumn[], key: SortKey): MetricColumn {
+  const match =
+    columns.find((column) => column.key === key) ??
+    columns.find((column) => column.key === DEFAULT_SORT)
+  if (!match) throw new Error(`Unknown metrics column ${key}`)
+  return match
 }
 
-function SortHeader({
-  label,
-  sortKey,
-  sort,
-  direction,
-  onSort,
-  align = 'right',
-  title,
-  sticky,
-}: {
+function directionLabel(sort: SortKey, direction: Direction) {
+  if (sort === 'name') return direction === 'asc' ? 'A to Z' : 'Z to A'
+  if (sort === 'latestRound')
+    return direction === 'asc' ? 'Oldest first' : 'Newest first'
+  return direction === 'asc' ? 'Lowest first' : 'Highest first'
+}
+
+interface FilterSelectProps {
   label: string
-  sortKey: SortKey
+  value: string
+  onChange: (value: string | null) => unknown
+  options: string[]
+  allLabel: string
+}
+
+function FilterSelect({
+  label,
+  value,
+  onChange,
+  options,
+  allLabel,
+}: FilterSelectProps) {
+  return (
+    <label className="text-ink-2 flex min-w-0 flex-col gap-1 text-xs font-bold tracking-[0.07em] uppercase">
+      {label}
+      <select
+        value={value}
+        onChange={(event) => void onChange(event.target.value || null)}
+        className={cx(
+          selectClassName,
+          'h-11 font-normal tracking-normal normal-case md:h-9 md:max-w-52',
+        )}
+      >
+        <option value="">{allLabel}</option>
+        {options.map((option) => (
+          <option key={option} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
+    </label>
+  )
+}
+
+interface FullTableProps {
+  columns: MetricColumn[]
+  ranked: RankedCompany[]
+  struckOff: RankedCompany[]
   sort: SortKey
   direction: Direction
   onSort: (key: SortKey) => void
-  align?: 'left' | 'right'
-  title?: string
-  sticky?: boolean
+}
+
+function FullTable({
+  columns,
+  ranked,
+  struckOff,
+  sort,
+  direction,
+  onSort,
+}: FullTableProps) {
+  return (
+    <table className="w-full min-w-[1180px] border-collapse text-sm">
+      <caption className="sr-only">
+        Watchlist companies ranked by{' '}
+        {columns.find((column) => column.key === sort)?.label}. Column headers
+        sort the table.
+      </caption>
+      <thead>
+        <tr className="[&>th]:shadow-[inset_0_-1.5px_0_var(--color-ink)]">
+          <th scope="col" className={cx(sheetHeadClassName, 'w-10 border-b-0')}>
+            #
+          </th>
+          {columns.map((column) => (
+            <SortHeader
+              key={column.key}
+              column={column}
+              sort={sort}
+              direction={direction}
+              onSort={onSort}
+            />
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {ranked.map((company) => (
+          <MetricsRowView
+            key={company.slug}
+            company={company}
+            columns={columns}
+          />
+        ))}
+        {struckOff.length > 0 && (
+          <tr>
+            <td
+              colSpan={columns.length + 1}
+              className={struckOffGroupClassName}
+            >
+              <Stamp className="mr-2.5">Struck off</Stamp>
+              Closed or winding up at ACRA · {struckOff.length}{' '}
+              {struckOff.length === 1 ? 'company' : 'companies'} · grouped last,
+              never ranked
+            </td>
+          </tr>
+        )}
+        {struckOff.map((company) => (
+          <MetricsRowView
+            key={company.slug}
+            company={company}
+            columns={columns}
+          />
+        ))}
+      </tbody>
+    </table>
+  )
+}
+
+function MetricsRowView({
+  company,
+  columns,
+}: {
+  company: RankedCompany
+  columns: MetricColumn[]
 }) {
-  const active = sort === sortKey
-  const Arrow = direction === 'asc' ? BiUpArrowAlt : BiDownArrowAlt
+  return (
+    <tr
+      className={cx(
+        'hover:bg-paper-deep align-top [&>*]:shadow-[inset_0_-1px_0_var(--color-rule)]',
+        company.moved && 'wash',
+        company.inactive && 'text-ink-3',
+      )}
+    >
+      <td className="text-ink-3 px-2.5 py-1.5 text-xs">
+        {company.rank ?? <span className="sr-only">Not ranked</span>}
+      </td>
+      {columns.map((column) =>
+        column.key === 'name' ? (
+          <th
+            key={column.key}
+            scope="row"
+            className={cx(
+              'bg-paper sticky left-0 min-w-52 px-2.5 py-1.5 text-left font-normal',
+              company.moved && 'wash',
+            )}
+          >
+            {column.cell(company)}
+          </th>
+        ) : (
+          <td
+            key={column.key}
+            className={cx(
+              'px-2.5 py-1.5 whitespace-nowrap',
+              column.align === 'right' ? 'text-right' : 'text-left',
+            )}
+          >
+            {column.cell(company)}
+          </td>
+        ),
+      )}
+    </tr>
+  )
+}
+
+interface SortHeaderProps {
+  column: MetricColumn
+  sort: SortKey
+  direction: Direction
+  onSort: (key: SortKey) => void
+}
+
+function SortHeader({ column, sort, direction, onSort }: SortHeaderProps) {
+  const active = sort === column.key
+  const Arrow = direction === 'asc' ? BiChevronUp : BiChevronDown
   return (
     <th
-      aria-sort={active ? (direction === 'asc' ? 'ascending' : 'descending') : 'none'}
-      className={cx('px-3 py-2.5 font-medium whitespace-nowrap', sticky && 'bg-base-canvas-alt sticky left-0')}
-      title={title}
+      scope="col"
+      aria-sort={
+        active ? (direction === 'asc' ? 'ascending' : 'descending') : 'none'
+      }
+      className={cx(
+        sheetHeadClassName,
+        'border-b-0 align-bottom',
+        column.key === 'name' && 'bg-paper sticky left-0',
+        column.align === 'right' ? 'text-right' : 'text-left',
+      )}
     >
       <button
         type="button"
-        onClick={() => onSort(sortKey)}
+        onClick={() => onSort(column.key)}
+        aria-describedby={columnHelpId(column)}
         className={cx(
-          'hover:text-base-content-default inline-flex items-center gap-0.5',
-          align === 'right' && 'w-full justify-end',
-          active && 'text-base-content-default font-semibold',
-          title && 'underline decoration-dotted underline-offset-4',
+          'hover:text-ink inline-flex h-7 items-center gap-0.5 uppercase',
+          active
+            ? 'text-ink decoration-ink underline decoration-[1.5px] underline-offset-4'
+            : 'text-ink-2',
         )}
       >
-        {label}
-        {active && <Arrow className="h-3.5 w-3.5" />}
+        {column.shortLabel ?? column.label}
+        {active ? (
+          <Arrow aria-hidden="true" className="h-3.5 w-3.5" />
+        ) : (
+          <span aria-hidden="true" className="w-3.5" />
+        )}
       </button>
     </th>
   )
-}
-
-function NumberCell({ value }: { value?: string }) {
-  return (
-    <td className="px-3 py-2 text-right font-mono tabular-nums whitespace-nowrap">
-      {value ?? <Empty />}
-    </td>
-  )
-}
-
-function ScoreBar({ score, inputs }: { score: number; inputs: number }) {
-  return (
-    <div
-      className="ml-auto flex w-28 items-center gap-2"
-      title={`${score} from ${inputs} of ${SCORE_METRICS.length} metrics`}
-    >
-      <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-200">
-        <div className="h-full rounded-full bg-indigo-500" style={{ width: `${Math.min(score, 100)}%` }} />
-      </div>
-      <span className="w-9 text-right font-mono text-xs tabular-nums">{score.toFixed(1)}</span>
-    </div>
-  )
-}
-
-function Empty() {
-  return <span className="text-base-content-subtle">–</span>
 }

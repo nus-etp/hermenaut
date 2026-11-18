@@ -1,58 +1,39 @@
-import Link from 'next/link'
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { BiArrowBack } from 'react-icons/bi'
+import { format, parseISO } from 'date-fns'
 
-import { digestDates, digests } from '~/lib/data'
-
-import { Markdown } from '../../_components/markdown'
+import { allEditions, getEdition, SIGNAL_TYPES } from '~/lib/data'
+import { EditionMovers } from '../../_components/edition-movers'
+import { EditionStrip } from '../../_components/edition-strip'
 
 interface Params {
   params: Promise<{ date: string }>
 }
 
 export function generateStaticParams() {
-  return digestDates.map((date) => ({ date }))
+  return allEditions().map((edition) => ({ date: edition.date }))
 }
 
-export default async function DigestPage({ params }: Params) {
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { date } = await params
-  const md = digests[date]
-  if (!md) notFound()
+  const edition = getEdition(date)
+  if (!edition) return { title: 'Edition not found · hermenaut' }
+  const readableDate = format(parseISO(edition.date), 'd MMM yyyy')
+  return {
+    title: `Edition · ${readableDate} · hermenaut`,
+    description: `${edition.companiesMoved} watchlist companies moved on ${readableDate}, with ${edition.signalCount} sourced signals.`,
+  }
+}
 
-  const prev = digestDates.find((d) => d < date)
-  const next = [...digestDates].reverse().find((d) => d > date)
+export default async function EditionPage({ params }: Params) {
+  const { date } = await params
+  const edition = getEdition(date)
+  if (!edition) notFound()
 
   return (
-    <article className="flex flex-col gap-6">
-      <Link
-        href="/digests/"
-        className="text-base-content-medium hover:text-base-content-default inline-flex w-fit items-center gap-1 text-sm"
-      >
-        <BiArrowBack className="h-4 w-4" /> All digests
-      </Link>
-      <Markdown>{md}</Markdown>
-      <nav className="border-base-divider-subtle flex items-center justify-between border-t pt-4 text-sm">
-        {prev ? (
-          <Link
-            href={`/digests/${prev}/`}
-            className="text-interaction-main-default hover:underline"
-          >
-            ← {prev}
-          </Link>
-        ) : (
-          <span />
-        )}
-        {next ? (
-          <Link
-            href={`/digests/${next}/`}
-            className="text-interaction-main-default hover:underline"
-          >
-            {next} →
-          </Link>
-        ) : (
-          <span />
-        )}
-      </nav>
+    <article className="flex flex-col gap-5 pb-8">
+      <EditionStrip edition={edition} titleAs="h1" />
+      <EditionMovers movers={edition.movers} signalOrder={SIGNAL_TYPES} />
     </article>
   )
 }

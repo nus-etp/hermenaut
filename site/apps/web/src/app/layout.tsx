@@ -3,16 +3,15 @@ import { NuqsAdapter } from 'nuqs/adapters/next/app'
 
 import '~/app/globals.css'
 
-import { cn } from '@opengovsg/oui-theme'
-
-import { ibmPlexMono, inter } from '~/lib/fonts'
+import { cx } from '~/lib/cn'
+import { playpenSans, sourceSans } from '~/lib/fonts'
 import { Footer } from './_components/footer'
 import { Header } from './_components/header'
 import { ClientProviders } from './provider'
 
 const SITE_NAME = 'hermenaut'
 const SITE_DESCRIPTION =
-  'Daily intelligence on Southeast Asian climate, ag, and deep-tech companies.'
+  'A daily market sheet of Southeast Asian climate and deep-tech companies, kept current by an autonomous agent over the NUSX watchlist.'
 
 export const metadata: Metadata = {
   title: SITE_NAME,
@@ -26,27 +25,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={cn(
-          'text-base-content-default bg-base-canvas-default flex min-h-dvh flex-col font-sans antialiased',
-          inter.variable,
-          ibmPlexMono.variable,
-        )}
-      >
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={cx(sourceSans.variable, playpenSans.variable)}
+    >
+      <body className="bg-paper text-ink flex min-h-dvh flex-col font-sans text-sm antialiased">
         <ClientProviders>
           <a
             href="#main-content"
-            className="focus:bg-base-canvas-default focus:ring-interaction-main-default sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-md focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:shadow-lg focus:ring-2"
+            className="focus:bg-field focus:text-ink focus:border-ink sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-3 focus:z-50 focus:border-[1.5px] focus:px-4 focus:py-2 focus:text-sm focus:font-semibold"
           >
             Skip to content
           </a>
           <Header />
           <NuqsAdapter>
-            <main
-              id="main-content"
-              className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 py-8 sm:px-6 lg:px-8"
-            >
+            <main id="main-content" className="sheet flex flex-1 flex-col">
               {props.children}
             </main>
           </NuqsAdapter>

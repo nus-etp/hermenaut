@@ -1,11 +1,15 @@
-import { IBM_Plex_Mono, Inter } from 'next/font/google'
+import { Playpen_Sans, Source_Sans_3 } from 'next/font/google'
 
-export const inter = Inter({
+export const sourceSans = Source_Sans_3({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-source-sans',
+  weight: ['400', '600', '700'],
+  display: 'swap',
 })
-export const ibmPlexMono = IBM_Plex_Mono({
+
+export const playpenSans = Playpen_Sans({
   subsets: ['latin'],
-  variable: '--font-ibm-plex-mono',
-  weight: ['400', '700'],
+  variable: '--font-playpen-sans',
+  weight: '700',
+  display: 'swap',
 })

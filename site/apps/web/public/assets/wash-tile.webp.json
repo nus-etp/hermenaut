@@ -1,0 +1,4 @@
+{
+  "prompt": "Derived raster, not generated. Source: signals/briefs/beex/infographic.png (panel 1 blue watercolour water wash), crop 118x46 at x=182,y=156 via ffmpeg; three bubbles/dots inpainted with ffmpeg delogo (boxes 69,12,13x13; 62,29,13x13; 27,34,14x11) and regrained from a +40px donor offset; top 8 rows (pale wash edge) dropped -> 118x38; converted to pigment density (mean luminance minus pixel luminance), made seamless by half-offset crossfade in x then y, contrast normalised to alpha mean 0.045 sd 0.036 over fixed pigment rgb(46,104,170); 3x3 wrap-tiled, lanczos 2x upscale, centre-cropped to 236x76 RGBA; cwebp -q 90 -alpha_q 100 -exact. Used as two CSS layers (295x95 and 484x156) in @utility wash over rgb(216 228 237).",
+  "createdAt": "2026-11-18T09:07:17.097Z"
+}

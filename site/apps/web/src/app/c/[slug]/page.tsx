@@ -1,26 +1,44 @@
-import Link from 'next/link'
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { BiArrowBack, BiLinkExternal } from 'react-icons/bi'
 
+import type { Company } from '~/lib/data'
 import {
   briefs,
   companies,
   companyBySlug,
   fundingRoundsBySlug,
+  latestEdition,
+  meta,
+  metrics,
   sourcesBySlug,
-  type FundingRound,
 } from '~/lib/data'
-
+import { REPOSITORY_URL } from '~/lib/site'
+import { BriefHeader } from '../../_components/brief-header'
+import { BriefInfographic } from '../../_components/brief-infographic'
+import { BriefMissing } from '../../_components/brief-missing'
+import {
+  BriefFunding,
+  BriefRecord,
+  BriefSources,
+} from '../../_components/brief-side'
 import { Markdown } from '../../_components/markdown'
-
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? '/hermenaut'
 
 interface Params {
   params: Promise<{ slug: string }>
 }
 
 export function generateStaticParams() {
-  return companies.map((c) => ({ slug: c.slug }))
+  return companies.map((company) => ({ slug: company.slug }))
+}
+
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const { slug } = await params
+  const company = companyBySlug.get(slug)
+  if (!company) return {}
+  return {
+    title: `${company.name} · hermenaut`,
+    description: company.thesis ?? (company.description || undefined),
+  }
 }
 
 export default async function CompanyPage({ params }: Params) {
@@ -31,166 +49,109 @@ export default async function CompanyPage({ params }: Params) {
   const brief = briefs[slug]
   const rounds = fundingRoundsBySlug[slug] ?? []
   const sources = sourcesBySlug[slug] ?? []
+  const companyMetrics = metrics.companies.find((row) => row.slug === slug)
+  const now = new Date(meta.generatedAt)
 
   return (
-    <article className="flex flex-col gap-8">
-      <Link
-        href="/"
-        className="text-base-content-medium hover:text-base-content-default inline-flex w-fit items-center gap-1 text-sm"
-      >
-        <BiArrowBack className="h-4 w-4" /> Back to directory
-      </Link>
+    <article className="pb-4">
+      <BriefHeader
+        company={company}
+        companyMetrics={companyMetrics}
+        latestEditionDate={latestEdition()?.date}
+        now={now}
+      />
 
-      <header className="flex flex-col gap-3">
-        <div className="flex flex-wrap items-baseline gap-3">
-          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            {company.name}
-          </h1>
-          {company.hasBrief && (
-            <span className="rounded-full bg-[#302d41] px-2.5 py-0.5 text-xs font-medium text-[#cba6f7] ring-1 ring-[#494060]">
-              Living brief
-            </span>
+      <div className="mt-8 grid gap-12 lg:grid-cols-[minmax(0,45rem)_minmax(18rem,24rem)] lg:gap-16 xl:gap-24">
+        <div className="flex min-w-0 flex-col gap-8">
+          <BriefInfographic company={company} />
+          {brief ? (
+            <Markdown className="[&>*:first-child]:mt-0">
+              {stripDuplicateSections(stripBriefHeader(brief))}
+            </Markdown>
+          ) : (
+            <BriefMissing company={company} />
           )}
+          <CorrectionLink company={company} />
         </div>
-        {company.aliases.length > 0 && (
-          <p className="text-base-content-medium font-mono text-sm">
-            aka {company.aliases.join(', ')}
-          </p>
-        )}
-        <p className="text-base-content-medium max-w-3xl text-base">
-          {company.description}
-        </p>
-        <div className="flex flex-wrap gap-2 pt-1">
-          {company.sector && <FactPill label="Sector" value={company.sector} />}
-          {company.regionFull && (
-            <FactPill label="Region" value={company.regionFull} />
-          )}
-          {company.latestFundingStage && (
-            <FactPill
-              label="Latest funding"
-              value={`${company.latestFundingStage}${
-                company.latestFundingDate
-                  ? ` · ${company.latestFundingDate}`
-                  : ''
-              }`}
-            />
-          )}
-          {company.latestSignalDate && (
-            <FactPill label="Latest signal" value={company.latestSignalDate} />
-          )}
-        </div>
-      </header>
 
-      {company.hasBrief && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={`${BASE_PATH}/briefs/${slug}/infographic.png`}
-          alt={`${company.name} infographic`}
-          width={1600}
-          height={1200}
-          loading="lazy"
-          className="border-base-divider-subtle w-full rounded-2xl border shadow-sm"
-        />
-      )}
-
-      {brief ? (
-        <Markdown>{stripBriefHeader(brief)}</Markdown>
-      ) : (
-        <FallbackBody rounds={rounds} sources={sources} />
-      )}
+        <aside
+          aria-label={`${company.name} record`}
+          className="flex min-w-0 flex-col gap-8"
+        >
+          <BriefRecord company={company} now={now} />
+          <BriefFunding rounds={rounds} />
+          <BriefSources sources={sources} />
+        </aside>
+      </div>
     </article>
   )
 }
 
-function stripBriefHeader(md: string) {
-  // The brief's first lines duplicate what we already render in the header
-  // (title, last-updated, embedded infographic). Drop them so the rendered
-  // Markdown starts at "## Thesis".
-  return md.replace(/^# .*\n/, '').replace(/^_Last updated:.*_\n/m, '').replace(/^!\[Infographic]\(infographic\.png\)\n/m, '').trim()
+function stripBriefHeader(markdown: string) {
+  return markdown
+    .replace(/^# .*\n/, '')
+    .replace(/^_Last updated:.*_\n/m, '')
+    .replace(/^!\[Infographic]\(infographic\.png\)\n/m, '')
+    .trim()
 }
 
-function FundingTable({ rounds }: { rounds: FundingRound[] }) {
-  if (rounds.length === 0) return null
-  return (
-    <section>
-      <h2 className="prose-headline-base-semibold mb-3 text-xl">
-        Funding history
-      </h2>
-      <div className="ring-base-divider-subtle overflow-x-auto rounded-xl bg-base-canvas-alt ring-1">
-        <table className="min-w-full text-sm">
-          <thead className="text-base-content-medium bg-slate-50 text-left text-xs uppercase tracking-wider">
-            <tr>
-              <th className="px-3 py-2 font-semibold">Date</th>
-              <th className="px-3 py-2 font-semibold">Stage</th>
-              <th className="px-3 py-2 font-semibold">Amount</th>
-              <th className="px-3 py-2 font-semibold">Investors</th>
-            </tr>
-          </thead>
-          <tbody className="divide-base-divider-subtle divide-y">
-            {rounds.map((r, i) => (
-              <tr key={`${r.date ?? ''}-${i}`}>
-                <td className="px-3 py-2 font-mono text-xs">{r.date ?? '—'}</td>
-                <td className="px-3 py-2">{r.stage ?? '—'}</td>
-                <td className="px-3 py-2">{r.amount ?? '—'}</td>
-                <td className="text-base-content-medium px-3 py-2 text-xs">
-                  {[
-                    ...(r.lead_investors ?? []),
-                    ...(r.investors ?? []),
-                  ].join(', ') || '—'}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
+const SIDE_COLUMN_SECTIONS = ['funding history']
+const PROFILE_HEADING = 'profile'
+const PROFILE_FIELDS_SHOWN_ABOVE = [
+  'sector',
+  'region',
+  'stage',
+  'stage / funding',
+]
+
+function headingOf(section: string) {
+  return (/^## (.+)$/m.exec(section)?.[1] ?? '').trim().toLowerCase()
+}
+
+function profileFieldOf(line: string) {
+  return (/^\s*-\s*([^:]+):/.exec(line)?.[1] ?? '').trim().toLowerCase()
+}
+
+function stripProfileFieldsShownAbove(section: string) {
+  const [heading = '', ...lines] = section.split('\n')
+  const remaining = lines.filter(
+    (line) => !PROFILE_FIELDS_SHOWN_ABOVE.includes(profileFieldOf(line)),
   )
+  const hasContent = remaining.some((line) => line.trim() !== '')
+  return hasContent ? [heading, ...remaining].join('\n') : ''
 }
 
-function FallbackBody({
-  rounds,
-  sources,
-}: {
-  rounds: FundingRound[]
-  sources: { type: string; label: string; url: string }[]
-}) {
-  return (
-    <div className="flex flex-col gap-8">
-      {sources.length > 0 && (
-        <section>
-          <h2 className="prose-headline-base-semibold mb-3 text-xl">Sources</h2>
-          <ul className="flex flex-wrap gap-2">
-            {sources.map((s) => (
-              <li key={s.url}>
-                <a
-                  href={s.url}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="ring-base-divider-subtle hover:ring-base-divider-default inline-flex items-center gap-1.5 rounded-full bg-base-canvas-alt px-3 py-1.5 text-xs font-medium ring-1 hover:bg-slate-50"
-                >
-                  <span className="text-base-content-medium font-mono uppercase">
-                    {s.type}
-                  </span>
-                  <span>{s.label}</span>
-                  <BiLinkExternal className="h-3 w-3" />
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-      <FundingTable rounds={rounds} />
-    </div>
-  )
+function stripDuplicateSections(markdown: string) {
+  return markdown
+    .split(/^(?=## )/m)
+    .map((section) => {
+      const heading = headingOf(section)
+      if (SIDE_COLUMN_SECTIONS.includes(heading)) return ''
+      if (heading === PROFILE_HEADING) {
+        return stripProfileFieldsShownAbove(section)
+      }
+      return section
+    })
+    .join('')
+    .trim()
 }
 
-function FactPill({ label, value }: { label: string; value: string }) {
+function CorrectionLink({ company }: { company: Company }) {
+  const title = `Correction: ${company.name} (${company.slug})`
+  const body = `Page: https://labs.nusx.edu.sg/hermenaut/c/${company.slug}/\n\nWhat is wrong, and a source for the correct fact:\n`
+  const issueUrl = `${REPOSITORY_URL}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`
+
   return (
-    <span className="ring-base-divider-subtle inline-flex items-baseline gap-1.5 rounded-full bg-base-canvas-alt px-2.5 py-1 text-xs ring-1">
-      <span className="text-base-content-medium font-mono uppercase tracking-wider">
-        {label}
-      </span>
-      <span className="text-base-content-default font-medium">{value}</span>
-    </span>
+    <p className="border-rule text-ink-2 border-t pt-4 text-sm">
+      Spotted something wrong?{' '}
+      <a
+        href={issueUrl}
+        target="_blank"
+        rel="noreferrer noopener"
+        className="text-link hover:text-ink font-semibold underline underline-offset-[0.2em]"
+      >
+        Report a correction on GitHub
+      </a>
+    </p>
   )
 }

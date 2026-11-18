@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T12:00:00.000Z",
+  "title": "Design System: hermenaut",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#f2e8d3", "tonalRamp": ["#1e2b3c", "#2a3747", "#3a4657", "#555b65", "#8f8f8c", "#c9bfa9", "#e3d7bd", "#f2e8d3"] },
+      "paper-deep": { "role": "neutral", "displayName": "Deep Paper", "canonical": "#ebdfc4", "tonalRamp": ["#3d3626", "#5c533d", "#7d7256", "#9e9273", "#bfb393", "#d8ccb1", "#ebdfc4", "#f7f0e0"] },
+      "field": { "role": "neutral", "displayName": "Field White", "canonical": "#fbf6ea", "tonalRamp": ["#3a3830", "#5a574c", "#7c7869", "#9e9a88", "#c1bca8", "#e0dac8", "#f2ecde", "#fbf6ea"] },
+      "ink": { "role": "primary", "displayName": "Navy Ink", "canonical": "#1e2b3c", "tonalRamp": ["#0b111a", "#101924", "#16212f", "#1e2b3c", "#2a3747", "#3a4657", "#4a5566", "#555b65"] },
+      "ink-2": { "role": "neutral", "displayName": "Second Ink", "canonical": "#4a5566", "tonalRamp": ["#1e2b3c", "#2a3545", "#3a4657", "#4a5566", "#6a7383", "#8f96a2", "#b8bdc5", "#e1e3e7"] },
+      "ink-3": { "role": "neutral", "displayName": "Faint Ink", "canonical": "#555b65", "tonalRamp": ["#1e2b3c", "#2f3b4c", "#424a56", "#555b65", "#727780", "#93979e", "#b8bbc0", "#e0e1e3"] },
+      "rule": { "role": "neutral", "displayName": "Hairline", "canonical": "rgba(30, 43, 60, 0.16)" },
+      "rule-strong": { "role": "neutral", "displayName": "Strong Hairline", "canonical": "rgba(30, 43, 60, 0.32)" },
+      "wash": { "role": "primary", "displayName": "Field-Wash Blue", "canonical": "#4f86b8", "tonalRamp": ["#1e2b3c", "#24496c", "#2c5a86", "#3b6f9f", "#4f86b8", "#7aa7cf", "#c3d6e6", "#eef3f6"] },
+      "wash-ground": { "role": "primary", "displayName": "Wash Ground", "canonical": "rgb(216 228 237)", "tonalRamp": ["#24496c", "#3b6f9f", "#7aa7cf", "#a9c6e0", "#c3d6e6", "#d8e4ed", "#e6eef4", "#eef3f6"] },
+      "link": { "role": "secondary", "displayName": "Notebook Link Blue", "canonical": "#2c5a86", "tonalRamp": ["#1e2b3c", "#1f4161", "#24496c", "#2c5a86", "#3b6f9f", "#4f86b8", "#a9c6e0", "#eef3f6"] },
+      "tape-mustard": { "role": "tertiary", "displayName": "Mustard Tape", "canonical": "#e6bd4f", "tonalRamp": ["#3d2f10", "#5c4718", "#7f6220", "#a9832a", "#d1a639", "#e6bd4f", "#efd68a", "#faf1d6"] },
+      "tape-blue": { "role": "tertiary", "displayName": "Blue Tape", "canonical": "#a9c6e0", "tonalRamp": ["#24496c", "#2c5a86", "#3b6f9f", "#4f86b8", "#7aa7cf", "#a9c6e0", "#c3d6e6", "#e3eef8"] },
+      "tape-sage": { "role": "tertiary", "displayName": "Sage Tape", "canonical": "#b5cfa6", "tonalRamp": ["#1f381c", "#2a4b26", "#345d2f", "#3f6f39", "#5f9157", "#86ae7d", "#b5cfa6", "#eef2e4"] },
+      "tape-terra": { "role": "tertiary", "displayName": "Terracotta Tape", "canonical": "#e7a98f", "tonalRamp": ["#4f2415", "#6e321d", "#8c3f24", "#b5552f", "#c8643f", "#d98566", "#e7a98f", "#f7e6dc"] },
+      "sage": { "role": "tertiary", "displayName": "Sage", "canonical": "#5f9157", "tonalRamp": ["#1f381c", "#2a4b26", "#345d2f", "#3f6f39", "#5f9157", "#86ae7d", "#c6dab8", "#eef2e4"] },
+      "sage-ink": { "role": "tertiary", "displayName": "Sage Ink", "canonical": "#3f6f39", "tonalRamp": ["#1f381c", "#22451e", "#2a4b26", "#345d2f", "#3f6f39", "#5f9157", "#b5cfa6", "#eef2e4"] },
+      "terra": { "role": "secondary", "displayName": "Terracotta", "canonical": "#c8643f", "tonalRamp": ["#4f2415", "#6e321d", "#8c3f24", "#a84d2c", "#c8643f", "#d98566", "#e7a98f", "#f7e6dc"] },
+      "terra-ink": { "role": "secondary", "displayName": "Terracotta Ink", "canonical": "#9a4729", "tonalRamp": ["#4f2415", "#6a2c17", "#8c3f24", "#9a4729", "#b5552f", "#d98566", "#f0d2c2", "#f7e6dc"] },
+      "stamp": { "role": "secondary", "displayName": "Stamp Rust", "canonical": "#a84d2c", "tonalRamp": ["#4f2415", "#6e2d18", "#8c3f24", "#a84d2c", "#c8643f", "#d98566", "#f0d2c2", "#f7e6dc"] }
+    },
+    "typographyMeta": {
+      "wordmark": { "displayName": "Wordmark", "purpose": "Lowercase 'hermenaut' in the header; 1.375rem on phones." },
+      "edition-date": { "displayName": "Edition Date", "purpose": "Hand-lettered edition dates; 1.875rem in the strip, 1.5rem and 1.125rem in lists." },
+      "display": { "displayName": "Display", "purpose": "Company name on a living brief; 2rem on phones." },
+      "headline": { "displayName": "Headline", "purpose": "Page titles and markdown H1." },
+      "title": { "displayName": "Title", "purpose": "Markdown H2 on a 1.5px ink rule." },
+      "body": { "displayName": "Body", "purpose": "UI base text with tabular lining figures." },
+      "prose": { "displayName": "Prose", "purpose": "Brief and digest reading text, max 68ch." },
+      "label": { "displayName": "Label", "purpose": "Uppercase table heads and fact labels." },
+      "tape": { "displayName": "Tape", "purpose": "Lettering on masking-tape labels, uppercase." },
+      "stamp": { "displayName": "Stamp", "purpose": "Lettering on state stamps, uppercase." },
+      "mono": { "displayName": "Mono", "purpose": "Inline code only." }
+    },
+    "shadows": [
+      { "name": "pinned-print", "value": "0 2px 4px rgba(30, 43, 60, 0.08), 0 6px 16px rgba(30, 43, 60, 0.08)", "purpose": "Infographic mount and phone filter sheet: paper taped onto the sheet." },
+      { "name": "pinned-note", "value": "0 1px 2px rgba(30, 43, 60, 0.08), 0 2px 6px rgba(30, 43, 60, 0.06)", "purpose": "Markdown pull-quote card with a mustard tape strip." }
+    ],
+    "motion": [
+      { "name": "state-colors", "value": "Tailwind transition-colors default (150ms, cubic-bezier(0.4, 0, 0.2, 1))", "purpose": "Nav underline colour on hover and active." },
+      { "name": "disclosure-chevron", "value": "Tailwind transition-transform default (150ms), rotate 180deg when open", "purpose": "Collapsed filter groups and legend toggles." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Tape Label",
+      "kind": "chip",
+      "refersTo": "tape-mustard",
+      "description": "Masking-tape section heading or signal-type tag; mustard default, blue/sage/terra variants.",
+      "html": "<div style=\"display:flex;gap:14px;flex-wrap:wrap;padding:12px\"><span class=\"ds-tape\">Full listing</span><span class=\"ds-tape ds-tape-blue\">Today's movers</span><span class=\"ds-tape ds-tape-sage\">Funding</span><span class=\"ds-tape ds-tape-terra\">Hiring</span></div>",
+      "css": ".ds-tape { --tape-color: #e6bd4f; display: inline-block; padding: 2px 10px; background-color: var(--tape-color); background-image: linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0) 40%, rgba(30,43,60,0.04)); color: #1e2b3c; font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 11px; font-weight: 700; line-height: 16px; letter-spacing: 0.09em; text-transform: uppercase; white-space: nowrap; transform: rotate(-1.4deg); -webkit-mask-image: linear-gradient(#000 0 0), repeating-linear-gradient(180deg, #000 0 3px, transparent 3px 4px), repeating-linear-gradient(180deg, transparent 0 1px, #000 1px 4px); mask-image: linear-gradient(#000 0 0), repeating-linear-gradient(180deg, #000 0 3px, transparent 3px 4px), repeating-linear-gradient(180deg, transparent 0 1px, #000 1px 4px); mask-size: calc(100% - 4px) 100%, 2px 100%, 2px 100%; mask-position: center, left, right; mask-repeat: no-repeat; } .ds-tape-blue { --tape-color: #a9c6e0; } .ds-tape-sage { --tape-color: #b5cfa6; } .ds-tape-terra { --tape-color: #e7a98f; } a.ds-tape:hover { filter: brightness(0.95); }"
+    },
+    {
+      "name": "Stamp",
+      "kind": "chip",
+      "refersTo": "stamp",
+      "description": "Rubber-stamp state marker: STRUCK OFF, NO BRIEF YET, PENDING, NO MATCH.",
+      "html": "<div style=\"padding:12px;background:#f2e8d3\"><span class=\"ds-stamp\">Struck off</span></div>",
+      "css": ".ds-stamp { display: inline-block; padding: 0 5px; border: 1.5px solid #a84d2c; border-radius: 2px; color: #a84d2c; font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 11px; font-weight: 700; line-height: 15px; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; transform: rotate(-3deg); }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Field White input on a 1.5px ink border; 44px on phones, 36px on desktop.",
+      "html": "<div style=\"padding:12px;background:#f2e8d3\"><input class=\"ds-input\" placeholder=\"Search by name or alias\"></div>",
+      "css": ".ds-input { width: 232px; height: 36px; padding: 0 12px; background: #fbf6ea; color: #1e2b3c; border: 1.5px solid #1e2b3c; border-radius: 2px; font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 15px; } .ds-input::placeholder { color: #555b65; opacity: 1; } .ds-input:focus-visible { outline: 2px solid #2c5a86; outline-offset: 2px; }"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid ink button; used for 'Show results' in phone filter sheets.",
+      "html": "<div style=\"padding:12px;background:#fbf6ea\"><button class=\"ds-btn-primary\">Show results</button></div>",
+      "css": ".ds-btn-primary { min-height: 44px; padding: 0 16px; background: #1e2b3c; color: #fbf6ea; border: none; border-radius: 2px; font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; } .ds-btn-primary:hover { background: #2a3747; } .ds-btn-primary:active { background: #16212f; } .ds-btn-primary:focus-visible { outline: 2px solid #2c5a86; outline-offset: 2px; }"
+    },
+    {
+      "name": "Primary Nav",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "52px ink-ruled header with hand-lettered wordmark; terracotta underline marks the active item.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\">hermenaut</a><nav><a class=\"ds-nav-link is-active\" href=\"#\">Directory</a><a class=\"ds-nav-link\" href=\"#\">Today</a><a class=\"ds-nav-link\" href=\"#\">Metrics</a><a class=\"ds-nav-link\" href=\"#\">About &amp; method</a></nav></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 40px; height: 52px; padding: 0 32px; background: #f2e8d3; border-bottom: 1.5px solid #1e2b3c; font-family: 'Source Sans 3', system-ui, sans-serif; } .ds-nav nav { display: flex; gap: 20px; height: 52px; } .ds-wordmark { font-family: 'Playpen Sans', 'Segoe Print', 'Bradley Hand', cursive; font-weight: 700; font-size: 1.625rem; letter-spacing: -0.02em; line-height: 1; color: #1e2b3c; text-decoration: none; padding-top: 4px; } .ds-nav-link { display: flex; align-items: center; padding: 0 8px; border-top: 3px solid transparent; border-bottom: 3px solid transparent; color: #1e2b3c; font-size: 14px; font-weight: 600; text-decoration: none; transition: border-color 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-nav-link:hover { border-bottom-color: rgba(30, 43, 60, 0.32); } .ds-nav-link.is-active { border-bottom-color: #c8643f; } .ds-nav-link:focus-visible { outline: 2px solid #2c5a86; outline-offset: 2px; }"
+    },
+    {
+      "name": "Sheet Table with Moved Rows",
+      "kind": "custom",
+      "refersTo": "table-row-moved",
+      "description": "Ink-ruled listing table; moved rows carry the watercolour wash and a blue dot.",
+      "html": "<table class=\"ds-sheet\"><thead><tr><th>Company</th><th>Sector</th><th>Stage</th><th style=\"text-align:right\">Last signal</th></tr></thead><tbody><tr class=\"ds-wash\"><td><b>BEEX</b> <span class=\"ds-dot\"></span></td><td>Robotics</td><td>Series A</td><td style=\"text-align:right\">3d</td></tr><tr><td><b>Belli AI</b></td><td>Logistics</td><td><span class=\"ds-nodata\">— no data</span></td><td style=\"text-align:right\">5d</td></tr><tr class=\"ds-struck\"><td colspan=\"4\"><span class=\"ds-stamp-sm\">Struck off</span> 41 companies</td></tr></tbody></table>",
+      "css": ".ds-sheet { width: 100%; border-collapse: collapse; background: #f2e8d3; color: #1e2b3c; font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 14px; font-variant-numeric: tabular-nums lining-nums; } .ds-sheet th { height: 28px; padding: 0 10px; border-bottom: 1.5px solid #1e2b3c; color: #4a5566; font-size: 11px; font-weight: 700; letter-spacing: 0.07em; text-align: left; text-transform: uppercase; white-space: nowrap; } .ds-sheet td { height: 30px; padding: 0 10px; border-bottom: 1px solid rgba(30, 43, 60, 0.16); white-space: nowrap; } .ds-wash { background-color: rgb(216 228 237); background-image: linear-gradient(90deg, rgba(58,112,178,0.12), rgba(58,112,178,0.036) 10px, rgba(58,112,178,0) 40px, rgba(242,232,211,0) 78%, rgba(242,232,211,0.4)); } .ds-dot { display: inline-block; width: 7px; height: 7px; border-radius: 9999px; background: #4f86b8; } .ds-nodata { color: #555b65; font-size: 12px; } .ds-struck td { height: 34px; background: rgba(200, 100, 63, 0.07); color: #4a5566; font-size: 12px; letter-spacing: 0.02em; } .ds-stamp-sm { display: inline-block; margin-right: 10px; padding: 0 5px; border: 1.5px solid #a84d2c; border-radius: 2px; color: #a84d2c; font-size: 11px; font-weight: 700; line-height: 15px; letter-spacing: 0.14em; text-transform: uppercase; transform: rotate(-3deg); }"
+    },
+    {
+      "name": "Edition Strip",
+      "kind": "custom",
+      "refersTo": "tape-mustard",
+      "description": "64px band naming the edition: tape, hand-lettered date, moved count, pager.",
+      "html": "<header class=\"ds-strip\"><span class=\"ds-strip-tape\">Edition</span><time class=\"ds-edition-date\">Sun 15 Nov 2026</time><p><b>4 companies moved</b> · 5 signals</p><a class=\"ds-strip-link\" href=\"#\">Read the full edition</a></header>",
+      "css": ".ds-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; min-height: 64px; padding: 8px 32px; border-bottom: 1px solid rgba(30, 43, 60, 0.16); background: linear-gradient(to bottom, rgba(230, 189, 79, 0.12), transparent), #f2e8d3; color: #4a5566; font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 15px; } .ds-strip p { margin: 0; } .ds-strip b { color: #1e2b3c; font-weight: 600; } .ds-strip-tape { display: inline-block; padding: 2px 10px; background: #e6bd4f; color: #1e2b3c; font-size: 11px; font-weight: 700; line-height: 16px; letter-spacing: 0.09em; text-transform: uppercase; transform: rotate(-1.4deg); } .ds-edition-date { font-family: 'Playpen Sans', 'Segoe Print', 'Bradley Hand', cursive; font-weight: 700; font-size: 1.875rem; letter-spacing: -0.02em; line-height: 1; color: #1e2b3c; padding-top: 6px; } .ds-strip-link { margin-left: auto; color: #2c5a86; font-size: 14px; font-weight: 600; text-decoration: underline; text-underline-offset: 0.18em; } .ds-strip-link:hover { color: #1e2b3c; } .ds-strip-link:focus-visible { outline: 2px solid #2c5a86; outline-offset: 2px; }"
+    },
+    {
+      "name": "Pinned Infographic",
+      "kind": "card",
+      "description": "Field White mount, slight tilt, pinned-print shadow, two tape strips across the top.",
+      "html": "<div style=\"padding:28px;background:#f2e8d3\"><figure class=\"ds-pinned\"><span class=\"ds-pin-tape ds-pin-left\"></span><span class=\"ds-pin-tape ds-pin-right\"></span><div class=\"ds-pinned-img\">infographic</div></figure></div>",
+      "css": ".ds-pinned { position: relative; margin: 0; max-width: 360px; padding: 12px; background: #fbf6ea; transform: rotate(-0.25deg); box-shadow: 0 2px 4px rgba(30, 43, 60, 0.08), 0 6px 16px rgba(30, 43, 60, 0.08); } .ds-pinned-img { aspect-ratio: 4 / 3; display: grid; place-items: center; border: 1px solid rgba(30, 43, 60, 0.16); color: #555b65; font-family: 'Source Sans 3', system-ui, sans-serif; } .ds-pin-tape { position: absolute; height: 20px; background: #e6bd4f; } .ds-pin-left { top: -10px; left: 24px; width: 80px; transform: rotate(-4deg); } .ds-pin-right { top: -8px; right: 32px; width: 64px; transform: rotate(3deg); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Daily Market Sheet, Field-Inked",
+    "overview": "Every day is a dated edition of a market sheet. The sheet is warm paper ruled in navy ink: what moved leads, and every company is a one-line listing row. The materials come from the pipeline's own hand-drawn infographics (the field notebook in `signals/briefs/*/infographic.png`): a watercolour blue wash, strips of masking tape in four colours, a rubber stamp for states, and a hand-lettered face reserved for the wordmark and the edition date. Everything else is a workhorse sans set with tabular figures, because the sheet is read as a table.\n\nDensity is high and calm. Rows are 30px tall with hairline dividers, header rows sit on a 1.5px ink rule, and the page runs as one strict column grid inside a 1440px sheet. The craft lives in a few tactile marks laid on an otherwise disciplined table: the wash says \"moved in this edition\", the tape names a section or a signal type, the stamp declares a state. Nothing is hidden silently; missing data is printed as missing.\n\nThe world is light-only (`color-scheme: light`). It replaced an earlier dark dev-tool look; the AI-SaaS hero, card mosaics and dark palettes are the rejected references.",
+    "keyCharacteristics": [
+      "Warm paper ground, navy ink, one blue wash; no dark mode.",
+      "Ink-ruled tables with hairline rows as the primary form for every list.",
+      "Masking-tape labels as section headings and signal-type tags, in four fixed colours.",
+      "Rubber stamps only for states (struck off, no brief, pending, no match).",
+      "Hand-lettered Playpen Sans for exactly two things: the wordmark and edition dates.",
+      "Tabular, lining figures everywhere."
+    ],
+    "rules": [
+      { "name": "The Wash Means Moved Rule", "body": "The watercolour wash is applied only to rows, cards and brief headers of companies that moved in the current edition. It is never decoration, never a hover state, never a section background.", "section": "colors" },
+      { "name": "The Wash Re-Inks Rule", "body": "Inside a wash, the secondary inks darken so text keeps its contrast on the blue: ink-2 to #2a3545, ink-3 to #2f3b4c, link to #1f4161, sage-ink to #22451e, terra-ink to #6a2c17, stamp to #6e2d18, and blue tape lightens to #e3eef8 so it still reads as tape on blue. Any new token used inside a wash needs its own override.", "section": "colors" },
+      { "name": "The Signal Tape Map Rule", "body": "Signal types always wear the same tape: Funding, Partnership and Case study are sage; Patent, Filing and Release are blue; Tender and News are mustard; Hiring is terra. The map lives in one place and every surface uses it.", "section": "colors" },
+      { "name": "The Two Hands Rule", "body": "Playpen Sans is used for the wordmark and edition dates and nothing else. Headings, numbers, tapes and stamps stay in Source Sans 3.", "section": "typography" },
+      { "name": "The Tabular Everywhere Rule", "body": "The body sets `tabular-nums lining-nums` globally, so every count, date and metric lines up in its column.", "section": "typography" },
+      { "name": "The Missing Is Printed Rule", "body": "An absent value renders as an em-dash plus a short lowercase phrase (\"— no data\", \"— unclassified\", \"— none on record\") in Faint Ink at 12px. Blank cells and invented placeholders are not allowed.", "section": "typography" },
+      { "name": "The Pinned Paper Rule", "body": "A shadow means \"a separate piece of paper is taped to the sheet\". Tables, rows, the header and the edition strip never cast one; elevation is never a hover response.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** set every list of companies, editions or metrics as a ruled sheet table: 28px head on a 1.5px ink rule, 30px rows on hairlines.",
+      "**Do** mark a company that moved in the current edition with the wash (row or header) and the 7px Field-Wash Blue dot, and nothing else with them.",
+      "**Do** name sections with a tape label as the heading, mustard by default and blue for movers and reading aids.",
+      "**Do** use the Signal Tape Map for every signal type, everywhere.",
+      "**Do** print missing values as \"— no data\" in Faint Ink, and stamp states instead of hiding rows.",
+      "**Do** add matching dark overrides for any new secondary ink that can appear inside a wash.",
+      "**Do** keep touch targets at 44px below `lg`."
+    ],
+    "donts": [
+      "**Don't** use Playpen Sans for headings, numbers, labels or body text; it writes the wordmark and edition dates only.",
+      "**Don't** add a dark theme, decorative gradient backgrounds (the paper highlight, strip warmth and the material shading inside tape and wash are the only ones), or a hero section; the rejected references are the AI-SaaS hero, card mosaics and dark dev-tool palettes.",
+      "**Don't** cast shadows on tables, rows, cards or hover states; shadows are for objects pinned to the sheet.",
+      "**Don't** stack a tape or stamp as a small label above a separate headline; the tape is the heading, the stamp is a state.",
+      "**Don't** round corners past 2px or introduce pill shapes other than the moved dot.",
+      "**Don't** use the stamp colour, the terracotta underline or the wash for emphasis or branding."
+    ]
+  }
+}

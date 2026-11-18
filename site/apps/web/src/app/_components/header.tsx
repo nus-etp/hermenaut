@@ -1,50 +1,31 @@
 import Link from 'next/link'
-import { BiBarChartAlt2, BiNews, BiPulse } from 'react-icons/bi'
+import { format, parseISO } from 'date-fns'
 
-import { meta } from '~/lib/data'
+import { meta, metricsDataAsOf } from '~/lib/data'
+import { PrimaryNav } from './primary-nav'
 
 export function Header() {
   return (
-    <header className="border-base-divider-subtle bg-base-canvas-default sticky top-0 z-30 border-b backdrop-blur supports-[backdrop-filter]:bg-base-canvas-default/80">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="/" className="group flex items-center gap-2.5">
-          <span
-            aria-hidden
-            className="flex h-9 w-9 items-center justify-center rounded-md bg-gradient-to-br from-indigo-500 to-fuchsia-500 text-white shadow-sm transition-transform group-hover:scale-105"
-          >
-            <BiPulse className="h-5 w-5" />
-          </span>
-          <div className="flex flex-col leading-tight">
-            <span className="prose-headline-base-medium tracking-tight">
-              hermenaut
-            </span>
-            <span className="prose-label-sm text-base-content-medium">
-              {meta.totalCompanies} companies tracked
-            </span>
-          </div>
+    <header className="border-ink bg-paper sticky top-0 z-30 border-b-[1.5px]">
+      <div className="sheet flex h-[52px] items-center gap-4 sm:gap-10">
+        <Link
+          href="/"
+          className="font-hand text-ink shrink-0 pt-1 text-[1.375rem] leading-none sm:text-[1.625rem]"
+        >
+          hermenaut
         </Link>
-        <nav className="flex items-center gap-1 text-sm">
-          <Link
-            href="/"
-            className="hover:bg-base-canvas-alt-default rounded-md px-3 py-2 font-medium"
-          >
-            Directory
-          </Link>
-          <Link
-            href="/metrics/"
-            className="hover:bg-base-canvas-alt-default flex items-center gap-1.5 rounded-md px-3 py-2 font-medium"
-          >
-            <BiBarChartAlt2 className="h-4 w-4" />
-            Metrics
-          </Link>
-          <Link
-            href="/digests/"
-            className="hover:bg-base-canvas-alt-default flex items-center gap-1.5 rounded-md px-3 py-2 font-medium"
-          >
-            <BiNews className="h-4 w-4" />
-            Daily digests
-          </Link>
-        </nav>
+        <PrimaryNav />
+        <p className="text-ink-2 ml-auto hidden shrink-0 text-[13px] lg:block">
+          NUSX watchlist · {meta.totalCompanies} companies
+          {metricsDataAsOf && (
+            <>
+              {' · metrics as of '}
+              <time dateTime={metricsDataAsOf}>
+                {format(parseISO(metricsDataAsOf), 'd MMM yyyy')}
+              </time>
+            </>
+          )}
+        </p>
       </div>
     </header>
   )

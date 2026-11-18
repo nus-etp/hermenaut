@@ -1,21 +1,43 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BiArrowBack } from 'react-icons/bi'
+
+import { Stamp } from './_components/paper'
+
+export const metadata: Metadata = {
+  title: 'Not found · hermenaut',
+}
 
 export default function NotFoundPage() {
   return (
-    <div className="flex min-h-[60vh] flex-col items-center justify-center gap-4 text-center">
-      <p className="font-mono text-sm text-slate-500">404</p>
-      <h1 className="text-3xl font-semibold tracking-tight">
+    <div className="flex flex-col items-start gap-4 pt-10 pb-16 sm:pt-16">
+      <Stamp>Not on the sheet</Stamp>
+      <h1 className="text-ink text-[2rem] leading-tight font-bold text-balance">
         Nothing tracked here
       </h1>
-      <p className="text-base-content-medium max-w-md">
-        The company or digest you’re looking for doesn’t exist in our index.
+      <p className="text-ink-2 max-w-[60ch] text-base/relaxed">
+        No company, edition or page lives at this address. The company may have
+        left the watchlist, or the link may be mistyped.
       </p>
-      <Link
-        href="/"
-        className="text-interaction-main-default mt-2 inline-flex items-center gap-1 text-sm font-medium hover:underline"
-      >
-        ← Back to directory
-      </Link>
+      <ul className="text-ink flex flex-wrap gap-x-6 gap-y-1 text-sm font-semibold">
+        <li>
+          <Link
+            href="/"
+            className="text-link hover:text-ink inline-flex min-h-11 items-center gap-1.5 underline underline-offset-[0.2em]"
+          >
+            <BiArrowBack aria-hidden className="h-4 w-4" />
+            Search the directory
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/digests/"
+            className="text-link hover:text-ink inline-flex min-h-11 items-center underline underline-offset-[0.2em]"
+          >
+            Today’s edition
+          </Link>
+        </li>
+      </ul>
     </div>
   )
 }
