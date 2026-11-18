@@ -3,12 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-19	https://www.businesstoday.com.my/2026/08/12/singapores-ai-films-spark-rightful-backlash/
-2026-10-19	https://cde.nus.edu.sg/news/nus-cde-alumni-startup-hivebotics-secures-us6-million-to-scale-autonomous-cleaning-robots/
-2026-10-19	https://www.zawya.com/en/press-release/asia-press-releases/mudah-my-brings-cars-to-carousell-malaysia-giving-dealers-a-new-way-to-reach-millions-more-buyers-461925
-2026-10-19	https://www.cbinsights.com/company/littlelives
-2026-10-19	https://news.nus.edu.sg/starting-out-and-up-nus-graduates-launch-entrepreneurial-ventures-in-precision-farming-wearable-tech-and-scent-based-marketing
-2026-10-19	https://www.flexxon.com/2026/09
 2026-10-20	https://www.neumaterials.com/news/neu-battery-materials-signs-mou-with-sleek-ev-to-explore-joint-solutions-for-ev-battery-management-and-recycling-across-southeast-asia
 2026-10-20	https://technode.global/2026/09/22/singapores-tacniq-ai-raises-1-5m-from-in-group-holdings-in-pre-seed-round
 2026-10-20	https://www.techinasia.com/news/sg-physical-ai-startup-tacniqai-raises-15m

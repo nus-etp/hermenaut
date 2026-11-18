@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/mycotech/myclglobal.com",
+  "created_by": "write_scenarios@run 44202365520",
+  "expected": {
+    "company": "Mycotech",
+    "reason": "jev material=0.82",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'Mycl Ceo Adi Reza Nugroho Named People Of The Year 2026 By Metro Tv In Green And Sustainable Business' for Mycotech",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-17-0001",
+  "input": {
+    "candidate": {
+      "description": "New page listed in the sitemap of Mycotech's own website myclglobal.com (lastmod 2026-11-17). Title derived from the URL slug; the page itself was not fetched.",
+      "matched": [
+        "Mycotech"
+      ],
+      "source": "myclglobal.com sitemap",
+      "title": "Mycl Ceo Adi Reza Nugroho Named People Of The Year 2026 By Metro Tv In Green And Sustainable Business",
+      "url": "https://myclglobal.com/blogs/news/mycl-ceo-adi-reza-nugroho-named-people-of-the-year-2026-by-metro-tv-in-green-and-sustainable-business"
+    },
+    "companies": {
+      "Mycotech": {
+        "description": "BLOCK71 Bandung-resident Indonesian biomaterials startup (founded 2015 by Adi Reza Nugroho and four co-founders, ITB-linked) using mycelium as a bio-adhesive to convert agricultural waste (cassava starch, corn bark, bagasse) into BIOBO interior boards and Mylea mycelium-leather for fashion and footwear. B-Corp since 2019. Solar Impulse Efficient Solution. Drop generic 'mycelium' / mushroom-cultivation articles unless they name MYCL."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-17",
+    "judge": "jev",
+    "judge_confidence": 0.72,
+    "kind": "judge_disagreement",
+    "run_id": "44202365520",
+    "source": "2026-11-17.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
