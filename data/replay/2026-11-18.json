@@ -1,0 +1,638 @@
+{
+  "candidates": [
+    {
+      "company": "Dana",
+      "dedup_key": "https://www.dealstreetasia.com/stories/jelawang-capital-dana-impak-scheme-501263/",
+      "description": "",
+      "headline": "Jelawang Capital commits to more fund managers under Dana Impak scheme More than 450 million ringgit in investments have been mobilised under the programmes.",
+      "link": "https://www.dealstreetasia.com/stories/jelawang-capital-dana-impak-scheme-501263/",
+      "pubDate": "",
+      "source": "DealStreetAsia",
+      "source_kind": "firehose"
+    },
+    {
+      "company": "Carousell",
+      "dedup_key": "appstore://548607187/2.487.1",
+      "description": "Every week, we polish the app to help you buy, sell (or give for free!) better. This update includes bug fixes and performance improvements. Update your Carousell app to enjoy the latest improvements our engineers have been working hard on. Love Carousell? Rate and share us with your family and friends, so we can keep growing our community. Happy Carouselling!",
+      "headline": "Carousell: Snap-Sell, Chat-Buy 2.487.1 released on the App Store",
+      "link": "https://apps.apple.com/us/app/carousell-snap-sell-chat-buy/id548607187",
+      "pubDate": "2026-11-17",
+      "source": "Carousell \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Carousell",
+      "dedup_key": "jobstreet://60526790/95926811",
+      "description": "",
+      "headline": "Marketing Intern (OneShift)_Jan 2027 \u2014 Marketing & Communications",
+      "link": "https://sg.jobstreet.com/job/95926811",
+      "provider": "jobstreet",
+      "pubDate": "2026-11-16",
+      "source": "Carousell \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Carousell",
+      "dedup_key": "jobstreet://60526790/95926813",
+      "description": "",
+      "headline": "Customer Success Intern_Jan 2027 \u2014 Sales",
+      "link": "https://sg.jobstreet.com/job/95926813",
+      "provider": "jobstreet",
+      "pubDate": "2026-11-16",
+      "source": "Carousell \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "recruitee://patsnap/2831183",
+      "description": "",
+      "headline": "Senior IT Manager \u2014 IT",
+      "link": "https://careers.patsnap.com/o/senior-it-manager",
+      "provider": "recruitee",
+      "pubDate": "2026-11-17",
+      "source": "Patsnap \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "recruitee://patsnap/2830904",
+      "description": "",
+      "headline": "Marketing VP \u2014 Marketing",
+      "link": "https://careers.patsnap.com/o/marketing-vp",
+      "provider": "recruitee",
+      "pubDate": "2026-11-17",
+      "source": "Patsnap \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "recruitee://patsnap/2830861",
+      "description": "",
+      "headline": "Sales Manager - Life Sciences (US Remote) \u2014 Sales - Life Sciences",
+      "link": "https://careers.patsnap.com/o/sales-manager-life-sciences-us-remote",
+      "provider": "recruitee",
+      "pubDate": "2026-11-17",
+      "source": "Patsnap \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Ailytics",
+      "dedup_key": "https://www.ailytics.ai/blog/ailytics-govtech-safesite-video-analytics-pilot-gold",
+      "description": "Ailytics has been certified Gold, the highest tier, in GovTech's SafeSite Video Analytics Pilot after a year-long trial on live public sector construction sites,",
+      "headline": "Ailytics Earns Gold Certification in GovTech's SafeSite Video Analytics Pilot",
+      "link": "https://www.ailytics.ai/blog/ailytics-govtech-safesite-video-analytics-pilot-gold",
+      "pubDate": "Wed, 18 Nov 2026 13:33:43 GMT",
+      "source": "Ailytics \u00b7 news",
+      "source_kind": "rss"
+    },
+    {
+      "company": "enfarm",
+      "dedup_key": "appstore://6498925002/4.0.6",
+      "description": "Updates and changes: \u2022 Optimized the login experience and accelerated OTP authentication. \u2022 Upgraded the floating navigation button: smoother performance, with support for double-tapping to reset its position. \u2022 Optimized the AI \u200b\u200bassistant and the feature for downloading sample land reports. \u2022 Fully compatible with the latest versions of Android and iOS. \u2022 Bug fixes and improved application stability.",
+      "headline": "enfarm-Technology for farmers 4.0.6 released on the App Store",
+      "link": "https://apps.apple.com/us/app/enfarm-technology-for-farmers/id6498925002",
+      "pubDate": "2026-11-16",
+      "source": "enfarm \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Idle Logic",
+      "dedup_key": "appstore://6824047018/1.0.6",
+      "description": "\u2022 Not checked out: a new calendar button lists finished bookings from the last 30 days with no payment taken, with Check out straight to POS. \u2022 Month and Agenda views show a tick on checked-out bookings, all-day stays included. \u2022 Checkout won't charge one booking's services to a different booking. \u2022 Fixes for all-day bookings and quick add on the calendar. \u2022 Updated countries and currencies at sign-up.",
+      "headline": "Idle: AI Salon & Spa Booking 1.0.6 released on the App Store",
+      "link": "https://apps.apple.com/us/app/idle-ai-salon-spa-booking/id6824047018",
+      "pubDate": "2026-11-18",
+      "source": "Idle Logic \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "LittleLives",
+      "dedup_key": "appstore://623928219/4.7.5",
+      "description": "Improved performance and bug fixes.",
+      "headline": "LittleLives Check In 4.7.5 released on the App Store",
+      "link": "https://apps.apple.com/us/app/littlelives-check-in/id623928219",
+      "pubDate": "2026-11-17",
+      "source": "LittleLives \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Mapid",
+      "dedup_key": "https://mapid.io/platform",
+      "description": "",
+      "headline": "Our Products",
+      "link": "https://mapid.io/platform",
+      "pre_extracted": false,
+      "pubDate": "",
+      "source": "Mapid \u00b7 blog",
+      "source_kind": "html_scrape"
+    },
+    {
+      "company": "Mapid",
+      "dedup_key": "https://mapid.io/academy/locations-analytics",
+      "description": "",
+      "headline": "Program",
+      "link": "https://mapid.io/academy/locations-analytics",
+      "pre_extracted": false,
+      "pubDate": "",
+      "source": "Mapid \u00b7 blog",
+      "source_kind": "html_scrape"
+    },
+    {
+      "company": "Mapid",
+      "dedup_key": "https://mapid.io/faq",
+      "description": "",
+      "headline": "Support & Community",
+      "link": "https://mapid.io/faq",
+      "pre_extracted": false,
+      "pubDate": "",
+      "source": "Mapid \u00b7 blog",
+      "source_kind": "html_scrape"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://6450972452/2.9",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "PlayFACTO School 2.9 released on the App Store",
+      "link": "https://apps.apple.com/us/app/playfacto-school/id6450972452",
+      "pubDate": "2026-11-16",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Tuc Thoi Service Corporation",
+      "dedup_key": "appstore://1234455868/12.20",
+      "description": "C\u1eadp nh\u1eadt v\u00e0 c\u1ea3i ti\u1ebfn giao di\u1ec7n",
+      "headline": "T\u00e0i x\u1ebf Aha 12.20 released on the App Store",
+      "link": "https://apps.apple.com/us/app/t%C3%A0i-x%E1%BA%BF-aha/id1234455868",
+      "pubDate": "2026-11-18",
+      "source": "Tuc Thoi Service Corporation \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Vibefam",
+      "dedup_key": "https://vibefam.com/book-demo",
+      "description": "",
+      "headline": "Stay Updated",
+      "link": "https://vibefam.com/book-demo",
+      "pre_extracted": false,
+      "pubDate": "",
+      "source": "Vibefam \u00b7 blog",
+      "source_kind": "html_scrape"
+    },
+    {
+      "company": "Acoerela",
+      "dedup_key": "https://acoerela.com/support/",
+      "description": "Page updated in the sitemap of Acoerela's own website acoerela.com (lastmod 2026-11-16). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Support",
+      "link": "https://acoerela.com/support/",
+      "pubDate": "2026-11-16T14:56:28+00:00",
+      "source": "acoerela.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Addlly AI",
+      "dedup_key": "https://addlly.ai/resources/case-studies/3x-organic-growth-and-201k-clicks/",
+      "description": "Page updated in the sitemap of Addlly AI's own website addlly.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "3x Organic Growth And 201k Clicks",
+      "link": "https://addlly.ai/resources/case-studies/3x-organic-growth-and-201k-clicks/",
+      "pubDate": "2026-11-18T03:31:12+00:00",
+      "source": "addlly.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Addlly AI",
+      "dedup_key": "https://addlly.ai/resources/case-studies/att-systems/",
+      "description": "Page updated in the sitemap of Addlly AI's own website addlly.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Att Systems",
+      "link": "https://addlly.ai/resources/case-studies/att-systems/",
+      "pubDate": "2026-11-18T03:29:55+00:00",
+      "source": "addlly.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Addlly AI",
+      "dedup_key": "https://addlly.ai/resources/case-studies/investidea/",
+      "description": "Page updated in the sitemap of Addlly AI's own website addlly.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Investidea",
+      "link": "https://addlly.ai/resources/case-studies/investidea/",
+      "pubDate": "2026-11-18T03:29:38+00:00",
+      "source": "addlly.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Addlly AI",
+      "dedup_key": "https://addlly.ai/resources/case-studies/hc-group/",
+      "description": "Page updated in the sitemap of Addlly AI's own website addlly.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Hc Group",
+      "link": "https://addlly.ai/resources/case-studies/hc-group/",
+      "pubDate": "2026-11-18T03:28:59+00:00",
+      "source": "addlly.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Addlly AI",
+      "dedup_key": "https://addlly.ai/resources/case-studies/kino/",
+      "description": "Page updated in the sitemap of Addlly AI's own website addlly.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Kino",
+      "link": "https://addlly.ai/resources/case-studies/kino/",
+      "pubDate": "2026-11-18T03:28:20+00:00",
+      "source": "addlly.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/coastal-infrastructure",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Coastal Infrastructure",
+      "link": "https://www.beex.sg/coastal-infrastructure",
+      "pubDate": "2026-11-18T09:18:14+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/resource",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Resource",
+      "link": "https://www.beex.sg/resource",
+      "pubDate": "2026-11-18T09:10:21+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/case-studies/advanced-underwater-drone-a-ikanbilis-supplies-striking-insights-over-park-developers-lake-volumes",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Advanced Underwater Drone A Ikanbilis Supplies Striking Insights Over Park Developers Lake Volumes",
+      "link": "https://www.beex.sg/case-studies/advanced-underwater-drone-a-ikanbilis-supplies-striking-insights-over-park-developers-lake-volumes",
+      "pubDate": "2026-11-18T07:31:43+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Belli AI",
+      "dedup_key": "https://www.belli.ai/company/news/jeff-pitches-belli-at-the-pitch-by-deel",
+      "description": "New page listed in the sitemap of Belli AI's own website belli.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Jeff Pitches Belli At The Pitch By Deel",
+      "link": "https://www.belli.ai/company/news/jeff-pitches-belli-at-the-pitch-by-deel",
+      "pubDate": "2026-11-18T00:00:00+00:00",
+      "source": "belli.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Belli AI",
+      "dedup_key": "https://www.belli.ai/company/news/how-new-edi-messages-will-plug-in",
+      "description": "New page listed in the sitemap of Belli AI's own website belli.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "How New Edi Messages Will Plug In",
+      "link": "https://www.belli.ai/company/news/how-new-edi-messages-will-plug-in",
+      "pubDate": "2026-11-18T00:00:00+00:00",
+      "source": "belli.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "ChemT Biotechnology",
+      "dedup_key": "https://www.chemtbio.com/careers",
+      "description": "New page listed in the sitemap of ChemT Biotechnology's own website chemtbio.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Careers",
+      "link": "https://www.chemtbio.com/careers",
+      "pubDate": "2026-11-18T00:00:00+00:00",
+      "source": "chemtbio.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Doinn APAC",
+      "dedup_key": "https://doinn.co/it/blog/gestione-impresa-di-pulizie-personale-affitti-brevi/",
+      "description": "New page listed in the sitemap of Doinn APAC's own website doinn.co (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Gestione Impresa Di Pulizie Personale Affitti Brevi",
+      "link": "https://doinn.co/it/blog/gestione-impresa-di-pulizie-personale-affitti-brevi/",
+      "pubDate": "2026-11-18T09:16:00+00:00",
+      "source": "doinn.co sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/the-efficiency-and-features-of-memory-card/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "The Efficiency And Features Of Memory Card",
+      "link": "https://www.flexxon.com/the-efficiency-and-features-of-memory-card/",
+      "pubDate": "2026-11-18T11:53:43+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/flexxon-pcie-nvme-ssd-introduction/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Flexxon Pcie Nvme Ssd Introduction",
+      "link": "https://www.flexxon.com/flexxon-pcie-nvme-ssd-introduction/",
+      "pubDate": "2026-11-18T11:47:15+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/camellia-chan-the-top-10-women-in-cybersecurity-for-2021/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Camellia Chan The Top 10 Women In Cybersecurity For 2021",
+      "link": "https://www.flexxon.com/camellia-chan-the-top-10-women-in-cybersecurity-for-2021/",
+      "pubDate": "2026-11-18T11:40:07+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/flexxon-named-finalist-in-black-unicorn-awards-for-2021/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Flexxon Named Finalist In Black Unicorn Awards For 2021",
+      "link": "https://www.flexxon.com/flexxon-named-finalist-in-black-unicorn-awards-for-2021/",
+      "pubDate": "2026-11-18T11:35:58+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/flexxon-inks-partnership-with-lenovo/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Flexxon Inks Partnership With Lenovo",
+      "link": "https://www.flexxon.com/flexxon-inks-partnership-with-lenovo/",
+      "pubDate": "2026-11-18T10:48:27+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "ManPack",
+      "dedup_key": "https://manpack.sg/resources/conversation-memory/",
+      "description": "New page listed in the sitemap of ManPack's own website manpack.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Conversation Memory",
+      "link": "https://manpack.sg/resources/conversation-memory/",
+      "pubDate": "2026-11-18T07:04:49+00:00",
+      "source": "manpack.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "ManPack",
+      "dedup_key": "https://manpack.sg/resources/",
+      "description": "Page updated in the sitemap of ManPack's own website manpack.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Resources",
+      "link": "https://manpack.sg/resources/",
+      "pubDate": "2026-11-18T05:45:43+00:00",
+      "source": "manpack.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "ManPack",
+      "dedup_key": "https://manpack.sg/resources/do-not-call/",
+      "description": "Page updated in the sitemap of ManPack's own website manpack.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Do Not Call",
+      "link": "https://manpack.sg/resources/do-not-call/",
+      "pubDate": "2026-11-18T05:45:23+00:00",
+      "source": "manpack.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "ManPack",
+      "dedup_key": "https://manpack.sg/about/",
+      "description": "Page updated in the sitemap of ManPack's own website manpack.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "About",
+      "link": "https://manpack.sg/about/",
+      "pubDate": "2026-11-18T02:06:56+00:00",
+      "source": "manpack.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "ManPack",
+      "dedup_key": "https://manpack.sg/layouts/header-main-light-logo-menu-button-with-title/",
+      "description": "Page updated in the sitemap of ManPack's own website manpack.sg (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Header Main Light Logo Menu Button With Title",
+      "link": "https://manpack.sg/layouts/header-main-light-logo-menu-button-with-title/",
+      "pubDate": "2026-11-18T01:38:03+00:00",
+      "source": "manpack.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Mycotech",
+      "dedup_key": "https://myclglobal.com/blogs/featured-projects/mushroom-shoulder-pouch-by-doublet-paris-fashion-week-25-ss",
+      "description": "New page listed in the sitemap of Mycotech's own website myclglobal.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Mushroom Shoulder Pouch By Doublet Paris Fashion Week 25 Ss",
+      "link": "https://myclglobal.com/blogs/featured-projects/mushroom-shoulder-pouch-by-doublet-paris-fashion-week-25-ss",
+      "pubDate": "2026-11-18T16:04:00+00:00",
+      "source": "myclglobal.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Mycotech",
+      "dedup_key": "https://myclglobal.com/blogs/featured-projects",
+      "description": "Page updated in the sitemap of Mycotech's own website myclglobal.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Featured Projects",
+      "link": "https://myclglobal.com/blogs/featured-projects",
+      "pubDate": "2026-11-18T16:04:00+00:00",
+      "source": "myclglobal.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Mycotech",
+      "dedup_key": "https://myclglobal.com/blogs/featured-projects/mycl-introduces-seaweed-based-biodegradable-lanyards-at-aseics-2026-global-eco-innovation-forum-in-jakarta",
+      "description": "New page listed in the sitemap of Mycotech's own website myclglobal.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Mycl Introduces Seaweed Based Biodegradable Lanyards At Aseics 2026 Global Eco Innovation Forum In Jakarta",
+      "link": "https://myclglobal.com/blogs/featured-projects/mycl-introduces-seaweed-based-biodegradable-lanyards-at-aseics-2026-global-eco-innovation-forum-in-jakarta",
+      "pubDate": "2026-11-18T15:50:45+00:00",
+      "source": "myclglobal.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/serangan-siber-bank-indonesia-november-2026-langkah-bpr-fintech",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Serangan Siber Bank Indonesia November 2026 Langkah Bpr Fintech",
+      "link": "https://www.peris.ai/blog/serangan-siber-bank-indonesia-november-2026-langkah-bpr-fintech",
+      "pubDate": "2026-11-18T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/penipuan-coretax-2026-modus-bantu-instal-share-screen",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Penipuan Coretax 2026 Modus Bantu Instal Share Screen",
+      "link": "https://www.peris.ai/blog/penipuan-coretax-2026-modus-bantu-instal-share-screen",
+      "pubDate": "2026-11-18T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/how-to-find-exposed-devices-internet-external-attack-surface-management",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "How To Find Exposed Devices Internet External Attack Surface Management",
+      "link": "https://www.peris.ai/blog/how-to-find-exposed-devices-internet-external-attack-surface-management",
+      "pubDate": "2026-11-18T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/blog/best-409a-valuation-providers",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Best 409a Valuation Providers",
+      "link": "https://www.qapita.com/blog/best-409a-valuation-providers",
+      "pubDate": "2026-11-18T12:25:49+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/blog/what-is-portfolio-management",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "What Is Portfolio Management",
+      "link": "https://www.qapita.com/blog/what-is-portfolio-management",
+      "pubDate": "2026-11-18T05:19:25+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/pricing",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-18). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Pricing",
+      "link": "https://www.qapita.com/pricing",
+      "pubDate": "2026-11-18T05:16:01+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "StaffAny",
+      "dedup_key": "https://www.staffany.com/malaysia-overtime-calculator/",
+      "description": "New page listed in the sitemap of StaffAny's own website staffany.com. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Malaysia Overtime Calculator",
+      "link": "https://www.staffany.com/malaysia-overtime-calculator/",
+      "pubDate": "2026-11-18T23:24:27+00:00",
+      "source": "staffany.com sitemap",
+      "source_kind": "sitemap"
+    }
+  ],
+  "companies": {
+    "Acoerela": "NUS GRIP-incubated Singapore deep-tech startup developing fluorescent dyes that simplify exosome detection (drug-delivery and disease-diagnosis QC). Drop unrelated companies sharing the same name.",
+    "Addlly AI": "BLOCK71 Singapore-resident GenAI content-marketing startup (co-founders Tina Chopra (CEO) and Ronie Ganguly) operating a 'zero-prompt' AI content-creation suite \u2014 1-Click Blog Writer, AI Social Media Post Generator, multi-language Asian-market support; ASEAN Digital Awards 2025 Silver. Drop generic AI-marketing-tools coverage unless it names Addlly.",
+    "Ailytics": "NUS GRIP-incubated Singapore deep-tech startup. Drop unrelated companies sharing the same name.",
+    "BEEX": "NUS GRIP-incubated Singapore autonomous-systems startup. Drop unrelated companies sharing the same name.",
+    "Belli AI": "BLOCK71 Singapore-resident air-cargo software startup (founders ex-McKinsey, SpaceX, Boeing, Booking.com, AirAsia) digitising end-to-end airline cargo operations. Drop unrelated namesakes (Italian food brand, maternal-health apps named Belly/Bella) unless the article explicitly references the Singapore air-cargo Belli AI.",
+    "Carousell": "Singapore-headquartered online classifieds and consumer marketplace platform; the group also operates OneShift, Mudah, and Cho Tot.",
+    "ChemT Biotechnology": "BLOCK71 Singapore-resident biotechnology startup (NUS / Harvard roots) using AI-designed small molecules for precise, tunable modulation of cell behaviour in bio-manufacturing; 2025 Lee Kuan Yew Global Business Plan Competition grand-prize winner. Drop unrelated 'ChemT' / chemistry brand mentions unless the article explicitly references this BLOCK71 SG entity.",
+    "Dana": "BLOCK71 Indonesia portfolio startup. Drop unrelated companies sharing the same name.",
+    "Doinn APAC": "BLOCK71 Singapore-resident APAC arm of Doinn \u2014 an online marketplace connecting hosts / property-managers with cleaning, laundry and linen services. Drop unrelated 'Doinn' brand mentions unless the article explicitly references this BLOCK71 SG-listed APAC entity.",
+    "Flexxon": "BLOCK71 Silicon Valley-listed Singapore cybersecurity-hardware startup (founded 2007) building X-PHY, the world's first AI-embedded SSD with hardware-level threat detection and physical-tamper response. Co-founded by Camellia Chan and May Chng. Drop items that only mention generic flash-storage or unrelated 'X-PHY' physics content.",
+    "Idle Logic": "BLOCK71 Singapore-resident startup. Limited public-English information beyond the directory listing \u2014 drop unrelated 'Idle Logic' brand mentions unless the article explicitly references this BLOCK71 SG entity.",
+    "LittleLives": "BLOCK71 Jakarta-listed Singapore preschool SaaS (founded 2011 by Sun Ho, NUS Computing alumna) running a holistic school-management system for early-childhood centres \u2014 attendance, time-in/out, temperature/height/weight, child portfolios, log books, fees, parent communication; ~1,000 schools across Singapore, Malaysia, China, Vietnam, Cambodia; MOE/ECDA-accredited, AECES Top Preschool Software. Made strategic acquisition of Illume Technology. Drop generic 'small / little lives' branding unless it names this entity.",
+    "ManPack": "BLOCK71 Singapore-resident startup. Limited public-English information beyond the directory listing \u2014 drop unrelated 'Manpack' (mens-grooming subscription) brand mentions unless the article explicitly references this BLOCK71 SG entity.",
+    "Mapid": "BLOCK71 Bandung-resident Indonesian geospatial-intelligence startup (PT Multi Areal Planing Indonesia, led by Bagus Imam Darmawan) building GEO MAPID \u2014 a cloud GIS platform for collecting, managing, visualizing and analysing geospatial data, plus a community/competition layer for non-GIS-experts. Finalist of Making Indonesia 4.0 Startup4Industry (2018). Drop generic 'map ID' / map-API mentions.",
+    "Mycotech": "BLOCK71 Bandung-resident Indonesian biomaterials startup (founded 2015 by Adi Reza Nugroho and four co-founders, ITB-linked) using mycelium as a bio-adhesive to convert agricultural waste (cassava starch, corn bark, bagasse) into BIOBO interior boards and Mylea mycelium-leather for fashion and footwear. B-Corp since 2019. Solar Impulse Efficient Solution. Drop generic 'mycelium' / mushroom-cultivation articles unless they name MYCL.",
+    "Patsnap": "Singapore-headquartered IP intelligence and innovation analytics SaaS company.",
+    "Peris.ai": "BLOCK71 Singapore-resident cybersecurity-AI startup (peris.ai) building an agentic-AI security operations centre (AI-SOC) platform that cuts detection and response times for security teams; Google for Startups Accelerator Southeast Asia alumnus. Drop unrelated 'peris' brand mentions unless the article explicitly references this BLOCK71 SG entity.",
+    "Qapita": "BLOCK71 Silicon Valley-listed Singapore-headquartered equity-management platform (cap-table, ESOP administration, secondary-share workflows) founded 2019 by Ravi Ravulaparthi (CEO), Lakshman Gupta (COO) and Vamsee Mohan (CTO); serves ~2,700 SEA/India companies. Carta challenger now powering Schwab Private Issuer Equity Services in the US. Drop unrelated Qatar/Q-brands.",
+    "StaffAny": "BLOCK71 Jakarta-listed Singapore HR-tech startup (founded by four NUS alumni) running a workforce-management app for hourly workers in F&B / retail \u2014 drag-and-drop rostering, time tracking, availability, payroll/accounting integration. ~100K+ shifts and ~700K hours tracked at the S$1M seed milestone; lead investor FreakOut Holdings; angels include ex-Zopim founders Lim Qing Ru, Kwok Yang Bin and Royston Tay plus Kenji Niwa.",
+    "Taidii": "BLOCK71 Suzhou-listed Singapore preschool / childcare-school-management SaaS (HQ Singapore, Suzhou ops listed twice in directory \u2014 folded here) covering attendance, billing, e-enrollment, e-forms, finance, parent-school communication; >50% private-school market share in Singapore; ECDA-approved vendor; VAMS 4S sub-second attendance / temperature device; presence in Singapore, China (Suzhou), UAE, Australia and the Philippines. Drop generic 'taid' / 'tide' branding news unless it names Taidii.",
+    "Tuc Thoi Service Corporation": "BLOCK71 Saigon-resident Vietnamese service-corporation startup. Limited public-English information beyond the directory listing \u2014 drop unrelated mentions unless the article explicitly references this BLOCK71 Saigon entity.",
+    "Vibefam": "BLOCK71 Singapore-resident community / wellness / events startup ('vibe' + 'fam'). Drop unrelated namesakes unless the article explicitly references this BLOCK71 SG entity.",
+    "enfarm": "BLOCK71 Vietnam portfolio startup. Drop unrelated companies sharing the same name."
+  },
+  "fetch_failed": [
+    {
+      "error": "HTTP Error 523: <none>",
+      "kind": "firehose",
+      "url": "https://www.questventures.com/feed/"
+    },
+    {
+      "company": "Flexii",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://flexii.net/sg/feed/"
+    },
+    {
+      "company": "Flow Coffee",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://www.flowcoffee.sg/blog-feed.xml"
+    },
+    {
+      "company": "PharLyfe+",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://pharlyfeplus.com/news-update/f.rss"
+    }
+  ],
+  "generated_at": "2026-11-18T23:42:17+00:00",
+  "jina_recovered": [
+    "https://mothership.sg/feed/",
+    "https://thelowdown.momentum.asia/feed/",
+    "https://www.theedgesingapore.com/rss.xml"
+  ],
+  "llm_fetch_required": [
+    {
+      "company": "Ailytics",
+      "hint": "Webflow CMS listing under div.collection-list-wrapper-2.w-dyn-list. Each item is a div.div-block-78 containing a category label in div.category, a headline in div.text-block-27 (treat as the title), and a date as plain text in div.text-block-29 (e.g. 'April 28, 2026'). About 6 items shown in reverse chronological order. Resolve relative item links against https://www.ailytics.ai/.",
+      "label": "news",
+      "url": "https://www.ailytics.ai/news"
+    },
+    {
+      "company": "BEEX",
+      "hint": "BeeX 'In The Press' listing of press items in reverse chronological order. Each item is a card with a thumbnail image, source/publication name, headline text and a date below the headline (e.g. '7 Oct 2025'). Resolve relative links against https://beex.sg/.",
+      "label": "press",
+      "url": "https://beex.sg/in-the-press/"
+    },
+    {
+      "company": "Belli AI",
+      "hint": "",
+      "label": "news",
+      "url": "https://www.belli.ai/company/news"
+    },
+    {
+      "company": "Finsey",
+      "hint": "",
+      "label": "blog",
+      "url": "https://finsey.vn/blog"
+    },
+    {
+      "company": "lalia",
+      "hint": "Card-based press listing for Lalia Pte Ltd (Singapore). Each card has a thumbnail image, an <h3> headline (often in Japanese), a secondary line with the source URL, and a publication date in 'YYYY/MM/DD' format below it. Each card wraps in an <a> tag linking to the full article (often external publishers). Resolve relative links against https://read.lalia.com.sg/.",
+      "label": "press",
+      "url": "https://read.lalia.com.sg/press"
+    },
+    {
+      "company": "SENSORI Healthcare",
+      "hint": "SENSORI Healthcare news listing. Each item is an anchor (<a>) wrapping the entry with the headline rendered as an <h4> (e.g. 'SENSORI Healthcare Wins Third Prize at Two Innovation and Entrepreneurship Competitions') and the date below in YYYY-MM-DD format (e.g. '2025-12-03'). Items are tagged 'News' and ordered newest-first. Resolve relative links against https://www.sensorihealthcare.com.",
+      "label": "news",
+      "url": "https://www.sensorihealthcare.com/h-col-157.html"
+    },
+    {
+      "company": "SilentConvo",
+      "hint": "",
+      "label": "blog",
+      "url": "https://silentconvo.io/blog"
+    },
+    {
+      "company": "Soynergy",
+      "hint": "Soynergy WordPress news category listing. Each post is a <div> block with a featured image, headline in <h2> link, and the publication date below in 'Month Day, Year' format (e.g. 'August 27, 2018'); a 'News' tag appears above the headline and a 'READ MORE' link follows. Note: archive is small and stale (last post 2018). Resolve relative links against https://www.soynergy.com.",
+      "label": "news",
+      "url": "https://www.soynergy.com/category/news/"
+    }
+  ],
+  "stats": {
+    "appstore_capped": 0,
+    "candidates": 50,
+    "companies_matched": 23,
+    "edgar_candidates": 0,
+    "excluded_by_terms": 0,
+    "fetch_failed": 4,
+    "gebiz_candidates": 0,
+    "ipos_candidates": 0,
+    "jina_candidates": 0,
+    "jina_recovered": 3,
+    "llm_fetch_required": 8,
+    "masfid_candidates": 0,
+    "portfolio_candidates": 0,
+    "pre_extracted_capped": 0,
+    "sitemap_candidates": 33,
+    "startupsg_candidates": 0,
+    "weak_term_suppressed": 3
+  }
+}

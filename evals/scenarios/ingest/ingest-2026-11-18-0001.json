@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/ailytics/ailytics.ai",
+  "created_by": "write_scenarios@run 44419625774",
+  "expected": {
+    "company": "Ailytics",
+    "reason": "jev material=0.95",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'Ailytics Earns Gold Certification in GovTech's SafeSite Video Analytics Pilot' for Ailytics",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-18-0001",
+  "input": {
+    "candidate": {
+      "description": "Ailytics has been certified Gold, the highest tier, in GovTech's SafeSite Video Analytics Pilot after a year-long trial on live public sector construction sites,",
+      "matched": [
+        "Ailytics"
+      ],
+      "source": "Ailytics · news",
+      "title": "Ailytics Earns Gold Certification in GovTech's SafeSite Video Analytics Pilot",
+      "url": "https://www.ailytics.ai/blog/ailytics-govtech-safesite-video-analytics-pilot-gold"
+    },
+    "companies": {
+      "Ailytics": {
+        "description": "NUS GRIP-incubated Singapore deep-tech startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-18",
+    "judge": "jev",
+    "judge_confidence": 0.96,
+    "kind": "judge_disagreement",
+    "run_id": "44419625774",
+    "source": "2026-11-18.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
