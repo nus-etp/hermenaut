@@ -1,4 +1,12 @@
-MangaChat
+Patsnap
+dConstruct Robotics
+Finan
+Ailytics
+Carousell
+FizzDragon
+Horizon Quantum Computing
+NEU Battery Materials
+pQCee
 Marymount Labs
 MenSC Labs
 NuSPACE
@@ -8,11 +16,3 @@ Stratificare
 Synectify
 Tacniq
 Acoerela
-Addlly AI
-Agrolitik
-AIPath
-Akro
-Anomaly Bio
-Assemblr
-BioActivX
-CBE Eco-Solutions

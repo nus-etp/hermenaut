@@ -3,13 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-20	https://www.neumaterials.com/news/neu-battery-materials-signs-mou-with-sleek-ev-to-explore-joint-solutions-for-ev-battery-management-and-recycling-across-southeast-asia
-2026-10-20	https://technode.global/2026/09/22/singapores-tacniq-ai-raises-1-5m-from-in-group-holdings-in-pre-seed-round
-2026-10-20	https://www.techinasia.com/news/sg-physical-ai-startup-tacniqai-raises-15m
-2026-10-20	https://leadiq.com/c/otrafy/5da8a64c408f0cc3d9264a58
-2026-10-20	https://www.akro.ai/newsroom/singapore-based-ai-startup-akro-raises-usd-700000-pre-seed-to-automate-data-workflows-in-regulated-industries
-2026-10-20	https://www.peris.ai/blog
-2026-10-20	https://www.wareflex.io/en/about-us
 2026-10-21	https://iie.smu.edu.sg/lkygbpc/news/chemt-biotechnology-emerged-winner-chancellors-cup-beta-innovation-and-zhejiang-polar
 2026-10-21	https://www.aipath.one/post/growth-outcome-before-growth-strategy
 2026-10-21	https://www.chemtbio.com/newsrelease
