@@ -16,10 +16,12 @@ hermes-extras = [
 ]
 
 [build-system]
-# setuptools>=78.1.1: GHSA-5rjg-fvgr-3xxf / CVE-2025-47273 (path traversal in
-# PackageIndex.download allowing arbitrary file write). The >=68 floor
-# permitted installing vulnerable releases.
-requires = ["setuptools>=78.1.1"]
+# setuptools>=84.1.0: fixes GHSA-h35f-9h28-mq5c / CVE-2026-59890 (MANIFEST.in
+# exclude/prune Unicode-normalization bypass on macOS APFS/HFS+, fixed in
+# 83.0.0) and GHSA-xmj3-9gf7-h52w (legacy wheel install can write outside the
+# destination dir on Windows via namespace_packages.txt, fixed in 84.1.0).
+# The >=78.1.1 floor permitted installing vulnerable releases.
+requires = ["setuptools>=84.1.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
