@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/mapid/mapid.io",
+  "created_by": "write_scenarios@run 44833371781",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.21",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Program' for Mapid",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-20-0002",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Mapid"
+      ],
+      "source": "Mapid",
+      "title": "Program",
+      "url": "https://mapid.io/academy/locations-analytics"
+    },
+    "companies": {
+      "Mapid": {
+        "description": "BLOCK71 Bandung-resident Indonesian geospatial-intelligence startup (PT Multi Areal Planing Indonesia, led by Bagus Imam Darmawan) building GEO MAPID — a cloud GIS platform for collecting, managing, visualizing and analysing geospatial data, plus a community/competition layer for non-GIS-experts. Finalist of Making Indonesia 4.0 Startup4Industry (2018). Drop generic 'map ID' / map-API mentions."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-20",
+    "judge": "jev",
+    "judge_confidence": 0.78,
+    "kind": "judge_disagreement",
+    "run_id": "44833371781",
+    "source": "2026-11-20.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/pqcee/data.gov.sg",
+  "created_by": "write_scenarios@run 44833371781",
+  "expected": {
+    "company": "pQCee",
+    "reason": "jev material=0.54",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'pQCee trademark 'PacketQC; Packet QC' (class 9): Pending (Under Examination)' for pQCee",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-20-0005",
+  "input": {
+    "candidate": {
+      "description": "IPOS trade mark 40202626216T (Trade Mark). Status: Pending (Under Examination) (as of 2026-09-30); filed 2026-09-30; published n/a; register updated 2026-11-20. Goods/services: Downloadable software platforms for cybersecurity data analysis; Downloadable computer software for creating, analyzing and running quantum algorithms; Downloadable cryptography software; Downloadable computer software for testing vulnerability in computers and computer networks",
+      "matched": [
+        "pQCee"
+      ],
+      "source": "IPOS (data.gov.sg)",
+      "title": "pQCee trademark 'PacketQC; Packet QC' (class 9): Pending (Under Examination)",
+      "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202626216T%22%7D"
+    },
+    "companies": {
+      "pQCee": {
+        "description": "BLOCK71 Singapore-resident post-quantum cybersecurity startup (founded 2022) building scalable encryption + key-lifecycle management; flagship SafeQuard™ document-protection tool (NIST-aligned post-quantum crypto); use cases span quantum-proofing docs, securing Web3 against quantum threats and protecting comms. Supported by the US$15M CyberSG Talent, Innovation and Growth (TIG) Collaboration Centre (NUS × CSA)."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-20",
+    "judge": "jev",
+    "judge_confidence": 0.8,
+    "kind": "judge_disagreement",
+    "run_id": "44833371781",
+    "source": "2026-11-20.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

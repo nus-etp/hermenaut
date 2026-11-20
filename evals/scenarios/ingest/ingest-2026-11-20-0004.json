@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/forte-biotech/fortebio.tech",
+  "created_by": "write_scenarios@run 44833371781",
+  "expected": {
+    "company": "Forte Biotech",
+    "reason": "jev material=0.7",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'Forte Biotech featured in CNA Insider's Next Order Of Business series' for Forte Biotech",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-20-0004",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Forte Biotech"
+      ],
+      "source": "Forte Biotech · news",
+      "title": "Forte Biotech featured in CNA Insider's Next Order Of Business series",
+      "url": "https://fortebio.tech/news/cna-insider-next-order-of-business"
+    },
+    "companies": {
+      "Forte Biotech": {
+        "description": "NUS GRIP-incubated Singapore biotech startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-20",
+    "judge": "jev",
+    "judge_confidence": 0.72,
+    "kind": "judge_disagreement",
+    "run_id": "44833371781",
+    "source": "2026-11-20.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
