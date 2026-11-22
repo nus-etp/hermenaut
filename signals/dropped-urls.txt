@@ -3,11 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-23	https://www.businesstimes.com.sg/international/little-known-south-korean-shipowner-dominates-hormuz-transits-oil-flows-rebound
-2026-10-23	https://skuling.id/kisi-kisi-soal-bahasa-inggris-tka/
-2026-10-23	https://www.qapita.com/blog/llc-taxes
-2026-10-23	https://www.qapita.com/blog/state-small-business-credit-initiative-ssbci
-2026-10-23	https://www.qapita.com/blog/how-to-dissolve-a-company
 2026-10-24	https://www.temasekfoundation.org.sg/news/media-releases/ciic-2026-grand-finale
 2026-10-24	https://www.voxelmatters.com/pharmather-sets-out-craftmake-placement-plan-renames-platform-m3dicines/
 2026-10-24	https://www.stratificare.com/post/stratificare-reaches-grand-final-of-the-2026-uaited-innovation-com
