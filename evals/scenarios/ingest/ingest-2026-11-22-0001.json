@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/patsnap/careers.patsnap.com",
+  "created_by": "harness-propose",
+  "expected": {
+    "company": null,
+    "reason": "exclude_terms blocks generic job listings",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Software Engineering Intern — Join our team' for Patsnap",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-22-0001",
+  "input": {
+    "candidate": {
+      "description": "We are looking for motivated interns to join our engineering team. Apply now.",
+      "matched": [
+        "Patsnap"
+      ],
+      "source": "Patsnap",
+      "title": "Software Engineering Intern — Join our team",
+      "url": "https://careers.example.com/apply?job=software-engineering-intern"
+    },
+    "companies": {
+      "Patsnap": {
+        "description": "Singapore-headquartered IP intelligence and innovation analytics SaaS company."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-22",
+    "judge": "harness-propose",
+    "judge_confidence": 1.0,
+    "kind": "judge_disagreement",
+    "run_id": "propose-session",
+    "source": "cluster.json",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
