@@ -29,7 +29,8 @@ env:
   HARNESS_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
   HARNESS_ASSIGNEE: luarss
   HARNESS_LABEL: 'harness:auto'
-  HARNESS_RUNTIMES: 'deepseek gemini'
+  HARNESS_RUNTIMES: 'deepseek gemini kilocode groq nvidia zai'
+  HARNESS_RUNTIME_TARGET: '2'
   HARNESS_CHAMPION_REF: origin/main
   HARNESS_MAX_REVIEW_ROUNDS: '2'
   HARNESS_SIM_TIMEOUT_SECS: '1500'
@@ -234,7 +235,7 @@ jobs:
           }
 
           simulate_and_grade() {
-            local layer="$CLUSTER_LAYER" champions=() proposals=() runtime status
+            local layer="$CLUSTER_LAYER" champions=() proposals=() graded_runtimes=() runtime status
             mkdir -p data/harness/sim
             if ! git show "${HARNESS_CHAMPION_REF}:prompts/${layer}.md" > "/tmp/champion-${layer}.md"; then
               warn "no champion prompt for layer ${layer} at ${HARNESS_CHAMPION_REF}"
@@ -246,6 +247,9 @@ jobs:
             fi
             rm -f data/harness/sim/champion-*.json data/harness/sim/proposal-*.json
             for runtime in $HARNESS_RUNTIMES; do
+              if [ "${#champions[@]}" -ge "$HARNESS_RUNTIME_TARGET" ]; then
+                break
+              fi
               status=0
               AB_LLM_MIN_INTERVAL_SECS=1 timeout "$HARNESS_SIM_TIMEOUT_SECS" python3 scripts/harness/simulate.py --layer "$layer" --prompt-path "/tmp/champion-${layer}.md" \
                 --companies /tmp/champion-companies.json \
@@ -264,6 +268,7 @@ jobs:
               fi
               champions+=("data/harness/sim/champion-${runtime}.json")
               proposals+=("data/harness/sim/proposal-${runtime}.json")
+              graded_runtimes+=("$runtime")
             done
             rm -f data/harness/verdict.json data/harness/replay-table.md
             if [ "${#champions[@]}" = 0 ]; then
@@ -272,7 +277,7 @@ jobs:
             fi
             status=0
             python3 scripts/harness/grade.py --champion "${champions[@]}" --proposal "${proposals[@]}" \
-              --out-table data/harness/replay-table.md --out-verdict data/harness/verdict.json || status=$?
+              --judge-runtime "${graded_runtimes[0]}" --out-table data/harness/replay-table.md --out-verdict data/harness/verdict.json || status=$?
             if [ "$status" = 3 ]; then
               warn "grade.py: every runtime unavailable (sims missing or null share over the limit); proposal not evaluated"
             elif [ "$status" != 0 ]; then
