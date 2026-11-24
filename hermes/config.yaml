@@ -18,14 +18,14 @@ fallback_providers:
     model: aisingapore/Qwen-SEA-LION-v4.5-27B-IT
     base_url: http://127.0.0.1:8791/v1
     key_env: SEALION_API_KEY
-  - provider: custom         # Groq free tier — GROQ_API_KEY; 1,000 req/day, small per-minute token cap
-    model: openai/gpt-oss-120b
-    base_url: https://api.groq.com/openai/v1
-    key_env: GROQ_API_KEY
   - provider: kilocode       # Kilo Code gateway free pool — KILOCODE_API_KEY; 200 req/hr
     model: nvidia/nemotron-3-ultra-550b-a55b:free
   - provider: xiaomi         # Xiaomi MiMo — XIAOMI_API_KEY
     model: mimo-v2.5
+  - provider: custom         # Groq free tier — GROQ_API_KEY; 1,000 req/day, small per-minute token cap; last because its over-cap 413 ends the session instead of failing over
+    model: openai/gpt-oss-120b
+    base_url: https://api.groq.com/openai/v1
+    key_env: GROQ_API_KEY
 
 terminal:
   backend: local
