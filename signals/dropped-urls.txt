@@ -3,22 +3,6 @@
 # (default 30) so a false-negative drop gets re-judged instead of being lost
 # forever; scripts/collect-candidates.py prunes expired lines at the start of
 # each run. Keys we KEPT go to signals/seen-urls.txt (permanent) instead.
-2026-10-24	https://www.temasekfoundation.org.sg/news/media-releases/ciic-2026-grand-finale
-2026-10-24	https://www.voxelmatters.com/pharmather-sets-out-craftmake-placement-plan-renames-platform-m3dicines/
-2026-10-24	https://www.stratificare.com/post/stratificare-reaches-grand-final-of-the-2026-uaited-innovation-com
-2026-10-24	https://www.stratificare.com/post/showcasing-our-vision-at-the-a5x-global-innovation-venture-summit-
-2026-10-24	https://retailtechinnovationhub.com/home/2026/10/4/constructor-claims-a-first-as-it-launches-agentic-checkout-solution-powered-by-stripe
-2026-10-24	https://nusx.edu.sg/startups/stories
-2026-10-24	https://www.ecomatcher.com/the-new-standard-for-sports-sustainability-from-promises-to-proof/
-2026-10-25	https://www.theedgesingapore.com/digitaledge/artificial-intelligence/can-singapores-ai-start-ups-build-lasting-businesses
-2026-10-25	https://www.theplantbasemag.com/news/proveg-incubator-selects-15-food-tech-start-ups-for-autumn-2026-cohort
-2026-10-25	https://renewablesnow.com/news/interview-saf-infrastructure-has-to-keep-pace-with-production-growth-flyoro-says-1303564/
-2026-10-25	https://travelradar.aero/the-new-plans-to-help-sustainable-aviation-fuel-take-off/
-2026-10-25	https://aurav.ae/martech/ai-everything-abu-dhabi-showcases-150-ai-startups-spotlighting-soverei
-2026-10-25	https://www.biopharmaapac.com/news/40/8086/chemt-biotechnology-raises-us5-million-to-advance-ai-powered-biomanufacturing-platform.html
-2026-10-25	https://www.yzilabs.com/blog/meet-the-easy-residency-season-2-cohort
-2026-10-25	https://www.assemblrworld.com/blog/next-level-education-students-can-now-sign-in-to-assemblr-edu-with-their-belajar-id-account/
-2026-10-25	https://web.disdikbud.kaltimprov.go.id/berita/detail/roadshow-webinar-assemblr-edu-provinsi-kalimantan-timur-tahun-2026-7lU9U
 2026-10-26	https://www.straitstimes.com/business/the-world-is-on-fire-but-hey-i-have-matcha-how-little-treats-are-helping-us-deal-with-uncertainty
 2026-10-26	https://www.eco-business.com/news/climate-migrants-find-little-protection-in-bangladeshs-cities/
 2026-10-26	https://www.lowyat.net/2026/408395/local-developers-creates-tuju-navigation-app-rival-lapan/

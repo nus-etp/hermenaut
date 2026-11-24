@@ -1,0 +1,817 @@
+{
+  "candidates": [
+    {
+      "company": "WiSe",
+      "dedup_key": "https://dailysocial.id/p/ninja-van-weighs-exit-bni-taps-wise",
+      "description": "This week, Indonesia's digital economy shows both its momentum and its growing pains.",
+      "headline": "Ninja Van Weighs Exit \ud83d\udce6, BNI Taps Wise \ud83d\udcb8, Digital Economy Nears $120B \ud83d\udcc8",
+      "link": "https://dailysocial.id/p/ninja-van-weighs-exit-bni-taps-wise",
+      "pubDate": "Mon, 23 Nov 2026 03:00:52 GMT",
+      "source": "DailySocial.id",
+      "source_kind": "firehose"
+    },
+    {
+      "company": "Alpha",
+      "dedup_key": "https://www.dealstreetasia.com/stories/alpha-jwc-looks-new-fund-501325/",
+      "description": "",
+      "headline": "Alpha JWC looks beyond SE Asia as Fund V hits first close",
+      "link": "https://www.dealstreetasia.com/stories/alpha-jwc-looks-new-fund-501325/",
+      "pubDate": "",
+      "source": "DealStreetAsia",
+      "source_kind": "firehose"
+    },
+    {
+      "company": "Carousell",
+      "dedup_key": "jobstreet://60526790/96062082",
+      "description": "",
+      "headline": "Used Car Sales Team Lead \u2013 C2C & Consignment (6-Month Contract, Convertible) \u2014 Sales",
+      "link": "https://sg.jobstreet.com/job/96062082",
+      "provider": "jobstreet",
+      "pubDate": "2026-11-23",
+      "source": "Carousell \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Carousell",
+      "dedup_key": "jobstreet://60526790/96061960",
+      "description": "",
+      "headline": "Used Car Sales Consultant (Consignment) - 6-Month Contract (Convertible) \u2014 Sales",
+      "link": "https://sg.jobstreet.com/job/96061960",
+      "provider": "jobstreet",
+      "pubDate": "2026-11-23",
+      "source": "Carousell \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "recruitee://patsnap/2837622",
+      "description": "",
+      "headline": "Technical Product Support Specialist \u2014 Product Support",
+      "link": "https://careers.patsnap.com/o/technical-product-support-specialist",
+      "provider": "recruitee",
+      "pubDate": "2026-11-23",
+      "source": "Patsnap \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "recruitee://patsnap/2837567",
+      "description": "",
+      "headline": "Product Support Specialist \u2014 Product Support",
+      "link": "https://careers.patsnap.com/o/product-support-specialist",
+      "provider": "recruitee",
+      "pubDate": "2026-11-23",
+      "source": "Patsnap \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Assemblr",
+      "dedup_key": "appstore://1505499586/1.9.4",
+      "description": "Say hello to Assemblr AI! Turn 2D images into 3D objects in just minutes. Teachers can create teaching tools faster, and students can bring their drawings to life in 3D. It\u2019s quick, easy, and fun. Try it now!",
+      "headline": "Assemblr EDU: Learn in 3D & AR 1.9.4 released on the App Store",
+      "link": "https://apps.apple.com/us/app/assemblr-edu-learn-in-3d-ar/id1505499586",
+      "pubDate": "2026-11-23",
+      "source": "Assemblr \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Assemblr",
+      "dedup_key": "appstore://1275354939/4.4.9",
+      "description": "They said people change. Everyone changes. Even this app changes. But we change for good. Say hello to Assemblr Studio! Check out what\u2019s new on our app: 1. Want to save your time creating? All set, you can use our premade AR templates! Feel free to use it as it is, or modify them up to your needs\u2014all in minutes. Available in four categories: Marketing, Souvenir, Presentation, and Printing 2. Bored with the usual looks? Guess what\u2014we\u2019ve got a new face! Make sure to take a look at our new, fresh\u2026",
+      "headline": "Assemblr Studio: Easy AR Maker 4.4.9 released on the App Store",
+      "link": "https://apps.apple.com/us/app/assemblr-studio-easy-ar-maker/id1275354939",
+      "pubDate": "2026-11-23",
+      "source": "Assemblr \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Goodwhale",
+      "dedup_key": "https://goodwhale.com/wall-street-worst-week-since-2020-nov-2026/",
+      "description": "Wall Street worst week stole the spotlight this week. Wall Street worst week since March 2020: the S&amp;P 500 fell 8.61% to 6,910.39 and the Nasdaq dropped 10.02%, wiping out its 2026 gains, as chip stocks crashed and the VIX jumped to 35.89. Nvidia posted record revenue of $115.8 billion and guided above estimates, yet its shares fell 22.9% on reports of an SEC probe and a California subpoena. Anthropic raised about $81.3 billion in the largest IPO on record, December Fed hike odds rose to 92%",
+      "headline": "GoodWhale Weekly: Wall Street Worst Week Since 2020, Nvidia Beats but Slides 23%, Anthropic\u2019s Record IPO, STI Breaks Below 5,000",
+      "link": "https://goodwhale.com/wall-street-worst-week-since-2020-nov-2026/",
+      "pubDate": "Mon, 23 Nov 2026 01:14:32 +0000",
+      "source": "Goodwhale \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "Goodwhale",
+      "dedup_key": "https://goodwhale.com/nvidia-ceo-resigns-yields-5-percent-nov-2026/",
+      "description": "Nvidia CEO resigns stole the spotlight this week. Nvidia CEO resigns: Jensen Huang stepped down with immediate effect on Thursday, CFO Colette Kress became interim CEO, and Nvidia shares fell 12.75% on the week to $162.85 ahead of Tuesday's results. Hot inflation data pushed the US 10-year Treasury yield up about 30 basis points to 5.15% and a December Fed hike is now fully priced, yet strong results from CoreWeave, Cisco and Applied Materials helped the S&amp;P 500 rise 2.51%. Anthropic set its",
+      "headline": "GoodWhale Weekly: Nvidia CEO Resigns, US 10-Year Yield Tops 5%, Anthropic Sets IPO Terms, KLCI Hits 14-Month Low",
+      "link": "https://goodwhale.com/nvidia-ceo-resigns-yields-5-percent-nov-2026/",
+      "pubDate": "Mon, 16 Nov 2026 02:56:53 +0000",
+      "source": "Goodwhale \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "Idle Logic",
+      "dedup_key": "appstore://6824047018/1.0.8",
+      "description": "\u2022 Bug fixes and improvements",
+      "headline": "Idle: AI Salon & Spa Booking 1.0.8 released on the App Store",
+      "link": "https://apps.apple.com/us/app/idle-ai-salon-spa-booking/id6824047018",
+      "pubDate": "2026-11-23",
+      "source": "Idle Logic \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Singapore Sapiens Technology",
+      "dedup_key": "appstore://6746299015/2.4.2",
+      "description": "Fixed some known issues",
+      "headline": "Agnes \u2014 Your AI for Life 2.4.2 released on the App Store",
+      "link": "https://apps.apple.com/us/app/agnes-your-ai-for-life/id6746299015",
+      "pubDate": "2026-11-22",
+      "source": "Singapore Sapiens Technology \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Skuling",
+      "dedup_key": "https://skuling.id/kurikulum-merdeka-mapel-pilihan-snbp/",
+      "description": "Penerapan Kurikulum Merdeka SMA membawa perubahan besar dalam sistem pembelajaran dan struktur kelas bagi siswa tingkat menengah atas. Berbeda dengan sistem penjurusan konvensional di masa lalu, sistem baru ini memberikan kebebasan yang lebih fleksibel bagi siswa untuk memilih mata pelajaran lanjutan sesuai minat, bakat, serta rencana karier di masa depan. \u200bBagi siswa kelas 11, ketepatan [&#8230;]",
+      "headline": "Memahami Kurikulum Merdeka dan Pemilihan Mapel Pilihan Kelas 11 untuk Persiapan SNBP 2027",
+      "link": "https://skuling.id/kurikulum-merdeka-mapel-pilihan-snbp/",
+      "pubDate": "Mon, 23 Nov 2026 02:00:00 +0000",
+      "source": "Skuling \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "Skuling",
+      "dedup_key": "https://skuling.id/cara-menyesuaikan-gaya-belajar-dengan-guru-dan-mata-pelajaran-yang-tidak-disukai/",
+      "description": "Tidak bisa dipungkiri, dalam perjalanan akademik di sekolah, kita pasti pernah dihadapkan pada situasi di mana guru pengajar kurang cocok dengan ritme belajar kita, atau mata pelajaran tertentu terasa sangat membosankan dan rumit. Masalah ini sering kali bikin motivasi belajar mendadak drop dan berdampak langsung pada perolehan nilai di kelas. \u200bPadahal, mempertahankan nilai rapor tetap [&#8230;]",
+      "headline": "Cara Menyesuaikan Gaya Belajar dengan Guru dan Mata Pelajaran yang Tidak Disukai",
+      "link": "https://skuling.id/cara-menyesuaikan-gaya-belajar-dengan-guru-dan-mata-pelajaran-yang-tidak-disukai/",
+      "pubDate": "Sat, 21 Nov 2026 02:00:00 +0000",
+      "source": "Skuling \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "Skuling",
+      "dedup_key": "https://skuling.id/mitos-dan-fakta-snbp/",
+      "description": "Jalur SNBP menjadi salah satu jalur yang banyak diincar oleh calon mahasiswa. Bukan hanya karena bisa mendaftar tanpa tes tulis seperti UTBK SNBT, tetapi juga bisa terbebas dari IPI (Iuran Pengembangan Institusi). Berbeda dengan SNBT, kelulusan SNBP nggak ditentukan berdasarkan tes, melainkan prestasiyang mana komponen prestasi ini hampir sepenuhnya menjadi kewenangan masing-masing PTN. Itulah mengapa, [&#8230;]",
+      "headline": "10 Mitos dan Fakta Seputar SNBP, Camaba Harus Tau!",
+      "link": "https://skuling.id/mitos-dan-fakta-snbp/",
+      "pubDate": "Thu, 19 Nov 2026 02:00:00 +0000",
+      "source": "Skuling \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "Skuling",
+      "dedup_key": "https://skuling.id/portofolio-snbp-dan-snbt/",
+      "description": "Program studi seperti seni dan olahraga memang memberikan syarat portofolio di SNBP maupun SNBT untuk pendaftaran. Fungsinya bukan hanya sebagai nilai tambah, tetapi juga untuk menentukan kelayakanmu mendapatkan program studi tersebut nantiniya. Portofolio itu apa, sih dan bagaimana cara membuatnya? Biar nggak bingung, yuk simak penjelasan lengkap mulai dari pengertian, jenis-jenis portofolio, ketentuan yang berlaku, [&#8230;]",
+      "headline": "Portofolio SNBP dan SNBT: Jenis, Ketentuan, dan Cara Membuatnya",
+      "link": "https://skuling.id/portofolio-snbp-dan-snbt/",
+      "pubDate": "Tue, 17 Nov 2026 02:00:00 +0000",
+      "source": "Skuling \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "spacejot",
+      "dedup_key": "appstore://6819797164/1.0.4",
+      "description": "\u2022 Smoother long chats: pictures in chats and grids load at the size you see them, so chats with lots of pictures open faster and use much less memory. Tap a picture to see it at full resolution.",
+      "headline": "Spacejot: AI Interior Design 1.0.4 released on the App Store",
+      "link": "https://apps.apple.com/us/app/spacejot-ai-interior-design/id6819797164",
+      "pubDate": "2026-11-23",
+      "source": "spacejot \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://1449692103/3.08",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "Carpe Diem Singapore 3.08 released on the App Store",
+      "link": "https://apps.apple.com/us/app/carpe-diem-singapore/id1449692103",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://1441392578/2.3",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "Growing Up Gifted 2.3 released on the App Store",
+      "link": "https://apps.apple.com/us/app/growing-up-gifted/id1441392578",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://1038708557/4.42",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "Posso Parent App 4.42 released on the App Store",
+      "link": "https://apps.apple.com/us/app/posso-parent-app/id1038708557",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://6450972452/3.0",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "PlayFACTO School 3.0 released on the App Store",
+      "link": "https://apps.apple.com/us/app/playfacto-school/id6450972452",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://957294111/4.36",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "Mulberry Learning Centre 4.36 released on the App Store",
+      "link": "https://apps.apple.com/us/app/mulberry-learning-centre/id957294111",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "jobstreet://60536447/96058750",
+      "description": "",
+      "headline": "DevSecOps Engineer (EdTech Company) \u2014 Information & Communication Technology",
+      "link": "https://sg.jobstreet.com/job/96058750",
+      "provider": "jobstreet",
+      "pubDate": "2026-11-23",
+      "source": "Taidii \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Tuc Thoi Service Corporation",
+      "dedup_key": "appstore://987325355/12.20.1",
+      "description": "Bug fixes and improvements",
+      "headline": "Ahamove 12.20.1 released on the App Store",
+      "link": "https://apps.apple.com/us/app/ahamove/id987325355",
+      "pubDate": "2026-11-23",
+      "source": "Tuc Thoi Service Corporation \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Addlly AI",
+      "dedup_key": "https://addlly.ai/contact-us/",
+      "description": "Page updated in the sitemap of Addlly AI's own website addlly.ai (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Contact Us",
+      "link": "https://addlly.ai/contact-us/",
+      "pubDate": "2026-11-23T02:35:30+00:00",
+      "source": "addlly.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Ailytics",
+      "dedup_key": "https://www.ailytics.ai/use-cases/loitering-detection",
+      "description": "New page listed in the sitemap of Ailytics's own website ailytics.ai. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Loitering Detection",
+      "link": "https://www.ailytics.ai/use-cases/loitering-detection",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "ailytics.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Ailytics",
+      "dedup_key": "https://www.ailytics.ai/use-cases/ai-weapon-detection",
+      "description": "New page listed in the sitemap of Ailytics's own website ailytics.ai. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Ai Weapon Detection",
+      "link": "https://www.ailytics.ai/use-cases/ai-weapon-detection",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "ailytics.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Ailytics",
+      "dedup_key": "https://www.ailytics.ai/use-cases/ai-security-guard",
+      "description": "New page listed in the sitemap of Ailytics's own website ailytics.ai. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Ai Security Guard",
+      "link": "https://www.ailytics.ai/use-cases/ai-security-guard",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "ailytics.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "AiSee",
+      "dedup_key": "https://apps.apple.com/us/app/fsb-iowa-mobile/id990337771",
+      "description": "New page listed in the sitemap of AiSee's own website apps.apple.com. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Id990337771",
+      "link": "https://apps.apple.com/us/app/fsb-iowa-mobile/id990337771",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "apps.apple.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "AiSee",
+      "dedup_key": "https://apps.apple.com/us/app/american-federal-bank/id991403260",
+      "description": "New page listed in the sitemap of AiSee's own website apps.apple.com. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Id991403260",
+      "link": "https://apps.apple.com/us/app/american-federal-bank/id991403260",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "apps.apple.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "AiSee",
+      "dedup_key": "https://apps.apple.com/tr/app/foto%C4%9Fraf-kolaj%C4%B1-profesyonel/id998170761?l=tr",
+      "description": "New page listed in the sitemap of AiSee's own website apps.apple.com. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Id998170761",
+      "link": "https://apps.apple.com/tr/app/foto%C4%9Fraf-kolaj%C4%B1-profesyonel/id998170761?l=tr",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "apps.apple.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "AiSee",
+      "dedup_key": "https://apps.apple.com/th/app/%E0%B8%A3-%E0%B8%9B%E0%B8%95-%E0%B8%94%E0%B8%95-%E0%B8%AD-%E0%B9%82%E0%B8%9B%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B9%81%E0%B8%95-%E0%B8%87%E0%B8%A3-%E0%B8%9B-%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A/id998170761?l=th",
+      "description": "New page listed in the sitemap of AiSee's own website apps.apple.com. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Id998170761",
+      "link": "https://apps.apple.com/th/app/%E0%B8%A3-%E0%B8%9B%E0%B8%95-%E0%B8%94%E0%B8%95-%E0%B8%AD-%E0%B9%82%E0%B8%9B%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B9%81%E0%B8%95-%E0%B8%87%E0%B8%A3-%E0%B8%9B-%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A/id998170761?l=th",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "apps.apple.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "AiSee",
+      "dedup_key": "https://apps.apple.com/ru/app/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B0%D0%B6-%D0%B8%D0%B7-%D1%84%D0%BE%D1%82%D0%BE-%D1%84%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D0%BB%D0%B0%D0%B6%D0%B8-%D0%B2/id998170761",
+      "description": "New page listed in the sitemap of AiSee's own website apps.apple.com. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Id998170761",
+      "link": "https://apps.apple.com/ru/app/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B0%D0%B6-%D0%B8%D0%B7-%D1%84%D0%BE%D1%82%D0%BE-%D1%84%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D0%BB%D0%B0%D0%B6%D0%B8-%D0%B2/id998170761",
+      "pubDate": "2026-11-24T03:18:00+00:00",
+      "source": "apps.apple.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/coastal-infrastructure",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-24). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Coastal Infrastructure",
+      "link": "https://www.beex.sg/coastal-infrastructure",
+      "pubDate": "2026-11-24T01:44:39+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/fleet",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-20). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Fleet",
+      "link": "https://www.beex.sg/fleet",
+      "pubDate": "2026-11-20T01:40:36+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/contact-us",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-20). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Contact Us",
+      "link": "https://www.beex.sg/contact-us",
+      "pubDate": "2026-11-20T01:28:16+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Constructor.io",
+      "dedup_key": "https://constructor.com/solutions/ai-shopping-agent",
+      "description": "Page updated in the sitemap of Constructor.io's own website constructor.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Ai Shopping Agent",
+      "link": "https://constructor.com/solutions/ai-shopping-agent",
+      "pubDate": "2026-11-23T00:00:00+00:00",
+      "source": "constructor.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Doinn APAC",
+      "dedup_key": "https://doinn.co/it/termini-d-uso/",
+      "description": "Page updated in the sitemap of Doinn APAC's own website doinn.co (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Termini D Uso",
+      "link": "https://doinn.co/it/termini-d-uso/",
+      "pubDate": "2026-11-23T12:17:40+00:00",
+      "source": "doinn.co sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Doinn APAC",
+      "dedup_key": "https://doinn.co/pt-pt/termos-de-uso/",
+      "description": "Page updated in the sitemap of Doinn APAC's own website doinn.co (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Termos De Uso",
+      "link": "https://doinn.co/pt-pt/termos-de-uso/",
+      "pubDate": "2026-11-23T12:16:30+00:00",
+      "source": "doinn.co sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Doinn APAC",
+      "dedup_key": "https://doinn.co/es/terminos-de-uso/",
+      "description": "Page updated in the sitemap of Doinn APAC's own website doinn.co (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Terminos De Uso",
+      "link": "https://doinn.co/es/terminos-de-uso/",
+      "pubDate": "2026-11-23T12:15:18+00:00",
+      "source": "doinn.co sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/flexxon-worm-sd-card/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Flexxon Worm Sd Card",
+      "link": "https://www.flexxon.com/flexxon-worm-sd-card/",
+      "pubDate": "2026-11-23T10:59:22+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/newsletter-flexxon-ssd-power-loss-protection/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Newsletter Flexxon Ssd Power Loss Protection",
+      "link": "https://www.flexxon.com/newsletter-flexxon-ssd-power-loss-protection/",
+      "pubDate": "2026-11-23T10:54:38+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/flexxon-memory-card-connector/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Flexxon Memory Card Connector",
+      "link": "https://www.flexxon.com/flexxon-memory-card-connector/",
+      "pubDate": "2026-11-23T10:47:47+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/nexus-to-distribute-flexxon-memory-for-embedded-systems/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Nexus To Distribute Flexxon Memory For Embedded Systems",
+      "link": "https://www.flexxon.com/nexus-to-distribute-flexxon-memory-for-embedded-systems/",
+      "pubDate": "2026-11-23T10:42:00+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/x-mask-in-tpm-application/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-20). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "X Mask In Tpm Application",
+      "link": "https://www.flexxon.com/x-mask-in-tpm-application/",
+      "pubDate": "2026-11-20T10:44:28+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "https://www.patsnap.com/industries/engineering/",
+      "description": "Page updated in the sitemap of Patsnap's own website patsnap.com (lastmod 2026-11-24). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Engineering",
+      "link": "https://www.patsnap.com/industries/engineering/",
+      "pubDate": "2026-11-24T02:43:08+00:00",
+      "source": "patsnap.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "https://www.patsnap.com/customers/how-ga-drilling-brought-freedom-to-operate-work-in-house-with-patsnap/",
+      "description": "Page updated in the sitemap of Patsnap's own website patsnap.com (lastmod 2026-11-24). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "How Ga Drilling Brought Freedom To Operate Work In House With Patsnap",
+      "link": "https://www.patsnap.com/customers/how-ga-drilling-brought-freedom-to-operate-work-in-house-with-patsnap/",
+      "pubDate": "2026-11-24T02:43:08+00:00",
+      "source": "patsnap.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Patsnap",
+      "dedup_key": "https://www.patsnap.com/customers/",
+      "description": "Page updated in the sitemap of Patsnap's own website patsnap.com (lastmod 2026-11-24). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Customers",
+      "link": "https://www.patsnap.com/customers/",
+      "pubDate": "2026-11-24T02:43:08+00:00",
+      "source": "patsnap.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/what-is-patch-diffing-ai-exploit-generation-soc",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "What Is Patch Diffing Ai Exploit Generation Soc",
+      "link": "https://www.peris.ai/blog/what-is-patch-diffing-ai-exploit-generation-soc",
+      "pubDate": "2026-11-23T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/session-hijacking-adalah-cara-mencegah-2026",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Session Hijacking Adalah Cara Mencegah 2026",
+      "link": "https://www.peris.ai/blog/session-hijacking-adalah-cara-mencegah-2026",
+      "pubDate": "2026-11-23T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/kebocoran-data-rumah-sakit-2026-pengecekan-rs-indonesia",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Kebocoran Data Rumah Sakit 2026 Pengecekan Rs Indonesia",
+      "link": "https://www.peris.ai/blog/kebocoran-data-rumah-sakit-2026-pengecekan-rs-indonesia",
+      "pubDate": "2026-11-23T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/does-resetting-password-remove-hacker-cold-relic-workspace",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Does Resetting Password Remove Hacker Cold Relic Workspace",
+      "link": "https://www.peris.ai/blog/does-resetting-password-remove-hacker-cold-relic-workspace",
+      "pubDate": "2026-11-23T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Peris.ai",
+      "dedup_key": "https://www.peris.ai/blog/dns-hijacking-adalah-cara-mengecek-domain-2026",
+      "description": "New page listed in the sitemap of Peris.ai's own website peris.ai (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Dns Hijacking Adalah Cara Mengecek Domain 2026",
+      "link": "https://www.peris.ai/blog/dns-hijacking-adalah-cara-mengecek-domain-2026",
+      "pubDate": "2026-11-23T00:00:00+00:00",
+      "source": "peris.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/sg/companies/liquidity-programs",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Liquidity Programs",
+      "link": "https://www.qapita.com/sg/companies/liquidity-programs",
+      "pubDate": "2026-11-23T08:14:03+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/equity-management/tender-offers",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Tender Offers",
+      "link": "https://www.qapita.com/equity-management/tender-offers",
+      "pubDate": "2026-11-23T08:14:03+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/in/esop-management",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Esop Management",
+      "link": "https://www.qapita.com/in/esop-management",
+      "pubDate": "2026-11-23T07:12:21+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/equity-management",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Equity Management",
+      "link": "https://www.qapita.com/equity-management",
+      "pubDate": "2026-11-23T07:12:21+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/equity-management/phantom-stock-plan",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Phantom Stock Plan",
+      "link": "https://www.qapita.com/equity-management/phantom-stock-plan",
+      "pubDate": "2026-11-23T07:06:22+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "SalesMind AI",
+      "dedup_key": "https://sales-mind.ai/en/blog/post/linkedin-outreach",
+      "description": "New page listed in the sitemap of SalesMind AI's own website sales-mind.ai (lastmod 2026-11-23). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Linkedin Outreach",
+      "link": "https://sales-mind.ai/en/blog/post/linkedin-outreach",
+      "pubDate": "2026-11-23T06:24:42+00:00",
+      "source": "sales-mind.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "SalesMind AI",
+      "dedup_key": "https://sales-mind.ai/ja/vs/salesforce",
+      "description": "New page listed in the sitemap of SalesMind AI's own website sales-mind.ai (lastmod 2026-11-21). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Salesforce",
+      "link": "https://sales-mind.ai/ja/vs/salesforce",
+      "pubDate": "2026-11-21T16:29:33+00:00",
+      "source": "sales-mind.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Horizon Quantum Computing",
+      "dedup_key": "ipos://trademark/40202428374P/registered",
+      "description": "IPOS trade mark 40202428374P (Trade Mark). Status: Registered (as of 2024-12-03); filed 2024-12-03; published 2025-04-11; register updated 2026-11-23. Goods/services: Software for computers; Computer software products; Compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; \u2026",
+      "headline": "Horizon Quantum Computing trademark 'TRIPLE ALPHA' (class 9, 42): Registered",
+      "link": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428374P%22%7D",
+      "pubDate": "2026-11-23",
+      "source": "IPOS (data.gov.sg)",
+      "source_kind": "ipos"
+    },
+    {
+      "company": "Horizon Quantum Computing",
+      "dedup_key": "ipos://trademark/40202428373S/registered",
+      "description": "IPOS trade mark 40202428373S (Trade Mark). Status: Registered (as of 2024-12-03); filed 2024-12-03; published 2025-03-07; register updated 2026-11-23. Goods/services: Software for computers; Computer software products; Compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; \u2026",
+      "headline": "Horizon Quantum Computing trademark 'device: alpha extended circles fans' (class 9, 42): Registered",
+      "link": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428373S%22%7D",
+      "pubDate": "2026-11-23",
+      "source": "IPOS (data.gov.sg)",
+      "source_kind": "ipos"
+    },
+    {
+      "company": "Horizon Quantum Computing",
+      "dedup_key": "ipos://trademark/40202428372R/registered",
+      "description": "IPOS trade mark 40202428372R (Trade Mark). Status: Registered (as of 2024-12-03); filed 2024-12-03; published 2025-03-07; register updated 2026-11-23. Goods/services: Software for computers; Computer software products; Compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; \u2026",
+      "headline": "Horizon Quantum Computing trademark 'triple alpha' (class 9, 42): Registered",
+      "link": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428372R%22%7D",
+      "pubDate": "2026-11-23",
+      "source": "IPOS (data.gov.sg)",
+      "source_kind": "ipos"
+    },
+    {
+      "company": "Horizon Quantum Computing",
+      "dedup_key": "ipos://trademark/40202428371Q/registered",
+      "description": "IPOS trade mark 40202428371Q (Trade Mark). Status: Registered (as of 2024-12-03); filed 2024-12-03; published 2025-04-11; register updated 2026-11-23. Goods/services: Software for computers; Computer software products; Compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; \u2026",
+      "headline": "Horizon Quantum Computing trademark 'HORIZON QUANTUM' (class 9, 42): Registered",
+      "link": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428371Q%22%7D",
+      "pubDate": "2026-11-23",
+      "source": "IPOS (data.gov.sg)",
+      "source_kind": "ipos"
+    },
+    {
+      "company": "Horizon Quantum Computing",
+      "dedup_key": "ipos://trademark/40202428370V/registered",
+      "description": "IPOS trade mark 40202428370V (Trade Mark). Status: Registered (as of 2024-12-03); filed 2024-12-03; published 2025-03-07; register updated 2026-11-23. Goods/services: Software for computers; Computer software products; Compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; \u2026",
+      "headline": "Horizon Quantum Computing trademark 'device: dome intersecting wavy curved stripes' (class 9, 42): Registered",
+      "link": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428370V%22%7D",
+      "pubDate": "2026-11-23",
+      "source": "IPOS (data.gov.sg)",
+      "source_kind": "ipos"
+    },
+    {
+      "company": "Horizon Quantum Computing",
+      "dedup_key": "ipos://trademark/40202428369V/registered",
+      "description": "IPOS trade mark 40202428369V (Trade Mark). Status: Registered (as of 2024-12-03); filed 2024-12-03; published 2025-04-11; register updated 2026-11-23. Goods/services: Software for computers; Computer software products; Compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; \u2026",
+      "headline": "Horizon Quantum Computing trademark 'HORIZON QUANTUM' (class 9, 42): Registered",
+      "link": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428369V%22%7D",
+      "pubDate": "2026-11-23",
+      "source": "IPOS (data.gov.sg)",
+      "source_kind": "ipos"
+    },
+    {
+      "company": "Horizon Quantum Computing",
+      "dedup_key": "ipos://trademark/40202105543S/registered",
+      "description": "IPOS trade mark 40202105543S (Trade Mark). Status: Registered (as of 2021-03-10); filed 2021-03-10; published 2025-01-24; register updated 2026-11-23. Goods/services: Software for computers; computer software products; compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; \u2026",
+      "headline": "Horizon Quantum Computing trademark 'HORIZON QUANTUM COMPUTING' (class 9, 42): Registered",
+      "link": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202105543S%22%7D",
+      "pubDate": "2026-11-23",
+      "source": "IPOS (data.gov.sg)",
+      "source_kind": "ipos"
+    }
+  ],
+  "companies": {
+    "Addlly AI": "BLOCK71 Singapore-resident GenAI content-marketing startup (co-founders Tina Chopra (CEO) and Ronie Ganguly) operating a 'zero-prompt' AI content-creation suite \u2014 1-Click Blog Writer, AI Social Media Post Generator, multi-language Asian-market support; ASEAN Digital Awards 2025 Silver. Drop generic AI-marketing-tools coverage unless it names Addlly.",
+    "AiSee": "NUS Enterprise@SSP-resident Singapore deep-tech startup (NUS School of Computing spin-out, 2025) building AiSee \u2014 a self-contained AI-powered wearable visual companion for the visually impaired with bone-conduction audio, on-device Meta Llama models, and capabilities like label-reading and text translation. Won the 2024 Meta Llama Impact Innovation Award; pre-orders at S$199. Drop generic 'AI see' / vision-AI hype unless it names this device.",
+    "Ailytics": "NUS GRIP-incubated Singapore deep-tech startup. Drop unrelated companies sharing the same name.",
+    "Alpha": "NUS GRIP-incubated Singapore deep-tech startup. Highly generic name \u2014 drop any item not clearly referring to a Singapore deep-tech startup of this exact name.",
+    "Assemblr": "BLOCK71 Social Impact Hub-listed Indonesian AR / 3D-content platform (HQ Bandung, SG offices at CT HUB2 and 336 Smith St) with Assemblr EDU for K-12 STEM AR experiences; 11,500+ teachers trained via the Assemblr Certified Trainer programme; joined the NUS Enterprise \u00d7 raiSE Technology for Sustainable Social Impact (TS2) cohort. Drop generic 'assembler' / IKEA-style assembly news unless it names this AR platform.",
+    "BEEX": "NUS GRIP-incubated Singapore autonomous-systems startup. Drop unrelated companies sharing the same name.",
+    "Carousell": "Singapore-headquartered online classifieds and consumer marketplace platform; the group also operates OneShift, Mudah, and Cho Tot.",
+    "Constructor.io": "BLOCK71 Silicon Valley-affiliated US enterprise-eCommerce search and product-discovery platform (NLP + ML ranking, personalized search/browse/recommendations) used by Sephora, Petco, Bonobos, Target Australia. Drop items about unrelated 'constructor pattern' programming content or construction firms.",
+    "Doinn APAC": "BLOCK71 Singapore-resident APAC arm of Doinn \u2014 an online marketplace connecting hosts / property-managers with cleaning, laundry and linen services. Drop unrelated 'Doinn' brand mentions unless the article explicitly references this BLOCK71 SG-listed APAC entity.",
+    "Flexxon": "BLOCK71 Silicon Valley-listed Singapore cybersecurity-hardware startup (founded 2007) building X-PHY, the world's first AI-embedded SSD with hardware-level threat detection and physical-tamper response. Co-founded by Camellia Chan and May Chng. Drop items that only mention generic flash-storage or unrelated 'X-PHY' physics content.",
+    "Goodwhale": "BLOCK71 Social Impact Hub-resident Singapore B-Corp-certified fintech startup running a personalised investing-health platform for new retail investors \u2014 goal setting, portfolio coaching, sustainable / values-aligned investing tools. Drop pet/animal-care 'whale' brands or shipping news unless the article references the investing-health platform.",
+    "Horizon Quantum Computing": "Singapore-based privately-held quantum computing software startup. Distinct from any publicly-traded company sharing a similar name (NASDAQ:HQ ticker, Horizon Quantum Holdings, earnings releases, ticker-aggregator coverage from Zacks/TipRanks/MarketBeat/etc. must be excluded).",
+    "Idle Logic": "BLOCK71 Singapore-resident startup. Limited public-English information beyond the directory listing \u2014 drop unrelated 'Idle Logic' brand mentions unless the article explicitly references this BLOCK71 SG entity.",
+    "Patsnap": "Singapore-headquartered IP intelligence and innovation analytics SaaS company.",
+    "Peris.ai": "BLOCK71 Singapore-resident cybersecurity-AI startup (peris.ai) building an agentic-AI security operations centre (AI-SOC) platform that cuts detection and response times for security teams; Google for Startups Accelerator Southeast Asia alumnus. Drop unrelated 'peris' brand mentions unless the article explicitly references this BLOCK71 SG entity.",
+    "Qapita": "BLOCK71 Silicon Valley-listed Singapore-headquartered equity-management platform (cap-table, ESOP administration, secondary-share workflows) founded 2019 by Ravi Ravulaparthi (CEO), Lakshman Gupta (COO) and Vamsee Mohan (CTO); serves ~2,700 SEA/India companies. Carta challenger now powering Schwab Private Issuer Equity Services in the US. Drop unrelated Qatar/Q-brands.",
+    "SalesMind AI": "BLOCK71 Singapore-resident sales-AI startup. Drop unrelated 'SalesMind' branded vendors (Salesmind.ai LinkedIn outreach, etc.) unless the article explicitly references this BLOCK71 SG entity.",
+    "Singapore Sapiens Technology": "BLOCK71 Singapore-resident technology startup. Drop unrelated 'Sapiens' brand mentions (Sapiens International insurance software, etc.) unless the article explicitly references this BLOCK71 SG entity.",
+    "Skuling": "BLOCK71 Yogyakarta-resident Indonesian edutech startup building a gamified web learning platform \u2014 leaderboards, social discussion, performance analytics \u2014 targeting Indonesian primary/secondary education accessibility and engagement gaps. ~110,000 users across 502 of 514 Indonesian cities. Founded by Yudha Pratama Situmorang (Boston University Questrom MBA'24); 2024 Poets & Quants Most Disruptive MBA Startup. Drop generic 'schooling' / education-tech mentions.",
+    "Taidii": "BLOCK71 Suzhou-listed Singapore preschool / childcare-school-management SaaS (HQ Singapore, Suzhou ops listed twice in directory \u2014 folded here) covering attendance, billing, e-enrollment, e-forms, finance, parent-school communication; >50% private-school market share in Singapore; ECDA-approved vendor; VAMS 4S sub-second attendance / temperature device; presence in Singapore, China (Suzhou), UAE, Australia and the Philippines. Drop generic 'taid' / 'tide' branding news unless it names Taidii.",
+    "Tuc Thoi Service Corporation": "BLOCK71 Saigon-resident Vietnamese service-corporation startup. Limited public-English information beyond the directory listing \u2014 drop unrelated mentions unless the article explicitly references this BLOCK71 Saigon entity.",
+    "WiSe": "NUS GRIP-incubated Singapore deep-tech startup. Very generic \u2014 drop any item not clearly about this specific Singapore startup.",
+    "spacejot": "NUS GRIP-incubated Singapore deep-tech startup. Drop unrelated companies sharing the same name."
+  },
+  "fetch_failed": [
+    {
+      "error": "HTTP Error 400: Bad Request",
+      "kind": "firehose",
+      "url": "https://vir.com.vn/rss_feed/"
+    },
+    {
+      "company": "Flexii",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://flexii.net/sg/feed/"
+    },
+    {
+      "company": "Flow Coffee",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://www.flowcoffee.sg/blog-feed.xml"
+    },
+    {
+      "company": "PharLyfe+",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://pharlyfeplus.com/news-update/f.rss"
+    }
+  ],
+  "generated_at": "2026-11-24T03:35:51+00:00",
+  "jina_recovered": [
+    "https://mothership.sg/feed/",
+    "https://thelowdown.momentum.asia/feed/",
+    "https://www.36kr.com/feed",
+    "https://www.theedgesingapore.com/rss.xml"
+  ],
+  "llm_fetch_required": [
+    {
+      "company": "Ailytics",
+      "hint": "Webflow CMS listing under div.collection-list-wrapper-2.w-dyn-list. Each item is a div.div-block-78 containing a category label in div.category, a headline in div.text-block-27 (treat as the title), and a date as plain text in div.text-block-29 (e.g. 'April 28, 2026'). About 6 items shown in reverse chronological order. Resolve relative item links against https://www.ailytics.ai/.",
+      "label": "news",
+      "url": "https://www.ailytics.ai/news"
+    },
+    {
+      "company": "Belli AI",
+      "hint": "",
+      "label": "news",
+      "url": "https://www.belli.ai/company/news"
+    },
+    {
+      "company": "Cellivate Technologies",
+      "hint": "Cellivate 'Recognition' page lists press features and awards. Each article entry is a clickable row with a date at the top-left (e.g. 'May 18, 2023'), then headline text, then publication attribution ('Published by TechNode Global', etc.). Resolve relative links against https://www.cellivatetech.com/.",
+      "label": "press",
+      "url": "https://www.cellivatetech.com/recognition"
+    },
+    {
+      "company": "Craft Health",
+      "hint": "Craft Health 'Latest News' page is a chronological press/achievements timeline organised by year and month headers (e.g. '2021', then 'January 2021'). Each entry is a bullet line of plain text describing a media mention or award, often with an inline '[<Read_More>]' or named hyperlink to an external article. Dates come from the month/year section headings, not per-item. Resolve relative links against https://www.crafthealth.me/.",
+      "label": "news",
+      "url": "https://www.crafthealth.me/newsletter"
+    },
+    {
+      "company": "Finsey",
+      "hint": "",
+      "label": "blog",
+      "url": "https://finsey.vn/blog"
+    },
+    {
+      "company": "lalia",
+      "hint": "Card-based press listing for Lalia Pte Ltd (Singapore). Each card has a thumbnail image, an <h3> headline (often in Japanese), a secondary line with the source URL, and a publication date in 'YYYY/MM/DD' format below it. Each card wraps in an <a> tag linking to the full article (often external publishers). Resolve relative links against https://read.lalia.com.sg/.",
+      "label": "press",
+      "url": "https://read.lalia.com.sg/press"
+    },
+    {
+      "company": "SENSORI Healthcare",
+      "hint": "SENSORI Healthcare news listing. Each item is an anchor (<a>) wrapping the entry with the headline rendered as an <h4> (e.g. 'SENSORI Healthcare Wins Third Prize at Two Innovation and Entrepreneurship Competitions') and the date below in YYYY-MM-DD format (e.g. '2025-12-03'). Items are tagged 'News' and ordered newest-first. Resolve relative links against https://www.sensorihealthcare.com.",
+      "label": "news",
+      "url": "https://www.sensorihealthcare.com/h-col-157.html"
+    },
+    {
+      "company": "SilentConvo",
+      "hint": "",
+      "label": "blog",
+      "url": "https://silentconvo.io/blog"
+    },
+    {
+      "company": "Soynergy",
+      "hint": "Soynergy WordPress news category listing. Each post is a <div> block with a featured image, headline in <h2> link, and the publication date below in 'Month Day, Year' format (e.g. 'August 27, 2018'); a 'News' tag appears above the headline and a 'READ MORE' link follows. Note: archive is small and stale (last post 2018). Resolve relative links against https://www.soynergy.com.",
+      "label": "news",
+      "url": "https://www.soynergy.com/category/news/"
+    },
+    {
+      "company": "spacejot",
+      "hint": "Blog listing on Spacejot's web app. Each post is rendered with an h3 headline that links to /blog/<slug>, with the publication date (e.g. 'Jul 06, 2024') displayed adjacent to the title. Resolve relative links against https://www.spacejot.app/.",
+      "label": "blog",
+      "url": "https://www.spacejot.app/blog"
+    }
+  ],
+  "stats": {
+    "appstore_capped": 8,
+    "candidates": 67,
+    "companies_matched": 23,
+    "edgar_candidates": 0,
+    "excluded_by_terms": 0,
+    "fetch_failed": 4,
+    "gebiz_candidates": 0,
+    "ipos_candidates": 7,
+    "jina_candidates": 0,
+    "jina_recovered": 4,
+    "llm_fetch_required": 10,
+    "masfid_candidates": 0,
+    "portfolio_candidates": 0,
+    "pre_extracted_capped": 0,
+    "sitemap_candidates": 36,
+    "startupsg_candidates": 0,
+    "weak_term_suppressed": 2
+  }
+}

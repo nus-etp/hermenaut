@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_drop/horizon-quantum-computing/data.gov.sg",
+  "created_by": "write_scenarios@run 45317776847",
+  "expected": {
+    "company": "Horizon Quantum Computing",
+    "reason": "jev material=0.67",
+    "verdict": "keep"
+  },
+  "goal": "Keep 'Horizon Quantum Computing trademark 'HORIZON QUANTUM' (class 9, 42): Registered' for Horizon Quantum Computing",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-24-0006",
+  "input": {
+    "candidate": {
+      "description": "IPOS trade mark 40202428369V (Trade Mark). Status: Registered (as of 2024-12-03); filed 2024-12-03; published 2025-04-11; register updated 2026-11-23. Goods/services: Software for computers; Computer software products; Compiler software; Computer networking installations; Development and testing of computing methods, algorithms and software; …",
+      "matched": [
+        "Horizon Quantum Computing"
+      ],
+      "source": "IPOS (data.gov.sg)",
+      "title": "Horizon Quantum Computing trademark 'HORIZON QUANTUM' (class 9, 42): Registered",
+      "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428369V%22%7D"
+    },
+    "companies": {
+      "Horizon Quantum Computing": {
+        "description": "Singapore-based privately-held quantum computing software startup. Distinct from any publicly-traded company sharing a similar name (NASDAQ:HQ ticker, Horizon Quantum Holdings, earnings releases, ticker-aggregator coverage from Zacks/TipRanks/MarketBeat/etc. must be excluded)."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-24",
+    "judge": "jev",
+    "judge_confidence": 0.84,
+    "kind": "judge_disagreement",
+    "run_id": "45317776847",
+    "source": "2026-11-24.jsonl",
+    "verdict_pipeline": "drop"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
