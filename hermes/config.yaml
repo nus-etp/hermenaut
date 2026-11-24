@@ -14,6 +14,10 @@ fallback_providers:
     model: deepseek-ai/deepseek-v4.1-flash
   - provider: zai            # free backstop (Z.AI/GLM) — ZAI_API_KEY; cost-0 model
     model: glm-4.7-flash
+  - provider: custom         # SEA-LION (AI Singapore) — SEALION_API_KEY; 10 req/min, paced by scripts/rate_limit_proxy.py on :8791
+    model: aisingapore/Qwen-SEA-LION-v4.5-27B-IT
+    base_url: http://127.0.0.1:8791/v1
+    key_env: SEALION_API_KEY
   - provider: custom         # Groq free tier — GROQ_API_KEY; 1,000 req/day, small per-minute token cap
     model: openai/gpt-oss-120b
     base_url: https://api.groq.com/openai/v1

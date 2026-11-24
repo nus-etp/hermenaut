@@ -54,6 +54,9 @@ fi
 if [ -n "${GROQ_API_KEY:-}" ]; then        # groq fallback (custom entry, key_env GROQ_API_KEY)
   echo "GROQ_API_KEY=${GROQ_API_KEY}" >> "$HERMES_HOME/.env"
 fi
+if [ -n "${SEALION_API_KEY:-}" ]; then     # SEA-LION fallback (custom entry via the local rate-limit relay)
+  echo "SEALION_API_KEY=${SEALION_API_KEY}" >> "$HERMES_HOME/.env"
+fi
 if [ -n "${KILOCODE_API_KEY:-}" ]; then    # kilocode fallback (free model pool)
   echo "KILOCODE_API_KEY=${KILOCODE_API_KEY}" >> "$HERMES_HOME/.env"
 fi
