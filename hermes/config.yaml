@@ -14,6 +14,10 @@ fallback_providers:
     model: deepseek-ai/deepseek-v4.1-flash
   - provider: zai            # free backstop (Z.AI/GLM) — ZAI_API_KEY; cost-0 model
     model: glm-4.7-flash
+  - provider: custom         # Runcrate free weekly allowance — RUNCRATE_API_KEY; $0 balance, so it 402s (fails over) when used up
+    model: deepseek-ai/DeepSeek-V4.1-Flash
+    base_url: https://api.runcrate.ai/v1
+    key_env: RUNCRATE_API_KEY
   - provider: custom         # SEA-LION (AI Singapore) — SEALION_API_KEY; 10 req/min, paced by scripts/rate_limit_proxy.py on :8791
     model: aisingapore/Qwen-SEA-LION-v4.5-27B-IT
     base_url: http://127.0.0.1:8791/v1
