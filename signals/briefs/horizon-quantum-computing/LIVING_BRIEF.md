@@ -1,5 +1,5 @@
 # Horizon Quantum Computing — LIVING BRIEF
-_Last updated: 2026-10-31 10:35 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -23,7 +23,7 @@ _Last material event: 2026-08-04 — Reported Q2 2026 results as Nasdaq-listed H
 _Total disclosed: $22.2M._
 
 ## Recent signals
-_none_
+- **2026-11-23** — Trademark 'TRIPLE ALPHA' (class 9, 42) registered with IPOS — [data.gov.sg](https://data.gov.sg/api/action/datastore_search?resource_id=d_6145acb2130bf781165258e76a584383&filters=%7B%22applicationNumber%22%3A%2240202428374P%22%7D)
 
 ## Older signals
 - **2026-09-15** — Horizon Quantum Holdings issued a share-count and lock-up clarification after what it called incorrect information in the market the previous day, confirming every SPAC-era lock-up from the 19 March 2026 dMY Squared business combination is still in force — [horizonquantum.com](https://www.horizonquantum.com/resources/newsroom/horizon-quantum-clarifies-certain-information-regarding-the-company) (Also reported by: [investors.horizonquantum.com](https://investors.horizonquantum.com/news-releases/news-release-details/horizon-quantum-clarifies-certain-information-regarding-company), [morningstar.com](https://morningstar.com/news/business-wire/20260915023971/horizon-quantum-clarifies-certain-information-regarding-the-company))

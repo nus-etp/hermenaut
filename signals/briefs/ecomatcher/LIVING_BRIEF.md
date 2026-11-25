@@ -1,40 +1,33 @@
 # EcoMatcher — LIVING BRIEF
-_Last updated: 2026-09-19 16:23 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
-EcoMatcher is a Hong Kong-headquartered B-Corp operating a blockchain-tracked tree-planting and forest-management platform serving ~50,000 global corporate customers including Grab and Procter & Gamble. Its April 2026 launch of Tree Personas — a Nature Interface with 3D tree visits, multi-language AI tree chat, and three initial digital personalities (Twiggles, Oakly, Seren) — expands its sustainability engagement offering for enterprise clients.
+EcoMatcher is a BLOCK71 Bandung-listed Hong Kong-headquartered B-Corp (founded 2016 by Bas Fransen) operating a blockchain-tracked tree-planting and forest-management platform with TreeCorder data-capture app and TreeManager cloud system. Corporate customers include Grab and Procter & Gamble, with approximately 50,000 customers globally. The November 2026 launch of a Japanese-language platform marks the company's first explicit entry into the Japanese market, extending its Southeast Asian and Hong Kong footprint into a new Asia-Pacific territory with its Verra/Gold Standard carbon-certified TREES+ projects.
 
-_Last material event: 2026-07-14 — Launched next-generation ForestTracker with drone integration, community messaging, and Forever Forests_
+_Last material event: 2026-11-11 — Launched Japanese-language platform, expanding into Japan market_
 
 ## Profile
 - Sector: Climate tech
-- Region: Hong Kong (BLOCK71 Bandung-listed); global operations
+- Region: Hong Kong (Bandung operations)
 - Founded: 2016
-- Key people: Bas Fransen (CEO)
-- Stage / funding: B-Corp (since 2018), revenue-funded
-- Customers: Dubai Islamic Bank, Grab, Infosys, Singlife
+- Stage / funding: Growth (BLOCK71 Bandung portfolio; B-Corp since 2018)
+- Key people: Bas Fransen (Founder)
+- Identifiers: [Website](https://www.ecomatcher.com)
 
 ## Funding history
 _No disclosed funding._
 
 ## Recent signals
-_none_
+- **2026-11-11** — EcoMatcher launched a Japanese-language platform, expanding its tree-planting and forest-management services into the Japanese market — [prtimes.jp](https://prtimes.jp/main/html/rd/p/000000003.000194244.html)
+  - Summary: EcoMatcher announced the launch of its Japanese-language platform, marking the company's entry into the Japanese market. The platform extends EcoMatcher's blockchain-tracked tree-planting and forest-management services — including its TreeCorder data-capture app and TreeManager cloud system — to Japanese users and corporate clients. The move follows the company's established presence in Southeast Asia and Hong Kong, with Verra and Gold Standard carbon-certified TREES+ projects.
+  - Counterparties: Verra (carbon certification), Gold Standard (carbon certification)
+  - Numbers: ~50,000 customers globally
 
 ## Older signals
-- **2026-08-18** — Founder Bas Fransen's blog post sets out the transparency standard he says corporate tree-planting buyers should demand in 2026 and positions EcoMatcher's TreeCorder/TreeTracker/blockchain/drone/API stack and TREES+ against project-level estimates — [ecomatcher.com](https://www.ecomatcher.com/transparent-corporate-tree-planting-what-companies-should-look-for-in-2026/)
-  - Summary: EcoMatcher founder and CEO Bas Fransen published a company blog post arguing that corporate tree-planting claims now carry enough reputational and compliance risk that buyers should require tree-level records — species, planting date, GPS coordinates, geotagged photos and planter identity — rather than the project-level hectare estimates he says leave double-counting, mortality and attribution unresolved. The piece walks through drone and satellite monitoring and API hooks that drop tree gifts into e-commerce, HR and CRM workflows, then closes by positioning EcoMatcher as the vendor connecting each tree to verifiable field data, including TREES+ carbon removal. It is company-authored positioning, not a product or commercial announcement — no customers, volumes or pricing are disclosed.
-- **2026-07-14** — Launched next-generation ForestTracker with drone-captured forest views, community messaging, and Forever Forests dedicated to life milestones — [ecomatcher.com](https://www.ecomatcher.com/ecomatcher-launches-next-generation-foresttracker)
-  - Summary: EcoMatcher announced a major upgrade to ForestTracker, its flagship forest visualization platform, adding three capabilities: drone-captured aerial views of forest growth and project progress, messaging within digital forest spaces aimed at employee and customer communities, and Forever Forests — forests dedicated to birthdays, weddings, and memorials as permanent legacies. The release targets transparency and engagement for corporate sustainability programs. Forever Forests is marketed to individuals, families and organisations as well as corporate buyers, which points to a consumer gifting use case layered on the existing corporate platform rather than a separately sold direct-to-consumer product line; EcoMatcher has not disclosed pricing or a stand-alone revenue line for it.
-  - People: Bas Fransen (Founder and CEO)
-  - Numbers: 3 new capabilities (drone integration, community messaging, Forever Forests)
-  - Quote: "By combining enhanced forest visibility with personalization and community, we are making environmental impact more transparent, more measurable, and more deeply human." — Bas Fransen, Founder and CEO
-- **2026-04-21** — EcoMatcher launched Tree Personas, an AI-powered Nature Interface that assigns a distinct digital personality to each gifted tree, enabling recipients to chat with their tree in any language and follow its growth — [Thailand Business News](https://www.thailand-business-news.com/pr-news/ecomatcher-unveils-tree-personas) (Also reported by: [heraldchronicle.com](https://www.heraldchronicle.com/archives/2026/04/21/ecomatcher-unveils-tree-personas), [prnewswire.com](https://www.prnewswire.com/news-releases/ecomatcher-unveils-tree-personas-302741328.html))
-  - Summary: EcoMatcher unveiled Tree Personas, allowing companies to assign each gifted tree a personality — Twiggles (curious), Oakly (thoughtful), or Seren (calm) — with options for custom branded personas. Recipients visit their tree via TreeTracker 3D and interact through TreeChat+ in any language, building a personalised relationship with the tree and its ecosystem.
-  - People: Bas Fransen (CEO)
-  - Counterparties: Dubai Islamic Bank, Grab, Infosys, Singlife (customers)
-  - Quote: "Trees are essential for life on Earth, yet most people rarely have a personal connection with them. Tree Personas turn planted trees into interactive companions that help people learn about nature and build deeper connections with the ecosystems that support us." — Bas Fransen, CEO of EcoMatcher
+_none_
 
 ## Open questions
-- What is the adoption pipeline for custom Tree Personas among existing corporate clients?
-- Does EcoMatcher plan to raise external equity funding, or will it continue to grow as a revenue-funded B-Corp?
+- What is the specific go-to-market strategy in Japan — direct sales, local partners, or government contracts?
+- Are there named Japanese corporate customers already on the platform, or is this a pre-launch announcement?
+- How does the Japanese expansion fit with the company's existing operations in Southeast Asia and Hong Kong — is it a standalone entity or an extension of the same platform?

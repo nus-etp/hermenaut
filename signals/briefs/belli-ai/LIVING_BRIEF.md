@@ -1,11 +1,11 @@
 # Belli AI — LIVING BRIEF
-_Last updated: 2026-11-13 23:48 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
-Belli AI is a BLOCK71 Singapore-resident air-cargo software startup founded by veterans of McKinsey, SpaceX, Boeing, Booking.com, and AirAsia, digitising end-to-end airline cargo operations. The company has raised a US$2.4M seed round and been selected for the Vercel AI Accelerator program. Its inclusion as a named alumni with signed enterprise customers signals product-market validation and growing traction in the air-cargo digitisation space. Two October/September releases — a charter module covering quotation through billing and a booking-platform overhaul it says cut median booking time 47% — show the product widening from core cargo workflows into adjacent revenue lines, though both are self-reported on Belli's own news page with no independent coverage.
+Belli AI is a BLOCK71 Singapore-resident air-cargo software startup founded by veterans of McKinsey, SpaceX, Boeing, Booking.com, and AirAsia, digitising end-to-end airline cargo operations. The company has raised a US$2.4M seed round and been selected for the Vercel AI Accelerator program. Two November 2026 wins — US$50,000 at The Pitch by Deel and second place at the Vercel AI Accelerator Demo Day for its Bookable Cargo concept — add to a run of competition successes (including the 2026 SWC Asia Finale championship) and signal that the team is comfortable raising its profile at investor-facing events, though these are prize-money wins rather than product launches or enterprise deals.
 
-_Last material event: 2026-10-09 — Launched the Charter module, running a charter request from inbox through quotation, contract and billing inside its cargo system_
+_Last material event: 2026-11-18 — Won US$50,000 at The Pitch by Deel, a global startup tournament with a $15M prize pool_
 
 ## Profile
 - Sector: Logistics
@@ -19,7 +19,15 @@ _Last material event: 2026-10-09 — Launched the Charter module, running a char
 _Total disclosed: $2.4M._
 
 ## Recent signals
-_none_
+- **2026-11-18** — Won US$50,000 at The Pitch by Deel, a global startup tournament with a $15M prize pool — [belli.ai](https://www.belli.ai/company/news/jeff-pitches-belli-at-the-pitch-by-deel)
+  - Summary: Belli AI's co-founder and CEO Jeff Pan won US$50,000 at The Pitch by Deel, a global startup tournament with a $15M prize pool. Pan presented Belli's airline cargo software alongside co-founder Alex Khor in separate editions of the competition. The win adds to Belli's competition track record, which includes second place at the Vercel AI Accelerator Demo Day and the 2026 SWC Asia Finale championship.
+  - People: Jeff Pan (Co-Founder & CEO), Alex Khor (Co-Founder)
+  - Counterparties: Deel (tournament host)
+  - Numbers: US$50,000 prize; $15M total prize pool
+- **2026-11-17** — Took second place at the Vercel AI Accelerator Demo Day with a pitch for Bookable Cargo, a new concept for the air-cargo market — [belli.ai](https://www.belli.ai/company/news/belli-at-vercel-ai-accelerator-demo-day)
+  - Summary: Belli AI placed second at the Vercel AI Accelerator Demo Day, presenting "Bookable Cargo" — a new concept for the air-cargo market. The presentation followed the company's earlier inclusion as a named alumni with signed enterprise customers in Vercel's 2026 AI Accelerator recap.
+  - People: Jeff Pan (Co-Founder & CEO)
+  - Counterparties: Vercel (accelerator host)
 
 ## Older signals
 - **2026-10-09** — Launched a charter module that takes a charter request from a shared inbox through quotation, approval, contract and billing in one flow, connecting to the airline's existing cargo management system rather than replacing it — [belli.ai](https://belli.ai/company/news/charter-quotation)

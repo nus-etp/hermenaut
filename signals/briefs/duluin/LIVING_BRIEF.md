@@ -1,16 +1,18 @@
 # Duluin — LIVING BRIEF
-_Last updated: 2026-07-26 14:28 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
-Duluin is an Indonesian Earned Wage Access (EWA) fintech startup, resident at BLOCK71 Bandung. Named Startup of the Year at the ASEAN Startup Innovation Weekend 2026 in Phnom Penh, it is positioning its EWA platform — which lets workers access earned wages before the payroll cycle ends — for cross-border expansion into Vietnam and Cambodia.
+Duluin is a BLOCK71 Bandung-resident Indonesian fintech startup building an Earned Wage Access (EWA) platform plus blue-collar workforce management. Named 'Startup of the Year' at the ASEAN Startup Innovation Weekend 2026 (Phnom Penh, April 2026), the company is led by CEO Isa Nuruddin Ahmad and has announced expansion plans into Vietnam and Cambodia. The September 2026 partnership with BTN (Bank Tabungan Negara) to strengthen payroll and workforce management services marks Duluin's first named partnership with a major Indonesian state-owned bank, validating its EWA model at scale.
 
-_Last material event: 2026-05-26 — Named Startup of the Year at ASEAN Startup Innovation Weekend 2026; targeted Vietnam and Cambodia expansion_
+_Last material event: 2026-09-21 — Partnered with BTN to strengthen payroll and workforce management services_
 
 ## Profile
 - Sector: Fintech
-- Region: Indonesia (BLOCK71 Bandung)
+- Region: Indonesia
+- Stage / funding: Early (BLOCK71 Bandung portfolio; BNI Ventures Axel Arc alumnus)
 - Key people: Isa Nuruddin Ahmad (CEO)
+- Identifiers: [Website](https://www.duluin.id)
 
 ## Funding history
 _No disclosed funding._
@@ -19,13 +21,11 @@ _No disclosed funding._
 _none_
 
 ## Older signals
-- **2026-06-22** — Duluin Amartha Collaboration Boosts Indonesia Fintech — [linkedin.com](https://www.linkedin.com/posts/duluin_duluin-x-amartha-activity-7475118135449235456-InPx)
-- **2026-05-26** — Duluin won Startup of the Year at Startup Innovation Weekend 2026 (Phnom Penh) and secured a direct invitation to TechFest Vietnam 2026, validating its EWA model's regional appeal — [The Leap Indonesia](https://theleap.id/detail/4087/earned-wage-access-startup-duluin-secures-regional-spotlight-through-techfest) (Also reported by: [nasionalnews.id](https://www.nasionalnews.id/ekonomi/startup-fintech-indonesia-duluin-raih-startup-of-the-year-di-asean-kini-bidik-ekspansi-vietnam-dan-kamboja/))
-  - Summary: Duluin was named Startup of the Year at the three-day Startup Innovation Weekend 2026 in Phnom Penh, competing against 30 startups from more than 10 Asian countries. The prize includes a direct invitation to TechFest Vietnam 2026. CEO Isa Nuruddin Ahmad confirmed the company's expansion strategy targeting Vietnam and Cambodia.
-  - Numbers: 30 startups from 10+ Asian countries
-  - Quote: "Duluin's latest win is more than a trophy for the shelf. It is a strong market signal that an Indonesian Earned Wage Access startup can compete, stand out, and get noticed in a crowded regional ecosystem." — The Leap Indonesia
-- **2026-04-01** — Duluin named Startup of the Year at ASEAN Startup Innovation Weekend 2026, Phnom Penh — [aseanstartupinnovationweekend.com](https://aseanstartupinnovationweekend.com/awards-2026)
+- **2026-09-21** — Duluin partners with BTN (Bank Tabungan Negara) to strengthen payroll and workforce management services, marking its first named partnership with a major Indonesian state-owned bank — [idntimes.com](https://www.idntimes.com/business/economy/duluin-gandeng-btn-perkuat-layanan-payroll-00-gshdq-k4gj1c)
+  - Summary: Duluin announced a partnership with BTN (Bank Tabungan Negara), an Indonesian state-owned bank, to strengthen payroll and workforce management services. The partnership integrates Duluin's Earned Wage Access platform with BTN's banking infrastructure, enabling blue-collar workers to access their earned wages through the bank's channels. This is Duluin's first publicly named partnership with a major state-owned bank, validating its EWA model at scale in the Indonesian market.
+  - Counterparties: BTN / Bank Tabungan Negara (partner)
 
 ## Open questions
-- What is the specific timeline for Duluin's market entry into Vietnam and Cambodia?
-- Has Duluin raised any institutional equity round beyond BNI Ventures Axel Arc program support?
+- What is the scale of the BTN partnership — how many workers or employers are covered, and is it a pilot or national rollout?
+- When does Duluin expect to close its first priced equity round, and what is the current burn rate?
+- What is the status of the announced expansion into Vietnam and Cambodia — any regulatory approvals or local partners in place?

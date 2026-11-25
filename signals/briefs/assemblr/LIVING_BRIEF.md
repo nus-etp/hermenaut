@@ -1,5 +1,5 @@
 # Assemblr — LIVING BRIEF
-_Last updated: 2026-10-14 22:00 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -19,7 +19,7 @@ _Last material event: 2026-08-11 — Assemblr EDU listed on Learning Cabinet, a 
 _No disclosed funding._
 
 ## Recent signals
-_none_
+- **2026-11-23** — Released Assemblr EDU: Learn in 3D & AR 1.9.4 on the App Store — [App Store](https://apps.apple.com/us/app/assemblr-edu-learn-in-3d-ar/id1505499586)
 
 ## Older signals
 - **2026-09-24** — ImajiNation 2026 closed registration with 6,800 student and educator participants, moving into national judging — [assemblrworld.com](https://www.assemblrworld.com/blog/imajination-2026-registration-and-project-submission-officially-closed-6800-students-and-educators-enter-the-judging-stage)

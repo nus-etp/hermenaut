@@ -1,37 +1,30 @@
 # Green COP — LIVING BRIEF
-_Last updated: 2026-08-26 14:21 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
+Green COP is an NUS GRIP-incubated Singapore deep-tech startup building sustainable biofuels from biowaste. The company closed an undisclosed seed round in February 2024 with Ken Energy as lead investor and appointed Teo Teng Seng as Chairman. It also placed in the top 3 of the PIER71 Smart Port Challenge 2022. The September 2026 Tier B recognition under the Zhejiang Starlit South Lake talent program and the establishment of a Jiaxing joint venture mark Green COP's first explicit entry into the Chinese market, though the announcement came via LinkedIn rather than independent coverage.
 
-Green COP is a Singapore deep-tech startup converting biowaste into sustainable biofuels. The CEO receiving a Climate Tech CEO of the Year award from APAC Insider underscores growing industry recognition, even as the company has yet to announce commercial-scale production or follow-on funding beyond its 2024 seed round.
-
-_Last material event: 2026-05-22 — CEO named APAC Insider Climate Tech CEO of the Year 2026_
+_Last material event: 2026-09-28 — Received Tier B recognition under Zhejiang Starlit South Lake talent program, established Jiaxing joint venture_
 
 ## Profile
-
-- Region: Singapore
 - Sector: Climate tech
-- Stage: Seed
-- Founded: NUS GRIP alumnus
+- Region: Singapore
+- Founded: 2021
+- Stage / funding: Seed (2024)
+- Key people: Teo Teng Seng (Chairman)
+- Identifiers: UEN: 202122862R, [Website](https://www.greencop.sg)
 
 ## Funding history
-
 - **2024-02** — Seed, undisclosed — Ken Energy — [e27.co](https://e27.co/green-cop-secures-investment-to-launch-a-pilot-biofuels-plant-20240214/)
 
 ## Recent signals
 _none_
 
 ## Older signals
-- **2026-05-22** — CEO recognized as APAC Insider's Climate Tech CEO of the Year 2026, signalling growing industry credibility — [APAC Insider](https://apacinsider.digital/winners/green-cop-pte-ltd-2/)
-- **2026-02-26** — Completed Phase 1 of its pre-commercial collaboration with IOI at the Kluang facility and is consolidating R&D at a new advanced Singapore facility — [greencop.sg](https://www.greencop.sg/news-1/green-cop-completes-phase-1-collaboration-with-ioi%2C-transitions-to-advanced-r%26d-facility-in-singapore)
-  - Summary: Green COP completed Phase 1 of its pre-commercial collaboration with Malaysian palm-oil group IOI at Kluang, achieving its process-optimisation and technical-validation objectives for its pretreatment and fermentation technologies; Kluang operations have concluded and both parties are discussing next steps. R&D is being consolidated at a new advanced facility in Singapore, with the company also flagging engagement with Breakthrough Energy Fellows as it prepares for expanded pilot deployments and commercial partnerships.
-  - People: Dr. Hanson Lee (CEO), Ryan Lee (Deputy General Manager, Group Operations, IOI)
-  - Counterparties: IOI Corporation Berhad (collaboration partner), Breakthrough Energy Fellows (ecosystem programme)
-  - Quote: "Phase 1 allowed us to validate and optimise our process in a real-world pre-commercial environment, confirming the robustness and scalability of our technology." — Dr. Hanson Lee, CEO, Green COP
+- **2026-09-28** — Green COP received Tier B recognition under the Zhejiang Starlit South Lake talent program and established a Jiaxing joint venture, marking its first entry into the Chinese market — [linkedin.com](https://www.linkedin.com/company/green-cop)
 
 ## Open questions
-
-- Does the APAC Insider award correlate with any upcoming fundraising, partnership, or commercial milestone?
-- When will the pilot biofuels plant move to commercial-scale production?
-- Will the IOI collaboration extend to a Phase 2 pilot or commercial offtake, and what role does the new Singapore R&D facility play in the scale-up?
+- What is the scope of the Jiaxing joint venture — is it a manufacturing facility, R&D centre, or commercial distribution arm?
+- What is the status of the pilot biofuels plant announced alongside the February 2024 seed round?
+- What is the current burn rate and timeline for the next funding round?

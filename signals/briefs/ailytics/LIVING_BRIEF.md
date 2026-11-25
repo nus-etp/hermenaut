@@ -1,11 +1,11 @@
 # Ailytics — LIVING BRIEF
-_Last updated: 2026-11-03 00:25 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
-NUS GRIP-incubated Singapore computer-vision company selling industrial-safety AI that runs on the CCTV cameras sites already own. A US$7.4M Series A led by Tin Men Capital — with SG Growth Capital's SEEDS and Japanese partner Safie participating — buys local teams in the US, Japan, Australia and the Gulf, and the company says deployments have grown from 70 projects in four countries to more than 400 across 15. The open question is conversion: Ailytics discloses no revenue or ARR, and deployments are not the same thing as paying customers.
+NUS GRIP-incubated Singapore computer-vision company selling industrial-safety AI that runs on the CCTV cameras sites already own. A US$7.4M Series A led by Tin Men Capital — with SG Growth Capital's SEEDS and Japanese partner Safie participating — buys local teams in the US, Japan, Australia and the Gulf, and the company says deployments have grown from 70 projects in four countries to more than 400 across 15. The open question is conversion: Ailytics discloses no revenue or ARR, and deployments are not the same thing as paying customers. The Gold certification from GovTech's SafeSite pilot is the strongest independent validation of the product's real-world performance to date.
 
-_Last material event: 2026-10-27 — Raised US$7.4M (S$9.4M) Series A led by Tin Men Capital, with SG Growth Capital's SEEDS and Safie participating_
+_Last material event: 2026-11-18 — Earned Gold certification (highest tier) in GovTech's SafeSite Video Analytics Pilot after a year-long trial on live public sector construction sites_
 
 ## Profile
 - Sector: AI / Deep tech
@@ -20,14 +20,20 @@ _Last material event: 2026-10-27 — Raised US$7.4M (S$9.4M) Series A led by Tin
 _Total disclosed: $2.7M._
 
 ## Recent signals
+- **2026-11-24** — Released Ailyssa Go 1.6.4 on the App Store — [App Store](https://apps.apple.com/us/app/ailyssa-go/id6776461923)
+- **2026-11-18** — Earned Gold certification, the highest tier, in GovTech's SafeSite Video Analytics Pilot after a year-long trial on five live public sector construction sites — [Ailytics](https://www.ailytics.ai/blog/ailytics-govtech-safesite-video-analytics-pilot-gold)
+  - Summary: Ailytics was awarded Gold — the highest certification tier — in GovTech's SafeSite Video Analytics Pilot, a year-long government-run trial (May 2025 to May 2026) on live public sector construction sites. The company was allocated five live sites and assessed across all five pilot use cases: open side detection, person under lifted load, person near heavy machinery, geofencing and PPE detection. Gold reflects an independent, government-run assessment of real-world performance — covering detection accuracy, integration with GovTech's SafeSite platform, reliability and operational responsiveness — not a demo-room test. Since June 2024, Singapore construction worksites with contracts of $5 million or more have been required to install Video Surveillance Systems covering high-risk activities, and Ailytics' hardware-agnostic vision AI works with existing cameras to turn those feeds into real-time safety alerts. The pilot was run by GovTech in partnership with the Ministry of Manpower's Workplace Safety and Health Institute.
+  - People: Tan Wei Zhuang, Lenard (Co-Founder & CEO, Ailytics)
+  - Counterparties: GovTech (regulator/pilot operator), Ministry of Manpower's Workplace Safety and Health Institute (partner)
+  - Numbers: 5 live public sector sites; 5 safety use cases assessed; trial May 2025–May 2026; $5M+ contract threshold for mandatory VSS
+
+## Older signals
 - **2026-10-27** — Closed a US$7.4M (S$9.4M) Series A led by Tin Men Capital, with SG Growth Capital's SEEDS and Japanese camera maker Safie joining, to fund local teams in the US, Japan, Australia and the Gulf — [sbr.com.sg](https://sbr.com.sg/information-technology/news/ailytics-secures-9m-apac-us-and-gulf-expansion) (Also reported by: [apac.entrepreneur.com](https://apac.entrepreneur.com/business-news/singapores-ailytics-raises-7-4-mn-to-take-cctv-safety-ai-to-japan-the-us-and-the-gulf), [prnewswire.com](https://www.prnewswire.com/news-releases/tin-men-capital-leads-us7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apac-us-and-gulf-302918676.html), [backscoop.com](https://backscoop.com/startups/vision-ai-startup-ailytics-raises-7-4m-series-a-to-fuel-their-expansion))
   - Summary: Ailytics raised US$7.4M (S$9.4M) in a Series A led by Tin Men Capital, with SEEDS (the SG Growth Capital arm of Enterprise Singapore and EDB), Tokyo-listed cloud-camera company Safie, an unnamed large Japanese construction group, family offices and existing investors participating; valuation and stakes were not disclosed. The round is roughly 2.7x the US$2.7M pre-Series A of April 2024, also led by Tin Men, and follows growth from 70 projects in four countries to more than 400 deployments in 15. Proceeds fund expansion across Asia-Pacific, the US and the Gulf into manufacturing, logistics, oil and gas, maritime and mining, with local teams in the US, Japan, Australia and the Gulf; CEO Lenard Tan said Ailytics will target mid-sized US industrials that incumbents have priced out. Entrepreneur Asia Pacific cautions that projects and deployments are not necessarily paying customers, and that Ailytics has disclosed no revenue, ARR or profitability.
   - People: Lenard Tan (Co-Founder & CEO), Prateek Manocha (Co-Founder & CTO), Jeremy Tan (Managing Partner, Tin Men Capital)
   - Counterparties: Tin Men Capital (lead), SEEDS / SG Growth Capital, Safie, unnamed Japanese construction group; named customers: NatSteel, DHL, PaxOcean, Leonardo da Vinci International Airport, Changi Airport Terminal 5
   - Numbers: US$7.4M / S$9.4M Series A; ~2.7x the 2024 US$2.7M round; 400+ deployments in 15 countries (from 70 projects in 4); 5.7M+ hazards detected; 500M+ sq m monitored; 1,000+ cameras at Changi T5; client churn under 1% (Tin Men)
   - Quote: "The access to non-public data also enables the models to be sharper for these specific purposes, and all of this creates a truly defensible moat," — Jeremy Tan, Managing Partner, Tin Men Capital
-
-## Older signals
 - **2026-07-28** — Named to the inaugural eight-company Dare to Scale cohort, the Enterprise Singapore–EDB–Endeavor programme launched alongside Endeavor's first Asia-Pacific Global Hub in Singapore — [indiplomacy.com](https://indiplomacy.com/2026/07/28/enterprisesg-edb-and-endeavor-launch-asia-pacific-global-hub-to-support-startup-growth-in-singapore) (Also reported by: [enterprisesg.gov.sg](https://www.enterprisesg.gov.sg/resources/media-centre/news/2026/july/global-founder-network-endeavor-launches-singapore-hub-to-spark-multiplier-effect))
   - Summary: Enterprise Singapore, the Singapore Economic Development Board and Endeavor opened Endeavor's first Asia-Pacific Global Hub in Singapore at Jewel Changi Airport, alongside Dare to Scale, a new programme for high-potential early-stage startups expanding internationally. The inaugural cohort is eight Singapore-based companies — AIDX, Ailytics, Bluente, FailSafe Cybersecurity, HeyMax, Level3AI, Otonomi and ProfilePrint — spanning AI, fintech, agrifood technology and enterprise software. The programme provides access to international networks, mentorship and strategic introductions rather than capital, with EnterpriseSG recommending suitable startups into the network; the launch event drew more than 170 founders, investors and ecosystem partners. The EnterpriseSG account adds that the hub has no physical premises yet and that Ailytics, founded 2021 and already operating in more than 10 countries, is leaning on Endeavor member referrals for its US expansion.
   - People: Alvin Tan (Minister of State), Tan Wei Zhuang, Lenard (Co-Founder & CEO, Ailytics)
@@ -59,3 +65,4 @@ _Total disclosed: $2.7M._
 - What valuation did the US$7.4M Series A set, and what stakes did Safie and the unnamed Japanese construction group take?
 - What revenue does Ailytics book per Safie-branded deployment, and how much of total revenue does Japan now contribute?
 - What share of the 400+ deployments are paid contracts rather than pilots, and does any ARR figure exist?
+- Does the Gold certification in the SafeSite pilot translate into mandatory procurement for public sector construction sites above the $5M threshold?

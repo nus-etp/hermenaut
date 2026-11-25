@@ -1,11 +1,11 @@
 # Patsnap — LIVING BRIEF
-_Last updated: 2026-11-01 21:16 UTC_
+_Last updated: 2026-11-25 02:00 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
-Patsnap is a Singapore-headquartered IP intelligence and innovation analytics SaaS company that has confidentially filed for a dual listing in Hong Kong and Singapore. Growth now runs on two tracks: sector-specific AI products in life sciences and materials, and distribution of its patent and drug data into other vendors' research environments through MCP servers — the October launch of Lead Compound Analyzer and SAR Extractor inside Eureka Life Sciences and the BenchSci EMET integration being the clearest instances. Hiring continues across life sciences, materials AI and commercial roles, concentrated in Singapore.
+Patsnap is a Singapore-headquartered IP intelligence and innovation analytics SaaS company that has confidentially filed for a dual listing in Hong Kong and Singapore. Growth now runs on two tracks: sector-specific AI products in life sciences and materials, and distribution of its patent and drug data into other vendors' research environments through MCP servers — the October launch of Lead Compound Analyzer and SAR Extractor inside Eureka Life Sciences and the BenchSci EMET integration being the clearest instances. The November launch of its Guard framework for AI-assisted patent drafting at IP Service World 2026, and a GA Drilling case study showing in-house freedom-to-operate reviews across seven jurisdictions, signals the company is moving from data aggregation to end-to-end agentic workflows. Hiring continues across life sciences, materials AI and commercial roles, concentrated in Singapore.
 
-_Last material event: 2026-10-28 — Launched Lead Compound Analyzer and SAR Extractor agents inside Eureka Life Sciences_
+_Last material event: 2026-11-24 — Launched Guard framework for AI-assisted patent drafting at IP Service World 2026_
 
 ## Profile
 - Sector: SaaS
@@ -22,11 +22,20 @@ _Last material event: 2026-10-28 — Launched Lead Compound Analyzer and SAR Ext
 _Total disclosed: $351.6M._
 
 ## Recent signals
+- **2026-11-24** — Brought its Guard framework for AI-assisted patent drafting to IP Service World 2026, positioning it as a tool for attorneys to draft patent applications with AI while maintaining quality control — [patsnap.com](https://www.patsnap.com/resources/blog/press_release/patsnap-brings-its-guard-framework-for-ai-assisted-patent-drafting-to-ip-service-world-2026/)
+  - Summary: Patsnap announced the launch of its Guard framework for AI-assisted patent drafting at IP Service World 2026, a major intellectual property industry conference. The framework is designed to let patent attorneys use AI to draft patent applications while maintaining quality control over the output — addressing the industry's tension between the efficiency gains of generative AI and the need for legally defensible patent documents. The launch follows Patsnap's September 2026 appointment of European and UK patent attorney Matthew Birch as AI Solutions Lead for its IP division, who owns the product roadmap for its agentic patent drafting tools.
+  - People: Matthew Birch (AI Solutions Lead, IP, Patsnap)
+  - Counterparties: IP Service World 2026 (conference)
+- **2026-11-16** — GA Drilling ran an in-house freedom-to-operate review across seven jurisdictions using Patsnap AI agents, bringing work that was previously outsourced to external counsel back in-house — [patsnap.com](https://www.patsnap.com/customers/how-ga-drilling-brought-freedom-to-operate-work-in-house-with-patsnap/)
+  - Summary: GA Drilling, an oil and gas company, used Patsnap's AI agents to conduct a freedom-to-operate (FTO) review across seven jurisdictions in-house, rather than outsourcing the work to external patent counsel. The case study positions Patsnap's AI agents as capable of handling the end-to-end FTO workflow — from prior art search through risk assessment — at a scale and speed that makes in-house execution viable. No specific timeline, cost savings, or patent count is disclosed.
+  - Counterparties: GA Drilling (customer)
+  - Numbers: 7 jurisdictions covered
 - **2026-10-28** — Launched two AI agents, Lead Compound Analyzer and SAR Extractor, inside Eureka Life Sciences to pull structure-activity data out of small-molecule patents — [businesswire.com](https://www.businesswire.com/news/home/20261027520635/en/Patsnap-Launches-AI-Agents-to-Extract-SAR-Data-and-Identify-Lead-Compounds-From-Small-Molecule-Patents)
 - **date unknown** — Patsnap's own page announcing the CAS partnership now carries the note "this partnership concluded in 2026", marking the end of the CAS collaboration — [patsnap.com](https://www.patsnap.com/resources/blog/patsnap-and-cas-form-strategic-partnership)
   - Summary: Patsnap's blog post announcing the CAS (Chemical Abstracts Service, a division of the American Chemical Society) partnership now opens with an editorial note that the partnership concluded in 2026, indicating the collaboration announced earlier this year has ended. The retained body text describes combining CAS's human-curated scientific data with Patsnap's AI/ML and data-visualization technologies for life- and material-science customers; no reason or exact end date is given. The conclusion makes the partnership's commercial structure moot and retires the open question on how CAS data was being delivered.
 
 ### Hiring
+- **2026-11-24** — Three new roles posted 24 November: AI Agent Engineer for Formulation Applications, AI Agent Engineer for Semiconductor Applications, and Materials Domain Specialist for Specialty Chemical Synthesis — a materials-science weighting that extends the build-out begun in May 2026, now adding AI-agent roles alongside domain specialists — [careers.patsnap.com](https://careers.patsnap.com/o/ai-agent-engineer-formulation-applications)
 - **2026-10-28** — Twelve roles posted 8–28 October, mostly Singapore-tagged, spanning a Materials AI technical lead, a life-sciences specialist plus life-science and product interns, and marketing, sales development, account management and IT support — an SG-weighted continuation of the life-sciences and materials build-out that has added 50+ roles since May 2026, rather than the earlier multi-city push — [careers.patsnap.com](https://careers.patsnap.com/o/technical-lead-materials-ai-engineering)
 
 ## Older signals
