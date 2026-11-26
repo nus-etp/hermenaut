@@ -1,10 +1,5 @@
-Duluin
-EcoMatcher
-Flexxon
-Ecoworks
 FingerDance
 Flyoro Technologies
-Green COP
 Hivebotics
 Hyperpod AI
 INVIGILO
@@ -16,3 +11,8 @@ Qarbotech
 Rongbient Biotech
 seamless
 SoundEye
+StaffAny
+Vibefam
+Wareflex
+Acoerela
+Carousell

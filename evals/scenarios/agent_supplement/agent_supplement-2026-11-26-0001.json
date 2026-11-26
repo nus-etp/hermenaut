@@ -1,0 +1,44 @@
+{
+  "cluster": "agent_supplement/false_keep/flyoro-technologies/travelradar.aero",
+  "created_by": "write_scenarios@run 45731756546",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.06",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'The new plans to help sustainable aviation fuel take off' for Flyoro Technologies",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "agent_supplement-2026-11-26-0001",
+  "input": {
+    "candidate": {
+      "description": "Published 2026-10-04",
+      "matched": [
+        "Flyoro Technologies"
+      ],
+      "source": "travelradar.aero",
+      "title": "The new plans to help sustainable aviation fuel take off",
+      "url": "https://travelradar.aero/the-new-plans-to-help-sustainable-aviation-fuel-take-off"
+    },
+    "companies": {
+      "Flyoro Technologies": {
+        "description": "BLOCK71 Singapore-resident technology startup (name suggests aviation / drone / aerial-imaging given 'fly'). Limited public-English information beyond the directory listing — drop unrelated brand mentions unless the article explicitly references this BLOCK71 SG entity."
+      }
+    }
+  },
+  "layer": "agent_supplement",
+  "origin": {
+    "date": "2026-11-26",
+    "judge": "jev",
+    "judge_confidence": 0.98,
+    "kind": "judge_disagreement",
+    "run_id": "45731756546",
+    "source": "2026-11-26.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 2 agent supplement: dynamic search that keeps only items new and material to the company",
+  "status": "active",
+  "version": 1
+}

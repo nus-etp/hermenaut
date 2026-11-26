@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/enfarm/apps.apple.com",
+  "created_by": "write_scenarios@run 45731756546",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.6",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'enfarm-Technology for farmers 5.0.0 released on the App Store' for enfarm",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-26-0002",
+  "input": {
+    "candidate": {
+      "description": "Updates and changes: • Optimized the login experience and accelerated OTP authentication. • Upgraded the floating navigation button: smoother performance, with support for double-tapping to reset its position. • Optimized the AI ​​assistant and the feature for downloading sample land reports. • Fully compatible with the latest versions of iOS and iPadOS. • Bug fixes and improved application stability.",
+      "matched": [
+        "enfarm"
+      ],
+      "source": "enfarm",
+      "title": "enfarm-Technology for farmers 5.0.0 released on the App Store",
+      "url": "https://apps.apple.com/us/app/enfarm-technology-for-farmers/id6498925002"
+    },
+    "companies": {
+      "enfarm": {
+        "description": "BLOCK71 Vietnam portfolio startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-26",
+    "judge": "jev",
+    "judge_confidence": 0.86,
+    "kind": "judge_disagreement",
+    "run_id": "45731756546",
+    "source": "2026-11-26.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

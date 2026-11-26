@@ -1,5 +1,5 @@
 # Flyoro Technologies — LIVING BRIEF
-_Last updated: 2026-11-15 23:22 UTC_
+_Last updated: 2026-11-26 01:41 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -18,6 +18,13 @@ _No disclosed funding._
 _none_
 
 ## Older signals
+- **2026-10-23** — FlyORO tells RenewablesNow that SAF blending and distribution infrastructure has to keep pace with production growth — [renewablesnow.com](https://renewablesnow.com/news/interview-saf-infrastructure-has-to-keep-pace-with-production-growth-flyoro-says-1303564)
+- **2026-10-04** — A Travel Radar feature on modular SAF blending uses AlphaLite as the downstream case, with FlyORO's marketing lead calling blending capacity the emerging bottleneck and confirming the Menzies MoU covers UK airports — [travelradar.aero](https://travelradar.aero/the-new-plans-to-help-sustainable-aviation-fuel-take-off)
+  - Summary: Travel Radar's explainer splits SAF blending into upstream (refinery), midstream (specialist terminals such as Le Havre) and downstream (on-airport) schemes and uses FlyORO's AlphaLite as the downstream example, alongside a downstream terminal in eastern Brisbane supplying Brisbane Airport. Jamie Ong, FlyORO's marketing lead, says the absence of blending capability is starting to become a real bottleneck and that blending nearer the point of use lowers the delivered cost of SAF; she confirms the June 2026 Menzies Aviation MoU will look at deploying AlphaLite across a range of airports, including in the UK. The piece cites IATA's estimate that SAF will be roughly 0.8% of global aviation fuel use in 2026.
+  - People: Jamie Ong (Marketing Lead, FlyORO)
+  - Counterparties: Menzies Aviation (MoU partner)
+  - Numbers: SAF ~0.8% of global aviation fuel use in 2026 (IATA); blended SAF up to 80% emissions cut
+  - Quote: "Blending closer to the point of use helps to reduce the delivery cost of SAF." — Jamie Ong, Marketing Lead, FlyORO
 - **2026-09-22** — FlyORO signed a Letter of Intent with ICAO to join the Finvest Hub partner network, pitching its AlphaLite blending experience and delivered-volume traceability as the downstream SAF input to aviation decarbonisation financing — [flyoro.co](https://flyoro.co/insights/flyoro-joins-the-icao-finvest-hub-as-a-partner-bringing-modular-saf-blending-expertise-to-aviation-decarbonisation-finance/)
   - Summary: The Letter of Intent, signed by ICAO Secretary General Juan Carlos Salazar and FlyORO CEO Jonathan Yeo, covers cooperation on developing and implementing the ICAO Finvest Hub, established in February 2025 to connect aviation decarbonisation projects with public and private sources of investment. FlyORO joins from the downstream end of the SAF supply chain, contributing operating experience on where fuel is blended, what infrastructure sits between production and the aircraft, and how delivered volumes are evidenced — the questions the company argues lenders and investors increasingly weigh. The Hub facilitates and matches projects rather than funding them directly, and FlyORO states it is not a financing party; FlyORO also repeats its standing metrics, describing AlphaLite as a 40-foot modular unit at TRL 9 and more than 500,000 litres of SAF blended as of 2025.
   - People: Jonathan Yeo (Chief Executive Officer, FlyORO), Juan Carlos Salazar (Secretary General, ICAO), Robert Boyd (Chief, Finvest Hub, ICAO)

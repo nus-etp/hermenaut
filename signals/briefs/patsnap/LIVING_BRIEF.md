@@ -1,5 +1,5 @@
 # Patsnap — LIVING BRIEF
-_Last updated: 2026-11-25 02:00 UTC_
+_Last updated: 2026-11-26 01:41 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -35,7 +35,7 @@ _Total disclosed: $351.6M._
   - Summary: Patsnap's blog post announcing the CAS (Chemical Abstracts Service, a division of the American Chemical Society) partnership now opens with an editorial note that the partnership concluded in 2026, indicating the collaboration announced earlier this year has ended. The retained body text describes combining CAS's human-curated scientific data with Patsnap's AI/ML and data-visualization technologies for life- and material-science customers; no reason or exact end date is given. The conclusion makes the partnership's commercial structure moot and retires the open question on how CAS data was being delivered.
 
 ### Hiring
-- **2026-11-24** — Three new roles posted 24 November: AI Agent Engineer for Formulation Applications, AI Agent Engineer for Semiconductor Applications, and Materials Domain Specialist for Specialty Chemical Synthesis — a materials-science weighting that extends the build-out begun in May 2026, now adding AI-agent roles alongside domain specialists — [careers.patsnap.com](https://careers.patsnap.com/o/ai-agent-engineer-formulation-applications)
+- **2026-11-25** — Four roles posted 24–25 November: AI Agent Engineer for Formulation Applications, AI Agent Engineer for Semiconductor Applications, Materials Domain Specialist for Specialty Chemical Synthesis, and a 12-month Legal Contract Manager — the materials-science weighting continues, with legal capacity now added to a build-out that has run 50+ roles since May 2026 — [careers.patsnap.com](https://careers.patsnap.com/o/legal-contract-manager-12-month-contract)
 - **2026-10-28** — Twelve roles posted 8–28 October, mostly Singapore-tagged, spanning a Materials AI technical lead, a life-sciences specialist plus life-science and product interns, and marketing, sales development, account management and IT support — an SG-weighted continuation of the life-sciences and materials build-out that has added 50+ roles since May 2026, rather than the earlier multi-city push — [careers.patsnap.com](https://careers.patsnap.com/o/technical-lead-materials-ai-engineering)
 
 ## Older signals

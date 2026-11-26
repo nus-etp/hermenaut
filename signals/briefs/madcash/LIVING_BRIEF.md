@@ -1,5 +1,5 @@
 # MADCash — LIVING BRIEF
-_Last updated: 2026-09-16 17:33 UTC_
+_Last updated: 2026-11-26 01:41 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -33,6 +33,5 @@ _none_
 - **2026-04-17** — Jelawang Capital profiles MADCash's behavioural-data-driven microfunding model: 1,500+ women entrepreneurs supported, ~RM3M disbursed, cumulative entrepreneur revenue of RM5.4M (tracked to Sep 2025), expanded to Singapore and Tajikistan; won 7th EFICA top prize and Catapult: Inclusion SEA award — [jelawangcapital.com](https://www.jelawangcapital.com/our-resources/from-unbankable-to-creditworthy-how-madcash-is-turning-behavioural-data-int)
 
 ## Open questions
-- Does the shift to Murabahah retire the zero-interest lending product outright or run alongside it, and what does the change of model do to MADCash's CSR and charity-grant funding relationships?
 - Does the RM10M Murabahah raise replace or precede an equity round, and does the break-even target this year depend on closing it?
 - Is the Wanita Itu Impact Fund a one-off campaign or the start of a recurring partnership with Islamic Relief Malaysia?

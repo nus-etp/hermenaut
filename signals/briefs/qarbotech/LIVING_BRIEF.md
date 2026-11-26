@@ -1,9 +1,9 @@
 # Qarbotech — LIVING BRIEF
-_Last updated: 2026-10-31 20:38 UTC_
+_Last updated: 2026-11-26 01:41 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
-Qarbotech is a Malaysian agritech startup commercialising a patented nanocarbon-based photosynthesis enhancer (QarboGrow) that boosts crop yields by up to ~60% by improving plants' light-energy efficiency. The company recently won the SusHi Tech Global Pitch Challenge 2026 Grand Prize (¥10M), signalling strong international validation and positioning it for fast-track expansion across key Asian markets.
+Qarbotech is a Malaysian agritech startup commercialising a patented nanocarbon-based photosynthesis enhancer (QarboGrow), made from agricultural waste, that it says raises yields by helping plants use previously under-used wavelengths of sunlight — company-reported rice gains range from 10% to 180%, and explaining that spread is now the company's central problem. After winning the SusHi Tech Global Pitch Challenge 2026 Grand Prize (¥10M), it is running pilots in more than 18 countries and has just entered the US on sugar beet, with expansion gated less on proving the technology than on agronomic data.
 
 _Last material event: 2026-10-28 — Founder disclosed a second Southeast Asian market launch and distributors taking QarboGrow into Thailand and Pakistan_
 
@@ -22,6 +22,12 @@ _Last material event: 2026-10-28 — Founder disclosed a second Southeast Asian 
 _Total disclosed: $2.2M._
 
 ## Recent signals
+- **2026-11-12** — CEO reframes the constraint as agronomic data rather than proof of efficacy: QarboGrow has delivered rice yield gains of 10–180%, pilots run in 18+ countries, and a first US entry on sugar beet produced sugar-content gains but a weaker yield response — [agnavigator.com](https://www.agnavigator.com/Article/2026/11/12/chasing-data-qarbotechs-biggest-challenge-is-no-longer-validation-but-optimisation-ceo/)
+  - Summary: AgNavigator interview with CEO Chor Chee Hoe: with efficacy established, Qarbotech's problem is now explaining why QarboGrow produces anything from 10% to 180% rice yield gains, so it is drawing on government and private grants to run more detailed agronomic studies, including an oil-palm programme tracking nutrient interactions, soil characteristics, microbial activity and plant response. Its first US expansion, on sugar beet, produced early gains in sugar content but a smaller yield effect than Southeast Asian rice, which the company attributes to already-tight US nutrient management; it is working with agronomy partners in Illinois and Minnesota to test how nutrient regimes interact with enhanced photosynthesis. Pilots run in more than 18 countries, including the UK, China, Japan, Indonesia and the US.
+  - People: Chor Chee Hoe (Co-founder and CEO, Qarbotech)
+  - Counterparties: unnamed agronomy partners in Illinois and Minnesota (research partners); unnamed government and private grant funders
+  - Numbers: rice yield +10% to +180%; 18+ pilot countries; first US crop is sugar beet
+  - Quote: "Although we are very confident that our technology works, there are a lot of other growth factors that can somewhat limit the maximum performance of our product," — Chor Chee Hoe, Co-founder and CEO, Qarbotech
 - **2026-10-28** — Co-founder says QarboGrow is halfway through a 12-month sugar-cane pilot in the Philippines, is entering a second Southeast Asian market, and has a distributor taking the product into Thailand and Pakistan — with no yield figures disclosed — [news.smu.edu.sg](https://news.smu.edu.sg/news/2026/10/28/pitch-pilot-lee-kuan-yew-global-business-plan-competition-seeks-founders-tackling)
   - Summary: Qarbotech appears in an SMU newsroom article launching the 13th Lee Kuan Yew Global Business Plan Competition, as a 12th-edition finalist and a member of the still-running inaugural Urban SustaInnovator (USI) accelerator cohort. Co-founder Chor Chee Hoe credits LKYGBPC and USI introductions to family offices with helping secure several pilot projects, then states the company is halfway through a 12-month pilot on a large sugar-cane plantation in the Philippines, is launching in another Southeast Asian market, and was connected through the SMU network to a distributor bringing the product into Thailand and Pakistan. The article names no yield results, planted area, contract value, plantation operator, distributor or second market.
   - People: Chor Chee Hoe (Co-founder, Qarbotech), Rony Palathinkal (Head of LKYGBPC and Urban SustaInnovator, SMU IIE)
@@ -59,7 +65,7 @@ _Total disclosed: $2.2M._
   - Quote: "We are not making the plant work extra hard. We are simply increasing its light energy usage. In regions like Southeast Asia, overcast weather and prolonged rainy seasons can reduce productivity by up to 40 per cent. Our technology bridges that gap." — Chor Chee Hoe, CEO and Co-Founder
 
 ## Open questions
-- How will the SusHi Tech prize proceeds be deployed — R&D, capacity expansion, or market-entry?
+- Why do rice yields respond anywhere from 10% to 180%, and which agronomic variables does Qarbotech now believe explain the spread?
 - Do the yield gains in Qarbotech's own case studies replicate in third-party trials and outside eggplant?
 - Has a priced equity round been opened following the seed extension?
 - What yield did QarboGrow deliver on the Philippines sugar-cane pilot, and which country is the second Southeast Asian launch?

@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/patsnap/careers.patsnap.com",
+  "created_by": "write_scenarios@run 45731756546",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.61",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Legal Contract Manager (12 Month Contract) — Legal' for Patsnap",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-26-0001",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Patsnap"
+      ],
+      "source": "Patsnap",
+      "title": "Legal Contract Manager (12 Month Contract) — Legal",
+      "url": "https://careers.patsnap.com/o/legal-contract-manager-12-month-contract"
+    },
+    "companies": {
+      "Patsnap": {
+        "description": "Singapore-headquartered IP intelligence and innovation analytics SaaS company."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-26",
+    "judge": "jev",
+    "judge_confidence": 0.86,
+    "kind": "judge_disagreement",
+    "run_id": "45731756546",
+    "source": "2026-11-26.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
