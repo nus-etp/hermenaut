@@ -1,5 +1,5 @@
 # Finan — LIVING BRIEF
-_Last updated: 2026-09-19 16:23 UTC_
+_Last updated: 2026-11-27 01:41 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -18,7 +18,9 @@ _Last material event: 2026-08-25 — Hong Leong Bank Vietnam's banking services 
 _Total disclosed: $3.8M._
 
 ## Recent signals
-_none_
+- **2026-11-26** — SoBanHang shipped iOS build 4.0.42, a bug-fix release inside a run of ten App Store builds since 20 October — [apps.apple.com](https://apps.apple.com/us/app/s%E1%BB%95-b%C3%A1n-h%C3%A0ng-qu%E1%BA%A3n-l%C3%BD-to%C3%A0n-di%E1%BB%87n/id1560099589)
+  - Summary: Build 4.0.42 is maintenance only, but the version history on the listing shows where the product is moving: build 4.0.40 on 11 November added an in-app tax estimator, a store-deals feed, in-app purchase of a payment speaker, and safer offline selling that syncs orders and cash once connectivity returns. A roughly weekly cadence since 20 October reads as an actively maintained client, with the November feature work pointing at tax compliance and low-connectivity retail rather than new banking integrations.
+  - Numbers: build 4.0.42 (2026-11-26); 4.0.40 feature release (2026-11-11); 10 builds since 2026-10-20; App Store rating 4.7 from 260 ratings
 
 ## Older signals
 - **2026-08-25** — Hong Leong Bank Vietnam's banking services are live inside SoBanHang, launched at a joint Ho Chi Minh City event for a voice-driven "Multitasking AI Assistant" that books orders, reconciles HLB account balances and preps period tax returns — [vietnam.vn](https://vietnam.vn/en/trai-nghiem-tro-ly-ai-da-nhiem-tieu-thuong-go-duoc-nut-that-van-hanh-kinh-doanh)

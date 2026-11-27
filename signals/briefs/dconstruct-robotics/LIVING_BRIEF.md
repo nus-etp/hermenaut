@@ -1,11 +1,11 @@
 # dConstruct Robotics — LIVING BRIEF
-_Last updated: 2026-11-03 00:25 UTC_
+_Last updated: 2026-11-27 01:41 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
 dConstruct Robotics is a Singapore-headquartered deep-tech robotics startup building SLAM-based autonomous navigation and 3D digital-twin systems (d.ASH platform) for construction, defense, and logistics. Founded in 2021 by Chinn Hwa Lim, the company emerged from Singapore's RoboNexus accelerator and closed a $125M Series A in mid-2026, the largest round from the inaugural cohort, backed by the National Robotics Program. It has signed a manufacturing MOU with Foxconn, appointed robotics veteran He Ruijie to its Tech Council, and is establishing a 42,000 sqm global headquarters at Punggol Digital District (dC Plus) targeting completion by end-2026.
 
-_Last material event: 2026-10-05 — Completed Singapore's first full LiDAR-based virtual inspection for an industrial project TOP with BCA and SoilBuild Construction_
+_Last material event: 2026-11-11 — dConstruct Plus launched Digital Forest at JTC's Punggol Digital District, combining in-district screens, commerce and robotic delivery with a Gushcloud creator-content partnership_
 
 ## Profile
 - Sector: Robotics
@@ -15,6 +15,11 @@ _Last material event: 2026-10-05 — Completed Singapore's first full LiDAR-base
 _No disclosed funding._
 
 ## Recent signals
+- **2026-11-11** — dConstruct Plus launched Digital Forest at JTC's Punggol Digital District, pairing in-district ad screens and commerce with robotic delivery and a Gushcloud creator-content tie-up — [dconstruct.ai](https://www.dconstruct.ai/news/dconstruct-launches-digital-forest)
+  - Summary: dConstruct Plus, the creative and ecosystem arm of dConstruct Robotics, launched Digital Forest with JTC as a combined interactive-advertising, digital-content, commerce and robotics platform inside Punggol Digital District. Phase one puts digital screens at district locations including the Nexus and the hawker centre, with the platform exploring product discovery through ad content and robot delivery to points across the district. A separate partnership with Gushcloud International will explore KOL content and livestreaming; the release names no contract value, screen count or tenant commitments.
+  - Counterparties: JTC (district partner), Gushcloud International (creator-content partner)
+  - Quote: "Digital Forest aims to connect digital experiences with the physical world." — dConstruct Plus
+
 ### Hiring
 - **2026-10-28** — Seven roles opened since 6 October: five engineering (embedded/electronics, LiDAR and visual SLAM, cloud, C/C++, project management) plus a project-finance executive and a cost accountant for an "AI and robotics company" → repeatable hardware delivery with unit-cost control, consistent with the US$125M Series A build-out rather than bespoke project work — [jobstreet.com](https://sg.jobstreet.com/job/95547277)
 

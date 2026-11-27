@@ -1,0 +1,383 @@
+{
+  "candidates": [
+    {
+      "company": "Finan",
+      "dedup_key": "appstore://1560099589/4.0.42",
+      "description": "Phi\u00ean b\u1ea3n m\u1edbi \u0111\u00e3 \u0111\u01b0\u1ee3c c\u1eadp nh\u1eadt v\u1edbi nhi\u1ec1u c\u1ea3i ti\u1ebfn v\u01b0\u1ee3t tr\u1ed9i: - S\u1eeda l\u1ed7i v\u00e0 c\u1ea3i thi\u1ec7n hi\u1ec7u n\u0103ng",
+      "headline": "S\u1ed5 B\u00e1n H\u00e0ng: Qu\u1ea3n l\u00fd to\u00e0n di\u1ec7n 4.0.42 released on the App Store",
+      "link": "https://apps.apple.com/us/app/s%E1%BB%95-b%C3%A1n-h%C3%A0ng-qu%E1%BA%A3n-l%C3%BD-to%C3%A0n-di%E1%BB%87n/id1560099589",
+      "pubDate": "2026-11-26",
+      "source": "Finan \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Goodwhale",
+      "dedup_key": "https://goodwhale.com/wall-street-worst-week-since-2020-nov-2026/",
+      "description": "Wall Street worst week stole the spotlight this week. Wall Street worst week since March 2020: the S&amp;P 500 fell 8.61% to 6,910.39 and the Nasdaq dropped 10.02%, wiping out its 2026 gains, as chip stocks crashed and the VIX jumped to 35.89. Nvidia posted record revenue of $115.8 billion and guided above estimates, yet its shares fell 22.9% on reports of an SEC probe and a California subpoena. Anthropic raised about $81.3 billion in the largest IPO on record, December Fed hike odds rose to 92%",
+      "headline": "GoodWhale Weekly: Wall Street Worst Week Since 2020, Nvidia Beats but Slides 23%, Anthropic\u2019s Record IPO, STI Breaks Below 5,000",
+      "link": "https://goodwhale.com/wall-street-worst-week-since-2020-nov-2026/",
+      "pubDate": "Mon, 23 Nov 2026 01:14:32 +0000",
+      "source": "Goodwhale \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "Goodwhale",
+      "dedup_key": "https://goodwhale.com/nvidia-ceo-resigns-yields-5-percent-nov-2026/",
+      "description": "Nvidia CEO resigns stole the spotlight this week. Nvidia CEO resigns: Jensen Huang stepped down with immediate effect on Thursday, CFO Colette Kress became interim CEO, and Nvidia shares fell 12.75% on the week to $162.85 ahead of Tuesday's results. Hot inflation data pushed the US 10-year Treasury yield up about 30 basis points to 5.15% and a December Fed hike is now fully priced, yet strong results from CoreWeave, Cisco and Applied Materials helped the S&amp;P 500 rise 2.51%. Anthropic set its",
+      "headline": "GoodWhale Weekly: Nvidia CEO Resigns, US 10-Year Yield Tops 5%, Anthropic Sets IPO Terms, KLCI Hits 14-Month Low",
+      "link": "https://goodwhale.com/nvidia-ceo-resigns-yields-5-percent-nov-2026/",
+      "pubDate": "Mon, 16 Nov 2026 02:56:53 +0000",
+      "source": "Goodwhale \u00b7 blog",
+      "source_kind": "rss"
+    },
+    {
+      "company": "Maestro Labs",
+      "dedup_key": "appstore://6813054762/1.2.1",
+      "description": "\u2022 Better search: matches in titles, summaries, transcripts and participants, each in its own section. Tap a result to jump straight to it. \u2022 Long recordings with your phone's microphone no longer stop partway through a meeting. \u2022 A clear message when your organization's subscription has ended. \u2022 Fixes and improvements.",
+      "headline": "TeamsMaestro: AI meeting notes 1.2.1 released on the App Store",
+      "link": "https://apps.apple.com/us/app/teamsmaestro-ai-meeting-notes/id6813054762",
+      "pubDate": "2026-11-26",
+      "source": "Maestro Labs \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "spacejot",
+      "dedup_key": "appstore://6819797164/1.0.5",
+      "description": "\u2022 Change in the Editor takes a photo of what goes there: tap + beside \"What should change here?\" and pick one from Photos, take one with the camera, or choose from your Spacejot Library. Paint the area, and the piece in your photo goes in.",
+      "headline": "Spacejot: AI Interior Design 1.0.5 released on the App Store",
+      "link": "https://apps.apple.com/us/app/spacejot-ai-interior-design/id6819797164",
+      "pubDate": "2026-11-27",
+      "source": "spacejot \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://1488888850/3.77",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "MindChamps PreSchool 3.77 released on the App Store",
+      "link": "https://apps.apple.com/us/app/mindchamps-preschool/id1488888850",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://6504746131/2.4",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "NAFA Arts 2.4 released on the App Store",
+      "link": "https://apps.apple.com/us/app/nafa-arts/id6504746131",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "appstore://1022752190/4.33",
+      "description": "1.Optimize some interfaces 2.Optimize data loading",
+      "headline": "DiiBear 4.33 released on the App Store",
+      "link": "https://apps.apple.com/us/app/diibear/id1022752190",
+      "pubDate": "2026-11-24",
+      "source": "Taidii \u00b7 App Store",
+      "source_kind": "appstore_dev"
+    },
+    {
+      "company": "Taidii",
+      "dedup_key": "jobstreet://60536447/96138290",
+      "description": "",
+      "headline": "UI/ UX Designer [EdTech Products] \u2014 Design & Architecture",
+      "link": "https://sg.jobstreet.com/job/96138290",
+      "provider": "jobstreet",
+      "pubDate": "2026-11-26",
+      "source": "Taidii \u00b7 careers",
+      "source_kind": "ats_jobs"
+    },
+    {
+      "company": "Addlly AI",
+      "dedup_key": "https://addlly.ai/knowledge-base/what-is-addlly-ai/",
+      "description": "Page updated in the sitemap of Addlly AI's own website addlly.ai (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "What Is Addlly Ai",
+      "link": "https://addlly.ai/knowledge-base/what-is-addlly-ai/",
+      "pubDate": "2026-11-26T06:46:36+00:00",
+      "source": "addlly.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/resources",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Resources",
+      "link": "https://www.beex.sg/resources",
+      "pubDate": "2026-11-26T09:43:16+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/case-studies/small-but-mighty-a-ikanbilis-performs-visual-and-3d-inspections-at-hard-to-reach-port-areas",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Small But Mighty A Ikanbilis Performs Visual And 3d Inspections At Hard To Reach Port Areas",
+      "link": "https://www.beex.sg/case-studies/small-but-mighty-a-ikanbilis-performs-visual-and-3d-inspections-at-hard-to-reach-port-areas",
+      "pubDate": "2026-11-26T09:10:15+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/case-studies/beexs-autonomous-drone-skillfully-fights-currents-and-uncovers-infrastructural-concerns-at-remote-fish-farm",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Beexs Autonomous Drone Skillfully Fights Currents And Uncovers Infrastructural Concerns At Remote Fish Farm",
+      "link": "https://www.beex.sg/case-studies/beexs-autonomous-drone-skillfully-fights-currents-and-uncovers-infrastructural-concerns-at-remote-fish-farm",
+      "pubDate": "2026-11-26T09:10:15+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/case-studies/beex-performs-non-destructive-structural-tests-on-jetty-piles",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Beex Performs Non Destructive Structural Tests On Jetty Piles",
+      "link": "https://www.beex.sg/case-studies/beex-performs-non-destructive-structural-tests-on-jetty-piles",
+      "pubDate": "2026-11-26T09:10:15+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "BEEX",
+      "dedup_key": "https://www.beex.sg/case-studies/autonomous-drone-a-ikanbilis-overcomes-murky-waters-for-incredible-visual-and-3d-data-at-pump-inspection",
+      "description": "Page updated in the sitemap of BEEX's own website beex.sg (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Autonomous Drone A Ikanbilis Overcomes Murky Waters For Incredible Visual And 3d Data At Pump Inspection",
+      "link": "https://www.beex.sg/case-studies/autonomous-drone-a-ikanbilis-overcomes-murky-waters-for-incredible-visual-and-3d-data-at-pump-inspection",
+      "pubDate": "2026-11-26T09:10:15+00:00",
+      "source": "beex.sg sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Belli AI",
+      "dedup_key": "https://www.belli.ai/company/news/how-we-built-a-3d-cargo-warehouse-with-claude",
+      "description": "New page listed in the sitemap of Belli AI's own website belli.ai. Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "How We Built A 3d Cargo Warehouse With Claude",
+      "link": "https://www.belli.ai/company/news/how-we-built-a-3d-cargo-warehouse-with-claude",
+      "pubDate": "2026-11-27T01:04:31+00:00",
+      "source": "belli.ai sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/military-ruggedized-storage/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Military Ruggedized Storage",
+      "link": "https://www.flexxon.com/military-ruggedized-storage/",
+      "pubDate": "2026-11-26T11:40:06+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/newsletter-flexxon-security-usb/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Newsletter Flexxon Security Usb",
+      "link": "https://www.flexxon.com/newsletter-flexxon-security-usb/",
+      "pubDate": "2026-11-26T10:57:05+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/flexxon-memory-card-intro-video/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Flexxon Memory Card Intro Video",
+      "link": "https://www.flexxon.com/flexxon-memory-card-intro-video/",
+      "pubDate": "2026-11-26T10:54:01+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/market-news-flash-shortage-may-last-throughout-2018/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Market News Flash Shortage May Last Throughout 2018",
+      "link": "https://www.flexxon.com/market-news-flash-shortage-may-last-throughout-2018/",
+      "pubDate": "2026-11-26T10:48:13+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Flexxon",
+      "dedup_key": "https://www.flexxon.com/flexxon-sales-leader-set-benchmark/",
+      "description": "Page updated in the sitemap of Flexxon's own website flexxon.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Flexxon Sales Leader Set Benchmark",
+      "link": "https://www.flexxon.com/flexxon-sales-leader-set-benchmark/",
+      "pubDate": "2026-11-26T10:44:34+00:00",
+      "source": "flexxon.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Forte Biotech",
+      "dedup_key": "https://fortebio.tech/guides/lamp-vs-pcr",
+      "description": "New page listed in the sitemap of Forte Biotech's own website fortebio.tech (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Lamp Vs Pcr",
+      "link": "https://fortebio.tech/guides/lamp-vs-pcr",
+      "pubDate": "2026-11-26T00:00:00+00:00",
+      "source": "fortebio.tech sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Forte Biotech",
+      "dedup_key": "https://fortebio.tech/diseases",
+      "description": "Page updated in the sitemap of Forte Biotech's own website fortebio.tech (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Diseases",
+      "link": "https://fortebio.tech/diseases",
+      "pubDate": "2026-11-26T00:00:00+00:00",
+      "source": "fortebio.tech sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/sg/companies/cap-table-management",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Cap Table Management",
+      "link": "https://www.qapita.com/sg/companies/cap-table-management",
+      "pubDate": "2026-11-26T04:25:42+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/in/esop-management/cap-table",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Cap Table",
+      "link": "https://www.qapita.com/in/esop-management/cap-table",
+      "pubDate": "2026-11-26T04:25:42+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "Qapita",
+      "dedup_key": "https://www.qapita.com/equity-management/cap-table",
+      "description": "Page updated in the sitemap of Qapita's own website qapita.com (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Cap Table",
+      "link": "https://www.qapita.com/equity-management/cap-table",
+      "pubDate": "2026-11-26T04:25:42+00:00",
+      "source": "qapita.com sitemap",
+      "source_kind": "sitemap"
+    },
+    {
+      "company": "SalesMind AI",
+      "dedup_key": "https://sales-mind.ai/en/blog/post/linkedin-outreach-templates",
+      "description": "New page listed in the sitemap of SalesMind AI's own website sales-mind.ai (lastmod 2026-11-26). Title derived from the URL slug; the page itself was not fetched.",
+      "headline": "Linkedin Outreach Templates",
+      "link": "https://sales-mind.ai/en/blog/post/linkedin-outreach-templates",
+      "pubDate": "2026-11-26T00:16:01+00:00",
+      "source": "sales-mind.ai sitemap",
+      "source_kind": "sitemap"
+    }
+  ],
+  "companies": {
+    "Addlly AI": "BLOCK71 Singapore-resident GenAI content-marketing startup (co-founders Tina Chopra (CEO) and Ronie Ganguly) operating a 'zero-prompt' AI content-creation suite \u2014 1-Click Blog Writer, AI Social Media Post Generator, multi-language Asian-market support; ASEAN Digital Awards 2025 Silver. Drop generic AI-marketing-tools coverage unless it names Addlly.",
+    "BEEX": "NUS GRIP-incubated Singapore autonomous-systems startup. Drop unrelated companies sharing the same name.",
+    "Belli AI": "BLOCK71 Singapore-resident air-cargo software startup (founders ex-McKinsey, SpaceX, Boeing, Booking.com, AirAsia) digitising end-to-end airline cargo operations. Drop unrelated namesakes (Italian food brand, maternal-health apps named Belly/Bella) unless the article explicitly references the Singapore air-cargo Belli AI.",
+    "Finan": "BLOCK71 Saigon-listed Singapore-headquartered (founders Hai Long Bui and Hai Nam Bui, mid-2021) SME-operating-system startup whose Vietnamese app SoBanHang gives micro-businesses sales/order/inventory/invoicing/cash-flow tools plus embedded financial services; >800K active business users, >US$5B transaction volume processed; Shinhan Store partnership with Shinhan Bank Vietnam. Drop generic 'finan' / 'finance' branding unless it names Finan / SoBanHang.",
+    "Flexxon": "BLOCK71 Silicon Valley-listed Singapore cybersecurity-hardware startup (founded 2007) building X-PHY, the world's first AI-embedded SSD with hardware-level threat detection and physical-tamper response. Co-founded by Camellia Chan and May Chng. Drop items that only mention generic flash-storage or unrelated 'X-PHY' physics content.",
+    "Forte Biotech": "NUS GRIP-incubated Singapore biotech startup. Drop unrelated companies sharing the same name.",
+    "Goodwhale": "BLOCK71 Social Impact Hub-resident Singapore B-Corp-certified fintech startup running a personalised investing-health platform for new retail investors \u2014 goal setting, portfolio coaching, sustainable / values-aligned investing tools. Drop pet/animal-care 'whale' brands or shipping news unless the article references the investing-health platform.",
+    "Maestro Labs": "BLOCK71 Singapore-resident startup. CRITICAL: 'Maestro Labs' is extremely generic (multiple ML / orchestration / music vendors share the name); drop unrelated mentions unless the article explicitly references this BLOCK71 SG entity.",
+    "Qapita": "BLOCK71 Silicon Valley-listed Singapore-headquartered equity-management platform (cap-table, ESOP administration, secondary-share workflows) founded 2019 by Ravi Ravulaparthi (CEO), Lakshman Gupta (COO) and Vamsee Mohan (CTO); serves ~2,700 SEA/India companies. Carta challenger now powering Schwab Private Issuer Equity Services in the US. Drop unrelated Qatar/Q-brands.",
+    "SalesMind AI": "BLOCK71 Singapore-resident sales-AI startup. Drop unrelated 'SalesMind' branded vendors (Salesmind.ai LinkedIn outreach, etc.) unless the article explicitly references this BLOCK71 SG entity.",
+    "Taidii": "BLOCK71 Suzhou-listed Singapore preschool / childcare-school-management SaaS (HQ Singapore, Suzhou ops listed twice in directory \u2014 folded here) covering attendance, billing, e-enrollment, e-forms, finance, parent-school communication; >50% private-school market share in Singapore; ECDA-approved vendor; VAMS 4S sub-second attendance / temperature device; presence in Singapore, China (Suzhou), UAE, Australia and the Philippines. Drop generic 'taid' / 'tide' branding news unless it names Taidii.",
+    "spacejot": "NUS GRIP-incubated Singapore deep-tech startup. Drop unrelated companies sharing the same name."
+  },
+  "fetch_failed": [
+    {
+      "error": "HTTP Error 400: Bad Request",
+      "kind": "firehose",
+      "url": "https://vir.com.vn/rss_feed/"
+    },
+    {
+      "company": "Flexii",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://flexii.net/sg/feed/"
+    },
+    {
+      "company": "Flow Coffee",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://www.flowcoffee.sg/blog-feed.xml"
+    },
+    {
+      "company": "PharLyfe+",
+      "error": "HTTP Error 404: Not Found",
+      "kind": "rss",
+      "url": "https://pharlyfeplus.com/news-update/f.rss"
+    }
+  ],
+  "generated_at": "2026-11-27T01:22:21+00:00",
+  "jina_recovered": [
+    "https://mothership.sg/feed/",
+    "https://www.36kr.com/feed",
+    "https://www.theedgesingapore.com/rss.xml"
+  ],
+  "llm_fetch_required": [
+    {
+      "company": "Belli AI",
+      "hint": "",
+      "label": "news",
+      "url": "https://www.belli.ai/company/news"
+    },
+    {
+      "company": "Cellivate Technologies",
+      "hint": "Cellivate 'Recognition' page lists press features and awards. Each article entry is a clickable row with a date at the top-left (e.g. 'May 18, 2023'), then headline text, then publication attribution ('Published by TechNode Global', etc.). Resolve relative links against https://www.cellivatetech.com/.",
+      "label": "press",
+      "url": "https://www.cellivatetech.com/recognition"
+    },
+    {
+      "company": "Finsey",
+      "hint": "",
+      "label": "blog",
+      "url": "https://finsey.vn/blog"
+    },
+    {
+      "company": "SENSORI Healthcare",
+      "hint": "SENSORI Healthcare news listing. Each item is an anchor (<a>) wrapping the entry with the headline rendered as an <h4> (e.g. 'SENSORI Healthcare Wins Third Prize at Two Innovation and Entrepreneurship Competitions') and the date below in YYYY-MM-DD format (e.g. '2025-12-03'). Items are tagged 'News' and ordered newest-first. Resolve relative links against https://www.sensorihealthcare.com.",
+      "label": "news",
+      "url": "https://www.sensorihealthcare.com/h-col-157.html"
+    },
+    {
+      "company": "SilentConvo",
+      "hint": "",
+      "label": "blog",
+      "url": "https://silentconvo.io/blog"
+    },
+    {
+      "company": "Soynergy",
+      "hint": "Soynergy WordPress news category listing. Each post is a <div> block with a featured image, headline in <h2> link, and the publication date below in 'Month Day, Year' format (e.g. 'August 27, 2018'); a 'News' tag appears above the headline and a 'READ MORE' link follows. Note: archive is small and stale (last post 2018). Resolve relative links against https://www.soynergy.com.",
+      "label": "news",
+      "url": "https://www.soynergy.com/category/news/"
+    },
+    {
+      "company": "spacejot",
+      "hint": "Blog listing on Spacejot's web app. Each post is rendered with an h3 headline that links to /blog/<slug>, with the publication date (e.g. 'Jul 06, 2024') displayed adjacent to the title. Resolve relative links against https://www.spacejot.app/.",
+      "label": "blog",
+      "url": "https://www.spacejot.app/blog"
+    }
+  ],
+  "stats": {
+    "appstore_capped": 0,
+    "candidates": 27,
+    "companies_matched": 12,
+    "edgar_candidates": 0,
+    "excluded_by_terms": 0,
+    "fetch_failed": 4,
+    "gebiz_candidates": 0,
+    "ipos_candidates": 0,
+    "jina_candidates": 0,
+    "jina_recovered": 3,
+    "llm_fetch_required": 7,
+    "masfid_candidates": 0,
+    "portfolio_candidates": 0,
+    "pre_extracted_capped": 0,
+    "sitemap_candidates": 18,
+    "startupsg_candidates": 0,
+    "weak_term_suppressed": 1
+  }
+}

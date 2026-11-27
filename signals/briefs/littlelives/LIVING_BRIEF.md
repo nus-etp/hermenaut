@@ -1,5 +1,5 @@
 # LittleLives — LIVING BRIEF
-_Last updated: 2026-11-15 23:22 UTC_
+_Last updated: 2026-11-27 01:41 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -16,7 +16,16 @@ _Last material event: 2026-11-05 — Signed an MoU with SEGi College Subang Jaya
 _No disclosed funding._
 
 ## Recent signals
-- **2026-11-05** — LittleLives signed an MoU with SEGi College Subang Jaya and Little Lab at a Malaysia early-childhood education leadership event; the announcement came from the college, and scope, exclusivity and whether a paid deployment is included are not public — [colleges.segi.edu.my](https://colleges.segi.edu.my/subangjaya/segi-college-subang-jaya-signs-mou-with-littlelives-and-little-lab-at-early-childhood-education-leadership-event/)
+- **2026-11-12** — Presbyterian Preschool Services is running a 12-month, five-class ECDA Sandbox project on a LittleLives AI classroom assistant in which every AI output needs teacher approval — [littleolivetree.edu.sg](https://www.littleolivetree.edu.sg/post/ai-in-early-childhood-education-a-human-centred-approach-at-little-olive-tree)
+  - Summary: Little Olive Tree, the preschool network run by Presbyterian Preschool Services, says it secured ECDA Sandbox funding for a 12-month project with LittleLives beginning across five classes. The design uses four AI functions — collecting teacher-selected observations, suggesting links to earlier learning, generating open-ended questions and materials, and proposing differentiated support for individual children — with the teacher deciding what is captured and used. Stated safeguards are no continuous recording, no independent evaluation or labelling of children, and teacher approval before any output is used or shared.
+  - Counterparties: Presbyterian Preschool Services / Little Olive Tree (customer and project lead), ECDA (Sandbox funder)
+  - Numbers: 12-month project; five classes at launch; four AI functions
+  - Quote: "AI offers possibilities. Teachers make the decisions." — Little Olive Tree (Presbyterian Preschool Services)
+- **2026-11-05** — LittleLives signed an MoU with SEGi College Subang Jaya and Little Lab at a Malaysia early-childhood education leadership event; scope, exclusivity and whether a paid deployment is included are not public — [colleges.segi.edu.my](https://colleges.segi.edu.my/subangjaya/segi-college-subang-jaya-signs-mou-with-littlelives-and-little-lab-at-early-childhood-education-leadership-event/) (Also reported by: [media-outreach.com](https://www.media-outreach.com/news/singapore/2026/11/20/502680/littlelives-little-lab-and-segi-college-sign-mou-to-explore-early-childhood-education-collaboration-across-asean))
+  - Summary: A Media OutReach release dated 2026-11-20 confirms the MoU was signed on 5 November 2026 at "Leaders at the Table", an executive lunch at SEGi College Subang Jaya attended by nearly 200 participants. Scope is exploratory and non-commercial on its face: online continuing-professional-development modules for ASEAN early-childhood educators, foundation and bridging modules preparing students from Indonesia and the Philippines for diploma or degree study in Malaysia, and a separate LittleLives–Little Lab track to put curriculum and lesson resources inside the LittleLives platform. Implementation is "subject to further discussions and agreements", and no fee, licence or deployment commitment is disclosed.
+  - People: Arjuna Raj (Co-Founder, LittleLives; Chief Strategy Officer, Sophosyne Technologies — chaired the event)
+  - Counterparties: SEGi College Subang Jaya (academic partner), Little Lab (curriculum partner)
+  - Numbers: MoU signed 2026-11-05; release published 2026-11-20; ~200 attendees; 100 founders/CEOs/principals
 - **date unknown** — Pushed version 1.2.32 of its LittleLives For Schools app to the App Store — routine maintenance on its core school-management client for preschools, with no feature disclosure — [apps.apple.com](https://apps.apple.com/us/app/littlelives-for-schools/id6755920958)
 
 ## Older signals
@@ -31,6 +40,6 @@ _No disclosed funding._
 - **2026-06-02** — PDPC investigating potential data breach at PCF Sparkletots involving LittleLives' pupil-management system — [straitstimes.com](https://www.straitstimes.com/singapore/pdpc-investigating-potential-data-breach-involving-pcf-sparkletots-pupil-information)
 
 ## Open questions
-- What commercial traction or pilot deployments does LittleLives have to date?
 - Is LittleLives generating revenue, and at what scale?
-- Does the SEGi College Subang Jaya MoU cover a paid LittleLives deployment inside SEGi's early-childhood programmes, or is it a training and curriculum collaboration?
+- Does the ECDA Sandbox project with Presbyterian Preschool Services convert into a paid network-wide rollout once the 12 months end?
+- Do the ASEAN CPD and bridging modules carry any LittleLives revenue share, or is the SEGi MoU purely a curriculum collaboration?

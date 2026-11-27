@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/maestro-labs/apps.apple.com",
+  "created_by": "write_scenarios@run 45919779598",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.73",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'TeamsMaestro: AI meeting notes 1.2.1 released on the App Store' for Maestro Labs",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-27-0001",
+  "input": {
+    "candidate": {
+      "description": "• Better search: matches in titles, summaries, transcripts and participants, each in its own section. Tap a result to jump straight to it. • Long recordings with your phone's microphone no longer stop partway through a meeting. • A clear message when your organization's subscription has ended. • Fixes and improvements.",
+      "matched": [
+        "Maestro Labs"
+      ],
+      "source": "Maestro Labs",
+      "title": "TeamsMaestro: AI meeting notes 1.2.1 released on the App Store",
+      "url": "https://apps.apple.com/us/app/teamsmaestro-ai-meeting-notes/id6813054762"
+    },
+    "companies": {
+      "Maestro Labs": {
+        "description": "BLOCK71 Singapore-resident startup. CRITICAL: 'Maestro Labs' is extremely generic (multiple ML / orchestration / music vendors share the name); drop unrelated mentions unless the article explicitly references this BLOCK71 SG entity."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-27",
+    "judge": "jev",
+    "judge_confidence": 0.74,
+    "kind": "judge_disagreement",
+    "run_id": "45919779598",
+    "source": "2026-11-27.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
