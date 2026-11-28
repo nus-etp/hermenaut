@@ -22,12 +22,11 @@ _No disclosed funding._
 - **2026-10-29** — JETRO interview outlines pQCee's expansion plans to Japan, U.S., Europe and the Middle East for its PQC software — [jetro.go.jp](https://www.jetro.go.jp/biznews/2026/10/3529da3a68541b42.html)
   - Summary: The Japan External Trade Organization (JETRO) published an interview with pQCee discussing the company's post-quantum cryptography software expansion strategy. pQCee outlined plans to enter the Japanese market alongside the U.S., Europe and the Middle East, positioning its SafeQuard platform for global deployment. The interview follows the company's October partnership with Carahsoft for U.S. public-sector access.
   - Counterparties: JETRO (Japan External Trade Organization)
+
+## Older signals
 - **2026-10-28** — pQCee partners with Carahsoft to bring quantum-safe solutions to U.S. public sector — [pqcee.com](https://www.pqcee.com/blog/pqcee-and-carahsoft-partner-to-bring-quantum-safe-cybersecurity-solutions-to-the-public-sector)
   - Summary: pQCee announced a partnership with Carahsoft, a leading U.S. government IT solutions provider, to deliver post-quantum cryptography solutions to the U.S. public sector. The partnership gives pQCee access to Carahsoft's federal procurement channels and positions SafeQuard for government adoption ahead of NIST's post-quantum migration timeline.
   - Counterparties: Carahsoft (partner)
-
-## Older signals
-_none_
 
 ## Open questions
 - What is the commercial traction of SafeQuard — any named customers, pilot programmes, or revenue figures?

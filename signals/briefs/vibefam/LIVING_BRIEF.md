@@ -16,9 +16,10 @@ _Last material event: 2026-06-18 — US$1M seed round led by a Singapore-based f
 _No disclosed funding._
 
 ## Recent signals
-- **2026-10-28** — Published three separately branded booking apps to the App Store within four days — Singapore Swim School, Martial House and Summit Academy — evidence of a repeatable client-app pipeline for its fitness and wellness venue customers rather than one flagship app — [apps.apple.com](https://apps.apple.com/us/app/singapore-swim-school/id6823066691)
+_none_
 
 ## Older signals
+- **2026-10-28** — Published three separately branded booking apps to the App Store within four days — Singapore Swim School, Martial House and Summit Academy — evidence of a repeatable client-app pipeline for its fitness and wellness venue customers rather than one flagship app — [apps.apple.com](https://apps.apple.com/us/app/singapore-swim-school/id6823066691)
 - **2026-07-08** — An NUS Computing alumni feature traces Vibefam from a 2021 student project to 700+ fitness locations and details Vibe AI's July 2026 launch as a WhatsApp/SMS booking agent needing no app download or portal login — [comp.nus.edu.sg](https://comp.nus.edu.sg/news/building-an-ai-powered-operating-system-for-the-gym-floor-two-nus-computing-graduates-rethinking-how-fitness-businesses-run)
   - Summary: NUS Computing profiled alumni co-founders Lim Chun Yong (CTO), Serene Lim (CEO) and Lee Jia Yi (CPO), who built Vibefam from a summer 2021 side project into a platform serving 700+ fitness locations and 500,000+ end users and closed a US$1M seed round in June 2026 backed by a Singapore-based family office, with Hustle Fund and Ignite Asia from an earlier round. Proceeds go to AI development and embedded finance. Vibe AI, launching July 2026, answers incumbent studio-management platforms by living on the channels members already use — WhatsApp and SMS — handling bookings, cancellations, schedule browsing and package enquiries, proactively messaging members hit by cancellations with rebooking options, and giving studios a unified inbox with human escalation, each agent trained on the studio's own schedule, packages, policies and brand voice and customisable without code.
   - People: Lim Chun Yong (Co-founder & CTO), Serene Lim (Co-founder & CEO), Lee Jia Yi (Co-founder & CPO)

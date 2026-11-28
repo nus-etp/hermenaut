@@ -28,14 +28,14 @@ _Total disclosed: $2.2M._
   - Counterparties: unnamed agronomy partners in Illinois and Minnesota (research partners); unnamed government and private grant funders
   - Numbers: rice yield +10% to +180%; 18+ pilot countries; first US crop is sugar beet
   - Quote: "Although we are very confident that our technology works, there are a lot of other growth factors that can somewhat limit the maximum performance of our product," — Chor Chee Hoe, Co-founder and CEO, Qarbotech
+
+## Older signals
 - **2026-10-28** — Co-founder says QarboGrow is halfway through a 12-month sugar-cane pilot in the Philippines, is entering a second Southeast Asian market, and has a distributor taking the product into Thailand and Pakistan — with no yield figures disclosed — [news.smu.edu.sg](https://news.smu.edu.sg/news/2026/10/28/pitch-pilot-lee-kuan-yew-global-business-plan-competition-seeks-founders-tackling)
   - Summary: Qarbotech appears in an SMU newsroom article launching the 13th Lee Kuan Yew Global Business Plan Competition, as a 12th-edition finalist and a member of the still-running inaugural Urban SustaInnovator (USI) accelerator cohort. Co-founder Chor Chee Hoe credits LKYGBPC and USI introductions to family offices with helping secure several pilot projects, then states the company is halfway through a 12-month pilot on a large sugar-cane plantation in the Philippines, is launching in another Southeast Asian market, and was connected through the SMU network to a distributor bringing the product into Thailand and Pakistan. The article names no yield results, planted area, contract value, plantation operator, distributor or second market.
   - People: Chor Chee Hoe (Co-founder, Qarbotech), Rony Palathinkal (Head of LKYGBPC and Urban SustaInnovator, SMU IIE)
   - Counterparties: SMU IIE / Urban SustaInnovator (accelerator), unnamed Philippines sugar-cane plantation (pilot host), unnamed distributor covering Thailand and Pakistan
   - Numbers: 12-month pilot; distribution into Thailand and Pakistan; no yield figures disclosed
   - Quote: "Right now, we are halfway through a 12-month pilot with a large sugar cane plantation in the Philippines and we're launching in another Southeast Asian market" — Chor Chee Hoe, co-founder, Qarbotech
-
-## Older signals
 - **2026-08-26** — Founder and chief scientist Dr Suraya Rashid profiled in The Peak's Power List 2026; carbon-quantum-dot photosynthesis enhancer framed as raising yields without extra agricultural inputs — [thepeakmagazine.com.sg](https://www.thepeakmagazine.com.sg/people/qarbotech-wants-plants-be-more-efficient-photosynthesis)
   - Summary: The Peak Power List 2026 profile traces Dr Suraya Rashid's path from materials-science research on carbon quantum dots to founding Qarbotech, a Malaysian deep-tech spin-off whose patented biocompatible solution enhances plants' photosynthetic efficiency. The piece emphasises the company's farmer-first philosophy — growers care about yield and input efficiency, not the underlying quantum mechanics. No new financial or commercial disclosures beyond prior signals.
   - People: Dr Suraya Rashid (founder and chief scientist)

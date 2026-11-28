@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/hivebotics/mycareersfuture.gov.sg",
+  "created_by": "write_scenarios@run 46087630996",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.63",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'Procurement Executive — Logistics / Supply Chain' for Hivebotics",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-28-0002",
+  "input": {
+    "candidate": {
+      "description": "",
+      "matched": [
+        "Hivebotics"
+      ],
+      "source": "Hivebotics",
+      "title": "Procurement Executive — Logistics / Supply Chain",
+      "url": "https://www.mycareersfuture.gov.sg/job/logistics/procurement-executive-hivebotics-469176685ee1fd6556bc11d60aa72c9d"
+    },
+    "companies": {
+      "Hivebotics": {
+        "description": "NUS GRIP-incubated Singapore robotics startup. Drop unrelated companies sharing the same name."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-28",
+    "judge": "jev",
+    "judge_confidence": 0.8,
+    "kind": "judge_disagreement",
+    "run_id": "46087630996",
+    "source": "2026-11-28.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}

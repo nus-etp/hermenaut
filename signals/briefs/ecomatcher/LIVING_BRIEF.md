@@ -1,5 +1,5 @@
 # EcoMatcher — LIVING BRIEF
-_Last updated: 2026-11-25 02:00 UTC_
+_Last updated: 2026-11-28 01:17 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -19,6 +19,7 @@ _Last material event: 2026-11-11 — Launched Japanese-language platform, expand
 _No disclosed funding._
 
 ## Recent signals
+- **2026-11-27** — Shipped TreeCorder 6.7.3 to the iOS App Store, a routine point release of its tree-data capture app, with no release notes published — [apps.apple.com](https://apps.apple.com/us/app/treecorder/id1514362967)
 - **2026-11-11** — EcoMatcher launched a Japanese-language platform, expanding its tree-planting and forest-management services into the Japanese market — [prtimes.jp](https://prtimes.jp/main/html/rd/p/000000003.000194244.html)
   - Summary: EcoMatcher announced the launch of its Japanese-language platform, marking the company's entry into the Japanese market. The platform extends EcoMatcher's blockchain-tracked tree-planting and forest-management services — including its TreeCorder data-capture app and TreeManager cloud system — to Japanese users and corporate clients. The move follows the company's established presence in Southeast Asia and Hong Kong, with Verra and Gold Standard carbon-certified TREES+ projects.
   - Counterparties: Verra (carbon certification), Gold Standard (carbon certification)

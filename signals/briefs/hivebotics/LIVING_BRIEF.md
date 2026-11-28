@@ -1,5 +1,5 @@
 # Hivebotics — LIVING BRIEF
-_Last updated: 2026-11-03 00:25 UTC_
+_Last updated: 2026-11-28 01:17 UTC_
 ![Infographic](infographic.png)
 
 ## Thesis
@@ -16,7 +16,8 @@ _Last material event: 2026-09-04 — Raised US$6M Series A led by Vertex Venture
 _Total disclosed: $1.0M._
 
 ## Recent signals
-_none_
+### Hiring
+- **2026-11-27** — Two field-operations roles in five weeks: a Field Deployment Technician (28 October) and a Procurement Executive covering logistics and supply chain (27 November) — staffing installation capacity and hardware procurement as Abluo moves from pilot sites into volume production — [mycareersfuture.gov.sg](https://www.mycareersfuture.gov.sg/job/logistics/procurement-executive-hivebotics-469176685ee1fd6556bc11d60aa72c9d)
 
 ## Older signals
 - **2026-09-04** — Raised US$6M in a Series A led by Vertex Ventures, with proceeds earmarked to take the Abluo restroom-cleaning robot into volume production — [techinasia.com](https://www.techinasia.com/news/vertex-ventures-leads-6m-sg-robotics-firm-hivebotics) (Also reported by: [businesstimes.com.sg](https://www.businesstimes.com.sg/companies-markets/robotics-startup-hivebotics-raises-us6-million-series-round-led-vertex-ventures), [e27.co](https://e27.co/hivebotics-nets-us6m-to-take-restroom-cleaning-robot-abluo-into-volume-production-20260904/), [cde.nus.edu.sg](https://cde.nus.edu.sg/news/nus-cde-alumni-startup-hivebotics-secures-us6-million-to-scale-autonomous-cleaning-robots), [vertexventures.sg](https://www.vertexventures.sg/projects/hivebotics), [vertexventures.sg](https://www.vertexventures.sg/news/hivebotics-raises-us-6-million-series-a-led-by-vertex-ventures-southeast-asia-india-to-automate-facilities-management-using-robots-starting-with-restroom-cleaning), [kr-asia.com](https://kr-asia.com/deals-in-brief-singapore-based-hivebotics-raises-series-a-funding-temasek-co-leads-investment-in-pixxel-11-china-deals-and-more))

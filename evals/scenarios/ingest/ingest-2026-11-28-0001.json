@@ -1,0 +1,44 @@
+{
+  "cluster": "ingest/false_keep/ecomatcher/apps.apple.com",
+  "created_by": "write_scenarios@run 46087630996",
+  "expected": {
+    "company": null,
+    "reason": "jev material=0.64",
+    "verdict": "drop"
+  },
+  "goal": "Drop 'TreeCorder 6.7.3 released on the App Store' for EcoMatcher",
+  "graders": [
+    "verdict_match",
+    "blind_judge"
+  ],
+  "id": "ingest-2026-11-28-0001",
+  "input": {
+    "candidate": {
+      "description": "What's new? We’ve added zoom functionality to the in-app camera. Now you can snap crisp, close-up shots of trees in a very easy way.",
+      "matched": [
+        "EcoMatcher"
+      ],
+      "source": "EcoMatcher",
+      "title": "TreeCorder 6.7.3 released on the App Store",
+      "url": "https://apps.apple.com/us/app/treecorder/id1514362967"
+    },
+    "companies": {
+      "EcoMatcher": {
+        "description": "BLOCK71 Bandung-listed Hong Kong-headquartered B-Corp (founded 2016 by Bas Fransen) operating a blockchain-tracked tree-planting / forest-management platform — TreeCorder data-capture app, TreeManager cloud system, Verra/Gold Standard carbon-certified TREES+ projects (partnership with VNV Advisory). Corporate customers include Grab and Procter & Gamble; ~50,000 customers globally. Drop generic 'eco' / matching-engine mentions."
+      }
+    }
+  },
+  "layer": "ingest",
+  "origin": {
+    "date": "2026-11-28",
+    "judge": "jev",
+    "judge_confidence": 0.84,
+    "kind": "judge_disagreement",
+    "run_id": "46087630996",
+    "source": "2026-11-28.jsonl",
+    "verdict_pipeline": "keep"
+  },
+  "persona": "Layer 1 relevance pass over data/candidates.json",
+  "status": "active",
+  "version": 1
+}
