@@ -7,10 +7,10 @@ catalog:
   '@eslint/js': ^9.39.1
   '@types/node': ^24.10.4
   eslint: ^9.39.2
-  prettier: ^3.7.4
-  react-aria-components: 1.16.0
+  prettier: ^3.10.1
+  react-aria-components: 1.22.1
   typescript: ^5.9.3
-  vite: 8.1.6
+  vite: 8.3.8
   # GHSA-mrhx-c7xc-m3w5 / CVE-2023-54404 (unbounded memory use validating an
   # oversized array with $ZodArray.handleArrayResult): patch bump.
   zod: ^4.6.7
@@ -21,16 +21,16 @@ catalogs:
     '@next/eslint-plugin-next': 16.4.6
     next: 16.4.6
   oui:
-    '@opengovsg/oui': 0.0.52
-    '@opengovsg/oui-theme': 0.0.52
+    '@opengovsg/oui': 0.0.63
+    '@opengovsg/oui-theme': 0.0.63
   react:
-    '@types/react': ^19.2.14
-    '@types/react-dom': ^19.2.3
-    react: ^19.2.5
-    react-dom: ^19.2.5
+    '@types/react': ^19.3.0
+    '@types/react-dom': ^19.3.0
+    react: ^19.3.1
+    react-dom: ^19.3.1
   tailwindcss4:
-    '@tailwindcss/postcss': ^4.2.2
-    tailwindcss: ^4.2.2
+    '@tailwindcss/postcss': ^4.3.5
+    tailwindcss: ^4.3.5
 
 linkWorkspacePackages: true
 

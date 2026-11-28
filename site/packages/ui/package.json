@@ -19,9 +19,9 @@
   "dependencies": {
     "@opengovsg/oui": "catalog:oui",
     "@opengovsg/oui-theme": "catalog:oui",
-    "react-aria": "^3.44.0",
+    "react-aria": "^3.53.1",
     "react-aria-components": "catalog:",
-    "react-icons": "^5.5.0",
+    "react-icons": "^5.7.0",
     "tailwind-variants": "^3.1.1"
   },
   "devDependencies": {

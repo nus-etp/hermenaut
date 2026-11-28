@@ -20,7 +20,7 @@
   "devDependencies": {
     "@acme/prettier-config": "workspace:*",
     "prettier": "catalog:",
-    "turbo": "^2.6.1",
+    "turbo": "^2.11.13",
     "typescript": "catalog:"
   },
   "prettier": "@acme/prettier-config",
